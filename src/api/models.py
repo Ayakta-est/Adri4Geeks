@@ -17,3 +17,11 @@ class User(db.Model):
             "email": self.email,
             # do not serialize the password, its a security breach
         }
+    
+class Question(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    category = db.Column(db.String(50))  # "anime", "youtube", etc
+    question = db.Column(db.Text)
+    answers = db.Column(db.JSON)  # ej. ["A", "B", "C", "D"]
+    correct_index = db.Column(db.Integer)  # índice de respuesta correcta
+    color = db.Column(db.String(50))

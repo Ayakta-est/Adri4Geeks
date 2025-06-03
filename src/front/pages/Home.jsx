@@ -1,52 +1,34 @@
 import React, { useEffect } from "react"
-import rigoImageUrl from "../assets/img/rigo-baby.jpg";
 import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
+import { useNavigate } from 'react-router-dom';
 
 export const Home = () => {
 
-	const { store, dispatch } = useGlobalReducer()
+	const navigate = useNavigate();
 
-	const loadMessage = async () => {
-		try {
-			const backendUrl = import.meta.env.VITE_BACKEND_URL
+  const handleSeleccion = (modo) => {
+    navigate('/cards-to-choose', { state: { modo } }); // "modo" como state
+  };
 
-			if (!backendUrl) throw new Error("VITE_BACKEND_URL is not defined in .env file")
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 px-4 text-center">
+      <h1 className="text-2xl font-bold mb-8">¿Cómo quieres jugar?</h1>
 
-			const response = await fetch(backendUrl + "/api/hello")
-			const data = await response.json()
+      <div className="flex flex-col gap-6 w-full max-w-md">
+        <button
+          onClick={() => handleSeleccion('solo')}
+          className="bg-blue-500 hover:bg-blue-600 text-white font-semibold py-6 px-4 rounded-2xl shadow-md text-lg"
+        >
+          Usar solo tarjetas de juego
+        </button>
 
-			if (response.ok) dispatch({ type: "set_hello", payload: data.message })
-
-			return data
-
-		} catch (error) {
-			if (error.message) throw new Error(
-				`Could not fetch the message from the backend.
-				Please check if the backend is running and the backend port is public.`
-			);
-		}
-
-	}
-
-	useEffect(() => {
-		loadMessage()
-	}, [])
-
-	return (
-		<div className="text-center mt-5">
-			<h1 className="display-4">Hello Rigo!!</h1>
-			<p className="lead">
-				<img src={rigoImageUrl} className="img-fluid rounded-circle mb-3" alt="Rigo Baby" />
-			</p>
-			<div className="alert alert-info">
-				{store.message ? (
-					<span>{store.message}</span>
-				) : (
-					<span className="text-danger">
-						Loading message from the backend (make sure your python 🐍 backend is running)...
-					</span>
-				)}
-			</div>
-		</div>
-	);
-}; 
+        <button
+          onClick={() => handleSeleccion('tablero')}
+          className="bg-green-500 hover:bg-green-600 text-white font-semibold py-6 px-4 rounded-2xl shadow-md text-lg"
+        >
+          Jugar con tablero
+        </button>
+      </div>
+    </div>
+  );
+}

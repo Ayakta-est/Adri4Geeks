@@ -2,7 +2,7 @@
 This module takes care of starting the API Server, Loading the DB and Adding the endpoints
 """
 from flask import Flask, request, jsonify, url_for, Blueprint
-from api.models import db, User
+from api.models import db, User, Question
 from api.utils import generate_sitemap, APIException
 from flask_cors import CORS
 
@@ -20,3 +20,24 @@ def handle_hello():
     }
 
     return jsonify(response_body), 200
+
+# app.py (añadir esto)
+
+@api.route("/add_question", methods=["POST"])
+def add_question():
+    data = request.json
+
+    try:
+        question = Question(
+            category=data["category"],
+            question=data["question"],
+            answers=data["answers"],
+            correct_index=data["correct_index"]
+        )
+
+        db.session.add(question)
+        db.session.commit()
+        return jsonify({"message": "Pregunta guardada correctamente"}), 201
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 400
