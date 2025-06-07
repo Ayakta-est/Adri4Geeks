@@ -7,7 +7,7 @@ const CATEGORIAS = [
     color: 'bg-blue-200',
     pregunta: '¿Cómo se llama el café favorito del grupo en Friends?',
     opciones: ['Central Perk', 'Daily Grind', 'Coffee Town', 'Bean Bar'],
-    categorias: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', 'En qué capitulo...'],
+    categorias: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', 'En qué capitulo...', 'Adivina el personaje'],
   },
   {
     nombre: 'Harry Potter',

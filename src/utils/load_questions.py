@@ -22,8 +22,10 @@ def load_questions(app):
                     question=p["question"],
                     answers=p["answers"],
                     correct_index=p["correct_index"],
-                    color=p["color"],
-                    difficulty=p.get("difficulty", "medium")
+                    color=p.get("color", None),
+                    difficulty=p.get("difficulty", "medium"),
+                    world=p.get("world", "general"),
+                    subcategory=p.get("subcategory", "others")
                 )
                 db.session.add(nueva)
 

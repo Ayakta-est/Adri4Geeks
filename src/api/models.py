@@ -26,7 +26,8 @@ class Question(db.Model):
     correct_index = db.Column(db.Integer)  # índice de respuesta correcta
     color = db.Column(db.String(50))
     difficulty = db.Column(db.String(20), default="medium")
-    
+    world = db.Column(db.String(50), default="general")        
+    subcategory = db.Column(db.String(100), default="others")
 
     @validates('difficulty')
     def validate_difficulty(self, key, value):

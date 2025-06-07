@@ -34,7 +34,9 @@ def add_question():
             question=data["question"],
             answers=data["answers"],
             correct_index=data["correct_index"],
-            color=data.get("color", "#FFFFFF")
+            color=data.get("color", "#FFFFFF"),
+            world=data["world", "general"],
+            subcategory=data["subcategory", "others"]
         )
 
         db.session.add(question)
