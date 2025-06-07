@@ -5,6 +5,7 @@ from flask import Flask, request, jsonify, url_for, Blueprint
 from api.models import db, User, Question
 from api.utils import generate_sitemap, APIException
 from flask_cors import CORS
+import json
 
 api = Blueprint('api', __name__)
 
@@ -32,7 +33,8 @@ def add_question():
             category=data["category"],
             question=data["question"],
             answers=data["answers"],
-            correct_index=data["correct_index"]
+            correct_index=data["correct_index"],
+            color=data.get("color", "#FFFFFF")
         )
 
         db.session.add(question)
@@ -41,3 +43,4 @@ def add_question():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 400
+    

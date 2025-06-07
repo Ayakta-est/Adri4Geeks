@@ -1,6 +1,6 @@
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import String, Boolean
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, validates
 
 db = SQLAlchemy()
 
@@ -25,3 +25,11 @@ class Question(db.Model):
     answers = db.Column(db.JSON)  # ej. ["A", "B", "C", "D"]
     correct_index = db.Column(db.Integer)  # índice de respuesta correcta
     color = db.Column(db.String(50))
+    difficulty = db.Column(db.String(20), default="medium")
+    
+
+    @validates('difficulty')
+    def validate_difficulty(self, key, value):
+        if value not in ['easy', 'medium', 'difficult']:
+            raise ValueError("Dificultad no válida. Usa: easy, medium o difficult")
+        return value

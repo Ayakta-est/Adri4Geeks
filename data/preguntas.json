@@ -1,0 +1,26 @@
+[
+  {
+    "category": "Anime",
+    "question": "¿Cómo se llama el protagonista de Naruto?",
+    "answers": ["Sasuke", "Naruto", "Kakashi", "Itachi"],
+    "correct_index": 1,
+    "color": "#FFA500",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Disney",
+    "question": "¿Qué animal es Dumbo?",
+    "answers": ["León", "Ratón", "Elefante", "Perro"],
+    "correct_index": 2,
+    "color": "#00BFFF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "Geografía",
+    "question": "¿Cuál es la capital de Francia?",
+    "answers": ["Madrid", "París", "Roma", "Berlín"],
+    "correct_index": "1",
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  }
+]

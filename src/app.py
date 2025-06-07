@@ -6,10 +6,11 @@ from flask import Flask, request, jsonify, url_for, send_from_directory
 from flask_migrate import Migrate
 from flask_swagger import swagger
 from api.utils import APIException, generate_sitemap
-from api.models import db
+from api.models import db, Question
 from api.routes import api
 from api.admin import setup_admin
 from api.commands import setup_commands
+from utils.load_questions import load_questions
 
 # from models import Person
 
@@ -31,6 +32,11 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 MIGRATE = Migrate(app, db, compare_type=True)
 db.init_app(app)
 
+@app.before_request
+def initialize_database():
+    db.create_all()
+    if not Question.query.first():
+        load_questions(app)
 # add the admin
 setup_admin(app)
 

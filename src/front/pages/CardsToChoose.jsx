@@ -1,72 +1,136 @@
 import { useLocation, useNavigate } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 
+const CATEGORIAS = [
+  {
+    nombre: 'Sitcoms',
+    color: 'bg-blue-200',
+    pregunta: '¿Cómo se llama el café favorito del grupo en Friends?',
+    opciones: ['Central Perk', 'Daily Grind', 'Coffee Town', 'Bean Bar'],
+    categorias: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', 'En qué capitulo...'],
+  },
+  {
+    nombre: 'Harry Potter',
+    color: 'bg-green-200',
+    pregunta: '¿Qué casa representa el color verde?',
+    opciones: ['Ravenclaw', 'Slytherin', 'Hufflepuff', 'Gryffindor'],
+    categorias: []
+  },
+  {
+    nombre: 'Anime',
+    color: 'bg-red-200',
+    pregunta: '¿Cuál es el verdadero nombre de L en Death Note?',
+    opciones: ['Light Yagami', 'Ryuk', 'L Lawliet', 'Near'],
+  },
+  {
+    nombre: 'Videojuegos',
+    color: 'bg-yellow-200',
+    pregunta: '¿Qué compañía creó The Legend of Zelda?',
+    opciones: ['Sony', 'Nintendo', 'Sega', 'Ubisoft'],
+  },
+  {
+    nombre: 'Tradicional',
+    color: 'bg-purple-200',
+    pregunta: '¿Cuál es la capital de Francia?',
+    opciones: ['Roma', 'Madrid', 'París', 'Berlín'],
+  },
+];
+
 export const CardsToChoose = () => {
   const location = useLocation();
   const navigate = useNavigate();
   const modo = location.state?.modo;
 
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
+  const [mostrarModalCategoria, setMostrarModalCategoria] = useState(false);
+  const [mostrarModalPersonalizada, setMostrarModalPersonalizada] = useState(false);
+
   const [cartasSeleccionadas, setCartasSeleccionadas] = useState([]);
-  const [customizeCategories, setCustomizeCategories] = useState('');
+
+  const [inputsPersonalizados, setInputsPersonalizados] = useState(Array(6).fill(''));
 
   useEffect(() => {
     if (!modo) navigate('/');
   }, [modo, navigate]);
 
-  const handleAgregarcustomizeCategories = () => {
-    if (customizeCategories.trim()) {
-      setCartasSeleccionadas(prev => [...prev, customizeCategories.trim()]);
-      setCustomizeCategories('');
+  const handleConfirmarCategoria = () => {
+    const yaSeleccionada = cartasSeleccionadas.includes(categoriaSeleccionada.nombre);
+    if (yaSeleccionada) {
+      setCartasSeleccionadas([]);
+    } else {
+      setCartasSeleccionadas([categoriaSeleccionada.nombre]);
     }
+    setMostrarModalCategoria(false);
   };
 
-  const handleJugar = () => {
-    if (cartasSeleccionadas.length === 0) return;
+  const handleConfirmarPersonalizada = () => {
+    const yaSeleccionada = cartasSeleccionadas.includes('Personalizada');
+    if (yaSeleccionada) {
+      setCartasSeleccionadas([]);
+    } else {
+      setCartasSeleccionadas(['Personalizada']);
+    }
+    setMostrarModalPersonalizada(false);
+  };
 
-    const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
-    navigate(ruta, { state: { cartas: cartasSeleccionadas } });
+  const handleInputChange = (i, value) => {
+    const nuevos = [...inputsPersonalizados];
+    nuevos[i] = value;
+    setInputsPersonalizados(nuevos);
   };
 
   return (
-    <div className="p-4 max-w-xl mx-auto text-center">
-      <h1 className="text-2xl font-bold mb-4">Elige con que conjunto de cartas te gustaria jugar.</h1>
-      <p>Tienes varios tipos de categorias predefinidos con los que puedes trabajar.
-        Si en cambio quieres algo mas personalizado, puedes crearlo!
-      </p>
-      <p className="mb-4 text-gray-600">Modo: <strong>{modo}</strong></p>
+    <div className="p-4 max-w-5xl mx-auto text-center">
+      <h1 className="text-2xl font-bold mb-4">Elige con qué conjunto de cartas jugar</h1>
+      <p className="mb-2">Solo puedes seleccionar una categoría.</p>
+      <p className="mb-6 text-gray-600">Modo: <strong>{modo}</strong></p>
 
-      {/* Ejemplo de cartas predefinidas */}
-      <div className="grid grid-cols-2 gap-2 mb-6">
-        {['Sitcoms', 'Harry Potter', 'Anime', 'Videojuegos', 'Tradicional'].map((carta, index) => (
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
+        {CATEGORIAS.map((cat, index) => (
           <button
             key={index}
-            onClick={() => setCartasSeleccionadas(prev => [...prev, carta])}
-            className="bg-blue-200 p-3 rounded shadow hover:bg-blue-300"
+            onClick={() => {
+              setCategoriaSeleccionada(cat);
+              setMostrarModalCategoria(true);
+            }}
+            className={`${cat.color} rounded-xl p-4 text-left shadow hover:shadow-md transition cursor-pointer`}
           >
-            {carta}
+            <h3 className="text-lg font-bold mb-2">{cat.nombre}</h3>
+            <div className="bg-white border rounded-lg p-3 text-sm">
+              <p className="font-semibold mb-2">{cat.pregunta}</p>
+              <ul className="grid grid-cols-2 gap-2">
+                {cat.opciones.map((op, i) => (
+                  <li key={i} className="border px-2 py-1 rounded text-center">{op}</li>
+                ))}
+              </ul>
+            </div>
           </button>
         ))}
-      </div>
 
-      {/* Personalizar categorias */}
-      <div className="grid grid-cols-2 gap-2 mb-6">
-        <input
-          type="text"
-          value={customizeCategories}
-          onChange={(e) => setCustomizeCategories(e.target.value)}
-          placeholder="Escribe tu carta"
-          className="border px-3 py-2 w-full mb-2"
-        />
+        {/* Carta personalizada */}
         <button
-          onClick={handleAgregarcustomizeCategories}
-          className="bg-purple-500 text-white px-4 py-2 rounded hover:bg-purple-600"
+          onClick={() => {
+            setMostrarModalPersonalizada(true);
+            setCategoriaSeleccionada(null);
+          }}
+          className="bg-pink-200 rounded-xl p-4 text-left shadow hover:shadow-md transition"
         >
-          Personaliza tus categorias
+          <h3 className="text-lg font-bold mb-2">Personalizada</h3>
+          <div className="bg-white border rounded-lg p-3 text-sm">
+            <p className="font-semibold mb-2">Crea tus propias preguntas y respuestas</p>
+            <ul className="grid grid-cols-2 gap-2 text-gray-500">
+              <li>Pregunta 1</li>
+              <li>Pregunta 2</li>
+              <li>Pregunta 3</li>
+              <li>Pregunta 4</li>
+            </ul>
+          </div>
         </button>
       </div>
-      
-      <div className="mb-6">
-        <h2 className="font-semibold mb-2">Elige las categorias</h2>
+
+      {/* Mostrar cartas seleccionadas */}
+      <div className="mb-6 text-left max-w-md mx-auto">
+        <h2 className="font-semibold mb-2">Categoría seleccionada:</h2>
         <ul className="list-disc pl-5">
           {cartasSeleccionadas.map((carta, i) => (
             <li key={i}>{carta}</li>
@@ -75,11 +139,78 @@ export const CardsToChoose = () => {
       </div>
 
       <button
-        onClick={handleJugar}
+        onClick={() => {
+          if (cartasSeleccionadas.length > 0) {
+            const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
+            navigate(ruta, { state: { cartas: cartasSeleccionadas, inputs: inputsPersonalizados } });
+          }
+        }}
         className="bg-green-600 text-white px-6 py-3 rounded-xl font-bold text-lg hover:bg-green-700"
       >
         Jugar
       </button>
+
+      {/* Modal categoría */}
+      {mostrarModalCategoria && categoriaSeleccionada && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
+            <h2 className="text-xl font-bold mb-2">{categoriaSeleccionada.nombre}</h2>
+            <p className="font-semibold mb-2">{categoriaSeleccionada.pregunta}</p>
+            <ul className="grid grid-cols-2 gap-2 mb-4">
+              {categoriaSeleccionada.opciones.map((op, i) => (
+                <li key={i} className="border px-2 py-1 rounded text-center">{op}</li>
+              ))}
+            </ul>
+            <div className="flex justify-end gap-2">
+              <button
+                onClick={() => setMostrarModalCategoria(false)}
+                className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={handleConfirmarCategoria}
+                className="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+              >
+                Confirmar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Modal personalizada */}
+      {mostrarModalPersonalizada && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
+            <h2 className="text-xl font-bold mb-4">Personaliza tus preguntas</h2>
+            {inputsPersonalizados.map((val, i) => (
+              <input
+                key={i}
+                type="text"
+                value={val}
+                onChange={(e) => handleInputChange(i, e.target.value)}
+                placeholder={`Pregunta ${i + 1}`}
+                className="w-full border px-3 py-2 rounded mb-2"
+              />
+            ))}
+            <div className="flex justify-end gap-2">
+              <button
+                onClick={() => setMostrarModalPersonalizada(false)}
+                className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={handleConfirmarPersonalizada}
+                className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
+              >
+                Confirmar
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
-}
+};
