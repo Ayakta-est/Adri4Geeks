@@ -7,20 +7,21 @@ const CATEGORIAS = [
     color: 'bg-blue-200',
     pregunta: '¿Cómo se llama el café favorito del grupo en Friends?',
     opciones: ['Central Perk', 'Daily Grind', 'Coffee Town', 'Bean Bar'],
-    categorias: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', 'En qué capitulo...', 'Adivina el personaje'],
+    categorías: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', 'En qué capitulo...', 'Adivina el personaje'],
   },
   {
     nombre: 'Harry Potter',
     color: 'bg-green-200',
     pregunta: '¿Qué casa representa el color verde?',
     opciones: ['Ravenclaw', 'Slytherin', 'Hufflepuff', 'Gryffindor'],
-    categorias: []
+    categorías: ['Casas de Hogwarts', 'Criaturas mágicas', 'Objetos y Reliquias', 'Hechizos y encantamientos', 'Adivina el personaje']
   },
   {
     nombre: 'Anime',
     color: 'bg-red-200',
     pregunta: '¿Cuál es el verdadero nombre de L en Death Note?',
     opciones: ['Light Yagami', 'Ryuk', 'L Lawliet', 'Near'],
+    categorías: ['Técnicas y ataques especiales', 'Locaciones emblemáticas', 'Adivina el personaje']
   },
   {
     nombre: 'Videojuegos',
@@ -117,12 +118,12 @@ export const CardsToChoose = () => {
         >
           <h3 className="text-lg font-bold mb-2">Personalizada</h3>
           <div className="bg-white border rounded-lg p-3 text-sm">
-            <p className="font-semibold mb-2">Crea tus propias preguntas y respuestas</p>
+            <p className="font-semibold mb-2">Utiliza las categorías que quieras para tu partida</p>
             <ul className="grid grid-cols-2 gap-2 text-gray-500">
-              <li>Pregunta 1</li>
-              <li>Pregunta 2</li>
-              <li>Pregunta 3</li>
-              <li>Pregunta 4</li>
+              <li>Categoría 1 </li>
+              <li>Categoría 2</li>
+              <li>Categoría 3</li>
+              <li>Categoría 4</li>
             </ul>
           </div>
         </button>
@@ -142,7 +143,12 @@ export const CardsToChoose = () => {
         onClick={() => {
           if (cartasSeleccionadas.length > 0) {
             const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
-            navigate(ruta, { state: { cartas: cartasSeleccionadas, inputs: inputsPersonalizados } });
+            navigate(ruta, {
+              state: {
+                categoria: categoriaSeleccionada, // objeto completo
+                inputs: inputsPersonalizados
+              }
+            });
           }
         }}
         className="bg-green-600 text-white px-6 py-3 rounded-xl font-bold text-lg hover:bg-green-700"
