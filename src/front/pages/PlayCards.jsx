@@ -1,38 +1,39 @@
 import { useLocation } from 'react-router-dom';
 import { useState } from 'react';
 
-export const PlayCards = () => {
-  const location = useLocation();
-  const categoria = location.state?.categoria;
+const MAIN_CATS = ['Sitcoms', 'Harry Potter', 'Anime', 'Videojuegos', 'Tradicional'];
 
+export const PlayCards = () => {
+  const { nombre, categorias } = useLocation().state.categoria;
   const [pregunta, setPregunta] = useState(null);
   const [cargando, setCargando] = useState(false);
   const [error, setError] = useState(null);
 
-  const obtenerPregunta = async (subcat) => {
+  const obtenerPregunta = async (opt) => {
     setCargando(true);
     setError(null);
     setPregunta(null);
 
-    const url = `${import.meta.env.VITE_BACKEND_URL}/api/questions/random?subcategory=${encodeURIComponent(subcat)}`;
+    let params;
+    if (MAIN_CATS.includes(opt)) {
+      // clicó en una categoría principal:
+      params = `category=${encodeURIComponent(opt)}`;
+    } else {
+      // clicó en una subcategoría:
+      params = `category=${encodeURIComponent(nombre)}&subcategory=${encodeURIComponent(opt)}`;
+    }
+
+    const url = `${import.meta.env.VITE_BACKEND_URL}/api/questions/random?${params}`;
     console.log('[PlayCards] Fetching question from:', url);
 
     try {
       const res = await fetch(url);
-
-      console.log('[PlayCards] Response status:', res.status);
       if (!res.ok) {
         const text = await res.text();
         throw new Error(`HTTP ${res.status} — ${text}`);
       }
-
       const data = await res.json();
-      console.log('[PlayCards] Received data:', data);
-
-      if (data.error) {
-        throw new Error(data.error);
-      }
-
+      if (data.error) throw new Error(data.error);
       setPregunta(data);
     } catch (err) {
       console.error('[PlayCards] Error al obtener pregunta:', err);
@@ -44,16 +45,15 @@ export const PlayCards = () => {
 
   return (
     <div className="p-6 max-w-4xl mx-auto text-center">
-      <h1 className="text-2xl font-bold mb-4">Jugar con: {categoria?.nombre}</h1>
-
+      <h1 className="text-2xl font-bold mb-4">Jugar con: {nombre}</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
-        {categoria?.categorias?.map((subcat, i) => (
+        {categorias.map((opt, i) => (
           <button
             key={i}
-            onClick={() => obtenerPregunta(subcat)}
+            onClick={() => obtenerPregunta(opt)}
             className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
           >
-            {subcat}
+            {opt}
           </button>
         ))}
       </div>

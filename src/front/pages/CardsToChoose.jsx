@@ -21,7 +21,7 @@ const CATEGORIAS = [
     color: 'bg-red-200',
     pregunta: '¿Cuál es el verdadero nombre de L en Death Note?',
     opciones: ['Light Yagami', 'Ryuk', 'L Lawliet', 'Near'],
-    categorias: ['Técnicas y ataques especiales', 'Localizaciones emblemáticas', 'Adivina el personaje', 'Trama y sucesos', 'Doblaje y banda sonora', 'En  qué episodio...?']
+    categorias: ['Técnicas y ataques especiales', 'Localizaciones emblemáticas', 'Adivina el personaje', 'Trama y sucesos', 'Doblaje y banda sonora', 'En qué episodio...?']
   },
   {
     nombre: 'Videojuegos',
@@ -67,12 +67,20 @@ export const CardsToChoose = () => {
   };
 
   const handleConfirmarPersonalizada = () => {
+    const pseudoCat = {
+      nombre: 'Personalizada',
+      categorias: inputsPersonalizados.filter(v => v),
+    };
+    // Calcula la ruta según el modo guardado en location.state.modo
+    const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
+
+    navigate(ruta, {
+      state: { categoria: pseudoCat }
+    });
+
+    // Para que siga funcionando la UI de selección visual:
     const yaSeleccionada = cartasSeleccionadas.includes('Personalizada');
-    if (yaSeleccionada) {
-      setCartasSeleccionadas([]);
-    } else {
-      setCartasSeleccionadas(['Personalizada']);
-    }
+    setCartasSeleccionadas(yaSeleccionada ? [] : ['Personalizada']);
     setMostrarModalPersonalizada(false);
   };
 
@@ -120,12 +128,12 @@ export const CardsToChoose = () => {
         >
           <h3 className="text-lg font-bold mb-2">Personalizada</h3>
           <div className="bg-white border rounded-lg p-3 text-sm">
-            <p className="font-semibold mb-2">Utiliza las categorías que quieras para tu partida</p>
+            <p className="font-semibold mb-2">Utiliza las categorías o subcategorías que quieras para tu partida</p>
             <ul className="grid grid-cols-2 gap-2 text-gray-500">
-              <li>Categoría 1 </li>
-              <li>Categoría 2</li>
-              <li>Categoría 3</li>
-              <li>Categoría 4</li>
+              <li>Opción 1 </li>
+              <li>Opción 2</li>
+              <li>Opción 3</li>
+              <li>Opción 4</li>
             </ul>
           </div>
         </button>
@@ -187,38 +195,44 @@ export const CardsToChoose = () => {
         </div>
       )}
 
-      {/* Modal personalizada */}
       {mostrarModalPersonalizada && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
-            <h2 className="text-xl font-bold mb-4">Personaliza tus preguntas</h2>
-            {inputsPersonalizados.map((val, i) => (
-              <input
-                key={i}
-                type="text"
-                value={val}
-                onChange={(e) => handleInputChange(i, e.target.value)}
-                placeholder={`Pregunta ${i + 1}`}
-                className="w-full border px-3 py-2 rounded mb-2"
-              />
-            ))}
-            <div className="flex justify-end gap-2">
-              <button
-                onClick={() => setMostrarModalPersonalizada(false)}
-                className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
-              >
-                Cancelar
-              </button>
-              <button
-                onClick={handleConfirmarPersonalizada}
-                className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
-              >
-                Confirmar
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
+      <h2 className="text-xl font-bold mb-4">Personaliza tus preguntas</h2>
+      {inputsPersonalizados.map((val, i) => (
+        <select
+          key={i}
+          value={val}
+          onChange={(e) => handleInputChange(i, e.target.value)}
+          className="w-full border px-3 py-2 rounded mb-2"
+        >
+          <option value="">Selecciona una categoría</option>
+          <option value="Anime">Anime</option>
+          <option value="Harry Potter">Harry Potter</option>
+          <option value="Sitcoms">Sitcoms</option>
+          <option value="Videojuegos">Videojuegos</option>
+          <option value="Tradicional">Tradicional</option>
+          <option value="Adivina el personaje">Anime: Adivina el personaje</option>
+        </select>
+      ))}
+      <div className="flex justify-end gap-2">
+        <button
+          onClick={() => setMostrarModalPersonalizada(false)}
+          className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
+        >
+          Cancelar
+        </button>
+        <button
+          onClick={handleConfirmarPersonalizada}
+          className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
+        >
+          Confirmar
+        </button>
+      </div>
+    </div>
+  </div>
+)}
+
     </div>
   );
 };

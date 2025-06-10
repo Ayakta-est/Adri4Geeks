@@ -43,6 +43,6 @@ class Question(db.Model):
 
     @validates('difficulty')
     def validate_difficulty(self, key, value):
-        if value not in ['easy', 'medium', 'difficult']:
-            raise ValueError("Dificultad no válida. Usa: easy, medium o difficult")
+        if value not in ['easy', 'medium', 'hard']:
+            raise ValueError("Dificultad no válida. Usa: easy, medium o hard")
         return value

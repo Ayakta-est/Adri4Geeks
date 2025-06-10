@@ -10,6 +10,196 @@
     "subcategory": "Adivina el personaje"
   },
   {
+    "category": "Anime",
+    "subcategory": "Técnicas y ataques especiales",
+    "question": "¿Cuál es el nombre del ataque característico de Goku en Dragon Ball?",
+    "answers": ["Kamehameha", "Rasengan", "Bankai", "Getsuga Tenshō"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Dragon Ball"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Dónde se encuentra la academia de héroes en 'My Hero Academia'?",
+    "answers": ["U.A. High School", "Konoha", "Juvenile Hall", "Spirit World"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "My Hero Academia"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué ocurre en el episodio final de 'Attack on Titan' temporada 3?",
+    "answers": ["La caída del muro María", "El descubrimiento del sótano", "La batalla por el distrito de Shiganshina", "La muerte de Eren"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Attack on Titan"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Doblaje y banda sonora",
+    "question": "¿Quién es el compositor de la banda sonora original de 'Cowboy Bebop'?",
+    "answers": ["Yoko Kanno", "Joe Hisaishi", "Hiroyuki Sawano", "Kenji Kawai"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Cowboy Bebop"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "En qué episodio...?",
+    "question": "¿En qué episodio de 'One Piece' se revela por primera vez el Gear Second?",
+    "answers": ["Episode 272", "Episode 312", "Episode 395", "Episode 450"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "One Piece"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Técnicas y ataques especiales",
+    "question": "¿Qué técnica usa Sasuke Uchiha para invocar serpientes?",
+    "answers": ["Kuchiyose no Jutsu", "Chidori", "Amaterasu", "Susanoo"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Naruto"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Cuál es la ciudad principal donde transcurre la serie 'Tokyo Ghoul'?",
+    "answers": ["Tokyo", "Osaka", "Kyoto", "Sapporo"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Tokyo Ghoul"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el capitán de los Piratas del Sombrero de Paja en 'One Piece'?",
+    "answers": ["Roronoa Zoro", "Monkey D. Luffy", "Sanji", "Usopp"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "One Piece"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Quién muere durante la batalla en el arco de Marineford en 'One Piece'?",
+    "answers": ["Portgas D. Ace", "Monkey D. Luffy", "Marshall D. Teach", "Shanks"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "One Piece"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Doblaje y banda sonora",
+    "question": "¿Quién interpreta la voz de Edward Elric en la versión original japonesa de 'Fullmetal Alchemist'?",
+    "answers": ["Romi Park", "Yuki Kaji", "Mamoru Miyano", "Takahiro Sakurai"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Fullmetal Alchemist"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "En qué episodio...?",
+    "question": "¿En qué episodio de 'Death Note' se introduce el personaje L por primera vez?",
+    "answers": ["Episodio 2", "Episodio 4", "Episodio 1", "Episodio 3"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Death Note"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Técnicas y ataques especiales",
+    "question": "¿Cuál es la técnica definitiva de Naruto Uzumaki que combina el chakra del zorro de nueve colas?",
+    "answers": ["Rasengan", "Sexta cola", "Modo Sabio", "Modo Kurama"],
+    "correct_index": 3,
+    "difficulty": "hard",
+    "color": "orange",
+    "world": "Naruto"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿En qué ciudad ficticia transcurre la mayoría de la acción de 'Death Note'?",
+    "answers": ["Tokyo", "Osaka", "Kyoto", "Yokohama"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Death Note"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el villano principal en 'Dragon Ball Z' durante la saga de los Androides?",
+    "answers": ["Cell", "Freezer", "Majin Buu", "Dr. Gero"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Dragon Ball Z"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué evento marca el inicio de la historia en 'Tokyo Ghoul'?",
+    "answers": ["El ataque de un ghoul a Kaneki", "La muerte de Kaneki", "La llegada de los investigadores", "El nacimiento de un ghoul"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Tokyo Ghoul"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Doblaje y banda sonora",
+    "question": "¿Cuál es el tema de apertura original de 'Neon Genesis Evangelion'?",
+    "answers": ["A Cruel Angel's Thesis", "Tank!", "Fly Me to the Moon", "Again"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Neon Genesis Evangelion"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "En qué episodio...?",
+    "question": "¿En qué episodio de 'Sword Art Online' Kirito se encuentra atrapado por primera vez en el juego?",
+    "answers": ["Episodio 1", "Episodio 3", "Episodio 5", "Episodio 7"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Sword Art Online"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Técnicas y ataques especiales",
+    "question": "¿Cuál es la técnica especial que usa Ichigo Kurosaki para liberar su Bankai?",
+    "answers": ["Tensa Zangetsu", "Getsuga Tenshō", "Kido", "Hollowfication"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Bleach"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Cuál es la escuela de magia a la que asisten los protagonistas en 'Little Witch Academia'?",
+    "answers": ["Luna Nova Academy", "Hogwarts", "Mahoutokoro", "U.A. High School"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Little Witch Academia"
+  },
+  {
     "category": "Disney",
     "question": "¿Qué animal es Dumbo?",
     "answers": ["León", "Ratón", "Elefante", "Perro"],
@@ -71,7 +261,7 @@
     "question": "¿En qué capítulo de 'The Office' Michael Scott dice 'That's what she said' por primera vez?",
     "answers": ["Pilot", "Diversity Day", "The Injury", "Health Care"],
     "correct_index": 1,
-    "difficulty": "difficult",
+    "difficulty": "hard",
     "color": "red",
     "world": "The Office",
     "subcategory": "En qué capitulo..."
@@ -115,5 +305,205 @@
     "color": "green",
     "world": "Friends",
     "subcategory": "Romances y relaciones"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Cuál es la casa de Hogwarts conocida por su valentía y coraje?",
+    "answers": ["Hufflepuff", "Ravenclaw", "Gryffindor", "Slytherin"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura mágica se alimenta principalmente de sangre y puede transformarse en humano?",
+    "answers": ["Dementor", "Boggart", "Vampiro", "Thestral"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Cuál de estos objetos es una de las Reliquias de la Muerte?",
+    "answers": ["Varita de Saúco", "Caldero de fuego", "Espejo de Oesed", "Mapa del Merodeador"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Hechizos y encantamientos",
+    "question": "¿Qué hechizo se usa para desarmar a un oponente?",
+    "answers": ["Expelliarmus", "Avada Kedavra", "Stupefy", "Lumos"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el director de Hogwarts durante la mayor parte de la saga?",
+    "answers": ["Severus Snape", "Albus Dumbledore", "Minerva McGonagall", "Gilderoy Lockhart"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Quién mata a Dumbledore en el sexto libro?",
+    "answers": ["Draco Malfoy", "Severus Snape", "Bellatrix Lestrange", "Voldemort"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué casa de Hogwarts valora la inteligencia y la sabiduría?",
+    "answers": ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Cómo se llama el centauro que ayuda a Harry en el Bosque Prohibido?",
+    "answers": ["Firenze", "Bane", "Ronan", "Magorian"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Cuál de estos objetos NO es un Horrocrux?",
+    "answers": ["El diario de Tom Riddle", "La copa de Helga Hufflepuff", "La varita de Saúco", "El anillo de Marvolo Gaunt"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Hechizos y encantamientos",
+    "question": "¿Qué hechizo se usa para crear luz en la punta de la varita?",
+    "answers": ["Lumos", "Nox", "Accio", "Wingardium Leviosa"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿En qué videojuego aparece el personaje Master Chief?",
+    "answers": ["Halo", "Call of Duty", "Doom", "Gears of War"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Cuál es el videojuego de carreras más famoso desarrollado por Nintendo?",
+    "answers": ["Gran Turismo", "Forza Horizon", "Mario Kart", "Need for Speed"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿En qué juego de rol puedes elegir entre clases como guerrero, mago y ladrón?",
+    "answers": ["The Witcher 3", "Skyrim", "Dark Souls", "Mass Effect"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Cuál es el nombre del videojuego en el que debes sobrevivir a zombies en una mansión llamada Spencer Estate?",
+    "answers": ["Resident Evil", "Silent Hill", "Dead Space", "The Last of Us"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Cuál de estos juegos es un popular juego de estrategia para móviles con construcción de bases y tropas?",
+    "answers": ["Clash Royale", "Candy Crush", "Subway Surfers", "Among Us"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Cuál es el nombre del fontanero que protagoniza la franquicia clásica de Nintendo?",
+    "answers": ["Luigi", "Mario", "Wario", "Toad"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué juego es conocido por su modo Battle Royale que popularizó el género en 2017?",
+    "answers": ["Fortnite", "PUBG", "Apex Legends", "Call of Duty: Warzone"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿En qué juego de fútbol se basa la popular saga Pro Evolution Soccer?",
+    "answers": ["FIFA", "Rocket League", "PES", "Football Manager"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Cuál de estos juegos es un RPG que incluye una historia con dragones y un mundo abierto llamado Tamriel?",
+    "answers": ["Dragon Age", "Skyrim", "Final Fantasy XV", "Dark Souls"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿En qué juego te enfrentas a criaturas llamadas Clickers en un mundo postapocalíptico?",
+    "answers": ["The Last of Us", "Resident Evil", "Dead Space", "Silent Hill"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
   }
 ]
