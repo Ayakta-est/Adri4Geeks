@@ -14,7 +14,7 @@ export const PlayCards = () => {
     setError(null);
     setPregunta(null);
 
-    const url = `${import.meta.env.VITE_BACKEND_URL || 'http://localhost:5000'}/api/questions/random?subcategory=${encodeURIComponent(subcat)}`;
+    const url = `${import.meta.env.VITE_BACKEND_URL}/api/questions/random?subcategory=${encodeURIComponent(subcat)}`;
     console.log('[PlayCards] Fetching question from:', url);
 
     try {

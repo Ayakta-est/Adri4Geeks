@@ -7,33 +7,35 @@ const CATEGORIAS = [
     color: 'bg-blue-200',
     pregunta: '¿Cómo se llama el café favorito del grupo en Friends?',
     opciones: ['Central Perk', 'Daily Grind', 'Coffee Town', 'Bean Bar'],
-    categorías: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', 'En qué capitulo...', 'Adivina el personaje'],
+    categorias: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', 'En qué capitulo...', 'Adivina el personaje'],
   },
   {
     nombre: 'Harry Potter',
     color: 'bg-green-200',
     pregunta: '¿Qué casa representa el color verde?',
     opciones: ['Ravenclaw', 'Slytherin', 'Hufflepuff', 'Gryffindor'],
-    categorías: ['Casas de Hogwarts', 'Criaturas mágicas', 'Objetos y Reliquias', 'Hechizos y encantamientos', 'Adivina el personaje']
+    categorias: ['Casas de Hogwarts', 'Criaturas mágicas', 'Objetos y Reliquias', 'Hechizos y encantamientos', 'Adivina el personaje', 'Trama y sucesos']
   },
   {
     nombre: 'Anime',
     color: 'bg-red-200',
     pregunta: '¿Cuál es el verdadero nombre de L en Death Note?',
     opciones: ['Light Yagami', 'Ryuk', 'L Lawliet', 'Near'],
-    categorías: ['Técnicas y ataques especiales', 'Locaciones emblemáticas', 'Adivina el personaje']
+    categorias: ['Técnicas y ataques especiales', 'Localizaciones emblemáticas', 'Adivina el personaje', 'Trama y sucesos', 'Doblaje y banda sonora', 'En  qué episodio...?']
   },
   {
     nombre: 'Videojuegos',
     color: 'bg-yellow-200',
     pregunta: '¿Qué compañía creó The Legend of Zelda?',
     opciones: ['Sony', 'Nintendo', 'Sega', 'Ubisoft'],
+    categorias: ['Shooters y acción', 'Deportes y Carreras', 'RPG y fantasía', 'Terror y Survival', 'Mobile Games', 'Clásicos y franquicias de culto']
   },
   {
     nombre: 'Tradicional',
     color: 'bg-purple-200',
     pregunta: '¿Cuál es la capital de Francia?',
     opciones: ['Roma', 'Madrid', 'París', 'Berlín'],
+    categorias: ['Deporte y pasatiempos', 'Geografía', 'Ciencias y  naturaleza', 'Historia', 'Arte y Literatura', 'Entretenimiento']
   },
 ];
 
