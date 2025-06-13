@@ -67,9 +67,21 @@ export const CardsToChoose = () => {
   };
 
   const handleConfirmarPersonalizada = () => {
+    const getCategoryFromSub = (subcat) => {
+      for (const cat of CATEGORIAS) {
+        if (cat.categorias.includes(subcat)) return cat.nombre;
+      }
+      return subcat; // fallback: si no es subcategoría, es categoría principal
+    };
+
     const pseudoCat = {
       nombre: 'Personalizada',
-      categorias: inputsPersonalizados.filter(v => v),
+      categorias: inputsPersonalizados
+        .filter(v => v)
+        .map(subcat => ({
+          label: subcat,
+          category: getCategoryFromSub(subcat)
+        }))
     };
     // Calcula la ruta según el modo guardado en location.state.modo
     const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
@@ -200,20 +212,29 @@ export const CardsToChoose = () => {
     <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
       <h2 className="text-xl font-bold mb-4">Personaliza tus preguntas</h2>
       {inputsPersonalizados.map((val, i) => (
-        <select
-          key={i}
-          value={val}
-          onChange={(e) => handleInputChange(i, e.target.value)}
-          className="w-full border px-3 py-2 rounded mb-2"
-        >
-          <option value="">Selecciona una categoría</option>
-          <option value="Anime">Anime</option>
-          <option value="Harry Potter">Harry Potter</option>
-          <option value="Sitcoms">Sitcoms</option>
-          <option value="Videojuegos">Videojuegos</option>
-          <option value="Tradicional">Tradicional</option>
-          <option value="Adivina el personaje">Anime: Adivina el personaje</option>
-        </select>
+        <div key={i} className="mb-2">
+          <label className="block text-sm font-medium mb-1">
+            Categoría {i + 1}
+          </label>
+          <select
+            value={val}
+            onChange={(e) => handleInputChange(i, e.target.value)}
+            className="w-full border px-3 py-2 rounded"
+          >
+            <option value="">Selecciona una categoría</option>
+            <option value="Anime">Anime</option>
+            <option value="Harry Potter">Harry Potter</option>
+            <option value="Sitcoms">Sitcoms</option>
+            <option value="Videojuegos">Videojuegos</option>
+            <option value="Tradicional">Tradicional</option>
+            <option value="Técnicas y ataques especiales">Anime: Técnicas y ataques especiales</option>
+            <option value="Localizaciones emblemáticas">Anime: Localizaciones emblemáticas</option>
+            <option value="Adivina el personaje">Anime: Adivina el personaje</option>
+            <option value="Trama y sucesos">Anime: Trama y sucesos</option>
+            <option value="Doblaje y banda sonora">Anime: Doblaje y banda sonora</option>
+            <option value="En qué episodio...?">Anime: En qué episodio...?</option>
+          </select>
+        </div>
       ))}
       <div className="flex justify-end gap-2">
         <button

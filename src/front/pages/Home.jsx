@@ -7,7 +7,7 @@ export const Home = () => {
 	const navigate = useNavigate();
 
   const handleSeleccion = (modo) => {
-    navigate('/cards-to-choose', { state: { modo } }); // "modo" como state
+    navigate('/cards-to-choose', { state: { modo } }); 
   };
 
   return (

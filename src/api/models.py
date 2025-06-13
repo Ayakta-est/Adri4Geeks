@@ -20,14 +20,14 @@ class User(db.Model):
     
 class Question(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    category = db.Column(db.String(50))  # "anime", "youtube", etc
+    category = db.Column(db.String(50))  # "anime", "youtube", etc.
+    subcategory = db.Column(db.String(100), default="others")
     question = db.Column(db.Text)
     answers = db.Column(db.JSON)  # ["A", "B", "C", "D"]
     correct_index = db.Column(db.Integer)
     color = db.Column(db.String(50))
     difficulty = db.Column(db.String(20), default="medium")
-    world = db.Column(db.String(50), default="general")        
-    subcategory = db.Column(db.String(100), default="others")
+    world = db.Column(db.String(50), default="general")
 
     def to_dict(self):
         return {
