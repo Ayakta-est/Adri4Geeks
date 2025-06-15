@@ -1,0 +1,622 @@
+[
+    {
+        "category": "Anime",
+        "question": "¿Cómo se llama el padre de Naruto?",
+        "answers": ["Minato", "Jiraiya", "Kakashi", "Itachi"],
+        "correct_index": 0,
+        "color": "#FFA500",
+        "difficulty": "easy",
+        "world": "Naruto",
+        "subcategory": "Adivina el personaje"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Cuál es el nombre del ataque característico de Goku en Dragon Ball?",
+        "answers": ["Kamehameha", "Rasengan", "Bankai", "Getsuga Tenshō"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "Dragon Ball"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica usa Naruto Uzumaki como su ataque principal?",
+        "answers": ["Chidori", "Final Flash", "Rasengan", "Big Bang Attack"],
+        "correct_index": 2,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "Naruto"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica de los Uchiha permite crear un fuego negro que no se apaga?",
+        "answers": ["Susanoo", "Amaterasu", "Katon: Gōkakyū", "Tsukuyomi"],
+        "correct_index": 1,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Naruto"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica utiliza Ichigo Kurosaki para lanzar un ataque de energía negra?",
+        "answers": ["Rasengan", "Spirit Gun", "Getsuga Tenshō", "Final Flash"],
+        "correct_index": 2,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Bleach"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica permite a Saitama derrotar a casi cualquier enemigo de un solo golpe?",
+        "answers": ["Serious Punch", "Death Note", "Detroit Smash", "Final Flash"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "One Punch Man"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué ataque famoso usa Luffy cuando estira su brazo para golpear con fuerza?",
+        "answers": ["Gomu Gomu no Pistol", "Spirit Gun", "One For All", "Amaterasu"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "One Piece"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica usa Vegeta como su ataque de energía más poderoso?",
+        "answers": ["Kamehameha", "Masenko", "Big Bang Attack", "Chidori"],
+        "correct_index": 2,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Dragon Ball"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Cuál es el nombre de la técnica definitiva de All Might?",
+        "answers": ["Texas Smash", "Detroit Smash", "One For All: Full Cowling", "Plus Ultra"],
+        "correct_index": 1,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "My Hero Academia"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica usa Kenshiro para derrotar a sus enemigos en 'Hokuto no Ken'?",
+        "answers": ["Hokuto Hyakuretsu Ken", "Kamui", "Amaterasu", "Ultra Instinct"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Fist of the North Star"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué ataque especial lanza Yusuke Urameshi con el dedo?",
+        "answers": ["Dragon of the Darkness Flame", "Bankai", "Spirit Gun", "Reigan"],
+        "correct_index": 2,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Yu Yu Hakusho"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Cuál es la técnica final de Gohan en Dragon Ball Z contra Cell?",
+        "answers": ["Final Flash", "Kamehameha a una mano", "Masenko", "Special Beam Cannon"],
+        "correct_index": 1,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Dragon Ball"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica utiliza Killua Zoldyck para moverse a gran velocidad?",
+        "answers": ["Godspeed", "Thunderbolt", "Lightning Strike", "Flash Step"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Hunter x Hunter"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica usa Levi Ackerman para enfrentarse a múltiples titanes a la vez?",
+        "answers": ["3D Maneuver", "Thunder Spear", "Beast Slash", "Omni-directional Slash"],
+        "correct_index": 3,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Attack on Titan"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Cuál es la forma evolucionada del Rasengan que usa Naruto al dominar el chakra de Kurama?",
+        "answers": ["Planetary Rasengan", "Rasen Shuriken", "Tailed Beast Bomb", "Sage Rasengan"],
+        "correct_index": 2,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Naruto"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica permite a Goku alcanzar un estado de conciencia ultra reactiva?",
+        "answers": ["Ultra Instinct", "Kaioken", "Spirit Bomb", "Fusion Dance"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Dragon Ball"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Localizaciones emblemáticas",
+        "question": "¿Dónde se encuentra la academia de héroes en 'My Hero Academia'?",
+        "answers": ["U.A. High School", "Konoha", "Juvenile Hall", "Spirit World"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "blue",
+        "world": "My Hero Academia"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué ocurre en el episodio final de 'Attack on Titan' temporada 3?",
+        "answers": ["La caída del muro María", "El descubrimiento del sótano", "La batalla por el distrito de Shiganshina", "La muerte de Eren"],
+        "correct_index": 2,
+        "difficulty": "hard",
+        "color": "red",
+        "world": "Attack on Titan"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Quién es el compositor de la banda sonora original de 'Cowboy Bebop'?",
+        "answers": ["Yoko Kanno", "Joe Hisaishi", "Hiroyuki Sawano", "Kenji Kawai"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Cowboy Bebop"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "En qué episodio...?",
+        "question": "¿En qué episodio de 'One Piece' se revela por primera vez el Gear Second?",
+        "answers": ["Episode 272", "Episode 312", "Episode 395", "Episode 450"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "green",
+        "world": "One Piece"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Qué técnica usa Sasuke Uchiha para invocar serpientes?",
+        "answers": ["Kuchiyose no Jutsu", "Chidori", "Amaterasu", "Susanoo"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Naruto"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Localizaciones emblemáticas",
+        "question": "¿Cuál es la ciudad principal donde transcurre la serie 'Tokyo Ghoul'?",
+        "answers": ["Tokyo", "Osaka", "Kyoto", "Sapporo"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "red",
+        "world": "Tokyo Ghoul"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién es el capitán de los Piratas del Sombrero de Paja en 'One Piece'?",
+        "answers": ["Roronoa Zoro", "Monkey D. Luffy", "Sanji", "Usopp"],
+        "correct_index": 1,
+        "difficulty": "easy",
+        "color": "yellow",
+        "world": "One Piece"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Quién muere durante la batalla en el arco de Marineford en 'One Piece'?",
+        "answers": ["Portgas D. Ace", "Monkey D. Luffy", "Marshall D. Teach", "Shanks"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "One Piece"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué hermano muere frente a Edward Elric en 'Fullmetal Alchemist: Brotherhood'?",
+        "answers": ["Alphonse", "Hohenheim", "Hughes", "Scar"],
+        "correct_index": 2,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Fullmetal Alchemist"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Cómo muere Itachi Uchiha en 'Naruto Shippuden'?",
+        "answers": ["Es asesinado por Sasuke", "Muere de una enfermedad", "Lo mata Madara", "Lo ejecuta Konoha"],
+        "correct_index": 1,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Naruto"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué desea Light Yagami lograr con la Death Note?",
+        "answers": ["Ser un dios del nuevo mundo", "Vengarse de su padre", "Destruir el cuaderno", "Hacerse rico"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Death Note"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué le sucede a Eren Jaeger al final de 'Attack on Titan'?",
+        "answers": ["Muere", "Se convierte en el Rey", "Escapa", "Se une a Marley"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Attack on Titan"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué oculta Sōsuke Aizen en 'Bleach' durante gran parte del anime?",
+        "answers": ["Que está vivo y es el villano", "Que no tiene poderes", "Que es el hermano de Ichigo", "Que es un Vizard"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Bleach"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué revela el padre de Goku cuando aparece por primera vez en el anime?",
+        "answers": ["Que es un guerrero saiyajin llamado Bardock", "Que es un Namekiano", "Que murió en Namek", "Que fue creado por el Dr. Gero"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "Dragon Ball"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Cuál es el objetivo principal de los Homúnculos en 'Fullmetal Alchemist: Brotherhood'?",
+        "answers": ["Crear una piedra filosofal gigante", "Dominar Amestris", "Destruir la alquimia", "Matar a Edward y Alphonse"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Fullmetal Alchemist"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué trágico evento inicia la historia de 'Elfen Lied'?",
+        "answers": ["Una masacre en un laboratorio", "Un terremoto", "Un accidente escolar", "La caída de un meteorito"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Elfen Lied"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué descubre Gon sobre su padre en 'Hunter x Hunter'?",
+        "answers": ["Que es un famoso cazador", "Que está muerto", "Que es el líder de las hormigas quimera", "Que vive en otro continente"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Hunter x Hunter"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué ocurre con Lelouch al final de 'Code Geass'?",
+        "answers": ["Muere como mártir", "Escapa con C.C.", "Se convierte en emperador", "Viaja en el tiempo"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Code Geass"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué hace Edward Elric para intentar devolver la vida a su madre?",
+        "answers": ["Alquimia humana", "Pide un deseo", "Hace un pacto demoníaco", "Viaja en el tiempo"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Fullmetal Alchemist"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué le pasa a Kamina en los primeros episodios de 'Gurren Lagann'?",
+        "answers": ["Muere en batalla", "Se convierte en líder supremo", "Despierta un poder oculto", "Es secuestrado por bestias"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Gurren Lagann"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Cómo termina 'Your Lie in April'?",
+        "answers": ["Kaori muere tras la cirugía", "Kaori y Kousei se casan", "Kousei se muda", "Kousei pierde la memoria"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Your Lie in April"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué sucede con L en la mitad de 'Death Note'?",
+        "answers": ["Muere a manos de Light", "Desaparece", "Se une a Light", "Revela ser Kira"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Death Note"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Quién interpreta la voz de Edward Elric en la versión original japonesa de 'Fullmetal Alchemist'?",
+        "answers": ["Romi Park", "Yuki Kaji", "Mamoru Miyano", "Takahiro Sakurai"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Fullmetal Alchemist"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Qué banda interpreta el opening 'Unravel' de 'Tokyo Ghoul'?",
+        "answers": ["Ling Tosite Sigure", "Asian Kung-Fu Generation", "UVERworld", "RADWIMPS"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "purple",
+        "world": "Tokyo Ghoul"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Quién pone la voz a Naruto Uzumaki en japonés?",
+        "answers": ["Junko Takeuchi", "Yuki Kaji", "Maaya Sakamoto", "Kana Hanazawa"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "purple",
+        "world": "Naruto"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Cuál es el tema de apertura más famoso de 'Neon Genesis Evangelion'?",
+        "answers": ["A Cruel Angel's Thesis", "Fly Me to the Moon", "Zankoku na Tenshi no Teeze", "Butter-Fly"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "purple",
+        "world": "Evangelion"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Qué actor de doblaje japonés interpreta a Levi Ackerman en 'Attack on Titan'?",
+        "answers": ["Hiroshi Kamiya", "Daisuke Ono", "Kazuya Nakai", "Yuki Kaji"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Attack on Titan"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Qué grupo compuso la música de 'Cowboy Bebop'?",
+        "answers": ["The Seatbelts", "Flow", "Kalafina", "Aimer"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Cowboy Bebop"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Quién interpreta a Light Yagami en el doblaje japonés de 'Death Note'?",
+        "answers": ["Mamoru Miyano", "Takahiro Sakurai", "Yuichi Nakamura", "Kensho Ono"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Death Note"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Qué artista cantó 'Silhouette', uno de los openings de 'Naruto Shippuden'?",
+        "answers": ["KANA-BOON", "Ikimono Gakari", "FLOW", "Asian Kung-Fu Generation"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "purple",
+        "world": "Naruto"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Quién interpreta la voz de Goku adulto en japonés?",
+        "answers": ["Masako Nozawa", "Kappei Yamaguchi", "Nobuyuki Hiyama", "Toshio Furukawa"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Dragon Ball"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Qué banda sonora fue compuesta por Joe Hisaishi?",
+        "answers": ["El viaje de Chihiro", "Your Name", "Evangelion", "Bleach"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Studio Ghibli"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Cuál es el ending más conocido de 'Death Parade'?",
+        "answers": ["Flyers", "Parade", "Death Dance", "Afterlife"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Death Parade"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Qué artista interpreta varios temas de películas de Makoto Shinkai como 'Your Name' y 'Weathering with You'?",
+        "answers": ["RADWIMPS", "LiSA", "Aimer", "Eir Aoi"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "purple",
+        "world": "Makoto Shinkai"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Quién interpreta la voz japonesa de L en 'Death Note'?",
+        "answers": ["Kappei Yamaguchi", "Hiroshi Kamiya", "Takahiro Sakurai", "Mamoru Miyano"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Death Note"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Qué tema es el opening inicial de 'Bleach'?",
+        "answers": ["Asterisk", "D-tecnoLife", "Rolling Star", "Change"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Bleach"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Qué actriz de voz interpreta a Misato Katsuragi en japonés en 'Evangelion'?",
+        "answers": ["Kotono Mitsuishi", "Megumi Hayashibara", "Rie Kugimiya", "Maaya Uchida"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "purple",
+        "world": "Evangelion"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "En qué episodio...?",
+        "question": "¿En qué episodio de 'Death Note' se introduce el personaje L por primera vez?",
+        "answers": ["Episodio 2", "Episodio 4", "Episodio 1", "Episodio 3"],
+        "correct_index": 1,
+        "difficulty": "medium",
+        "color": "green",
+        "world": "Death Note"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Cuál es la técnica definitiva de Naruto Uzumaki que combina el chakra del zorro de nueve colas?",
+        "answers": ["Rasengan", "Sexta cola", "Modo Sabio", "Modo Kurama"],
+        "correct_index": 3,
+        "difficulty": "hard",
+        "color": "orange",
+        "world": "Naruto"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Localizaciones emblemáticas",
+        "question": "¿En qué ciudad ficticia transcurre la mayoría de la acción de 'Death Note'?",
+        "answers": ["Tokyo", "Osaka", "Kyoto", "Yokohama"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "blue",
+        "world": "Death Note"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién es el villano principal en 'Dragon Ball Z' durante la saga de los Androides?",
+        "answers": ["Cell", "Freezer", "Majin Buu", "Dr. Gero"],
+        "correct_index": 3,
+        "difficulty": "medium",
+        "color": "red",
+        "world": "Dragon Ball Z"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Qué evento marca el inicio de la historia en 'Tokyo Ghoul'?",
+        "answers": ["El ataque de un ghoul a Kaneki", "La muerte de Kaneki", "La llegada de los investigadores", "El nacimiento de un ghoul"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Tokyo Ghoul"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Doblaje y banda sonora",
+        "question": "¿Cuál es el tema de apertura original de 'Neon Genesis Evangelion'?",
+        "answers": ["A Cruel Angel's Thesis", "Tank!", "Fly Me to the Moon", "Again"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "yellow",
+        "world": "Neon Genesis Evangelion"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "En qué episodio...?",
+        "question": "¿En qué episodio de 'Sword Art Online' Kirito se encuentra atrapado por primera vez en el juego?",
+        "answers": ["Episodio 1", "Episodio 3", "Episodio 5", "Episodio 7"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "green",
+        "world": "Sword Art Online"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Técnicas y ataques especiales",
+        "question": "¿Cuál es la técnica especial que usa Ichigo Kurosaki para liberar su Bankai?",
+        "answers": ["Tensa Zangetsu", "Getsuga Tenshō", "Kido", "Hollowfication"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Bleach"
+    },
+    {
+        "category": "Anime",
+        "subcategory": "Localizaciones emblemáticas",
+        "question": "¿Cuál es la escuela de magia a la que asisten los protagonistas en 'Little Witch Academia'?",
+        "answers": ["Luna Nova Academy", "Hogwarts", "Mahoutokoro", "U.A. High School"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "purple",
+        "world": "Little Witch Academia"
+    }
+]

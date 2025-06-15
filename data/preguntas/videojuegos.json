@@ -1,0 +1,1277 @@
+[
+    {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿En qué videojuego aparece el personaje Master Chief?",
+    "answers": ["Halo", "Call of Duty", "Doom", "Gears of War"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Cuál es el videojuego de carreras más famoso desarrollado por Nintendo?",
+    "answers": ["Gran Turismo", "Forza Horizon", "Mario Kart", "Need for Speed"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿En qué juego de rol puedes elegir entre clases como guerrero, mago y ladrón?",
+    "answers": ["The Witcher 3", "Skyrim", "Dark Souls", "Mass Effect"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Cuál es el nombre del videojuego en el que debes sobrevivir a zombies en una mansión llamada Spencer Estate?",
+    "answers": ["Resident Evil", "Silent Hill", "Dead Space", "The Last of Us"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+{
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Cuál de estos juegos es un popular juego de estrategia para móviles con construcción de bases y tropas?",
+    "answers": ["Clash Royale", "Candy Crush", "Subway Surfers", "Among Us"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Cuál de estos juegos móviles consiste en emparejar caramelos del mismo color?",
+    "answers": ["Candy Crush Saga", "Clash of Clans", "Temple Run", "8 Ball Pool"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿En qué juego móvil debes esquivar trenes mientras corres por las vías?",
+    "answers": ["Subway Surfers", "Jetpack Joyride", "Temple Run", "Flappy Bird"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Qué juego popular de móviles trata sobre descubrir al impostor en una nave espacial?",
+    "answers": ["Among Us", "Brawl Stars", "Minecraft PE", "Roblox"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿En qué juego de móviles puedes luchar en arenas con cartas de tropas y hechizos?",
+    "answers": ["Clash Royale", "Boom Beach", "PUBG Mobile", "Fall Guys"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Qué juego móvil incluye personajes como Shelly, Colt y Spike?",
+    "answers": ["Brawl Stars", "Free Fire", "Call of Duty Mobile", "Stumble Guys"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿En qué juego móvil debes hacer crecer una serpiente recolectando puntos sin chocar con otras?",
+    "answers": ["Slither.io", "WormsZone.io", "Agar.io", "Stack Ball"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Cuál es el objetivo principal de 'Plague Inc.' en móviles?",
+    "answers": ["Extender una pandemia", "Curar enfermedades", "Evitar ataques zombies", "Salvar al mundo"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Qué juego de móviles te hace construir un pueblo y atacar a otros para ganar monedas?",
+    "answers": ["Coin Master", "Clash of Clans", "Idle Miner", "Township"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Cuál de estos juegos de móviles es un battle royale con estética de caricatura?",
+    "answers": ["Stumble Guys", "Fortnite", "ZombsRoyale.io", "Pixel Gun 3D"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Qué juego de móviles fue retirado por su creador por ser 'demasiado adictivo'?",
+    "answers": ["Flappy Bird", "2048", "Crossy Road", "Temple Run"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Qué juego de cartas coleccionables basado en el universo de Blizzard está disponible en móviles?",
+    "answers": ["Hearthstone", "Magic: The Gathering Arena", "Yu-Gi-Oh! Duel Links", "Legends of Runeterra"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Qué juego mobile basado en realidad aumentada te permite capturar criaturas en el mundo real?",
+    "answers": ["Pokémon GO", "Ingress", "Monster Hunter Now", "Harry Potter: Wizards Unite"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Cuál de estos juegos de móviles fue desarrollado por Supercell antes de Clash Royale?",
+    "answers": ["Clash of Clans", "Hay Day", "Boom Beach", "Todos los anteriores"],
+    "correct_index": 3,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Qué videojuego móvil se centra en sobrevivir en un campo de batalla con 100 jugadores?",
+    "answers": ["PUBG Mobile", "Mobile Legends", "Arena of Valor", "Genshin Impact"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Mobile Games",
+    "question": "¿Cuál de estos juegos es un popular juego de estrategia para móviles con construcción de bases y tropas?",
+    "answers": ["Clash Royale", "Candy Crush", "Subway Surfers", "Among Us"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Videojuegos"
+  },
+{
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Cuál es el nombre del fontanero que protagoniza la franquicia clásica de Nintendo?",
+    "answers": ["Luigi", "Mario", "Wario", "Toad"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué personaje colecciona anillos dorados en sus aventuras de velocidad?",
+    "answers": ["Sonic", "Mario", "Kirby", "Pikachu"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué princesa es frecuentemente rescatada por Mario?",
+    "answers": ["Peach", "Daisy", "Zelda", "Toadette"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué criatura rosa puede inhalar enemigos y copiar sus habilidades?",
+    "answers": ["Kirby", "Jigglypuff", "Boo", "Ditto"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué héroe usa una espada llamada Master Sword para salvar a la princesa Zelda?",
+    "answers": ["Mario", "Pit", "Link", "Ganondorf"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Cuál fue uno de los primeros videojuegos en usar un laberinto y perseguir fantasmas?",
+    "answers": ["Tetris", "Donkey Kong", "Space Invaders", "Pac-Man"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Cuál fue el primer enemigo que enfrentó Mario en los videojuegos?",
+    "answers": ["Donkey Kong", "Bowser", "Goomba", "Koopa"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué juego clásico consiste en encajar bloques que caen del cielo?",
+    "answers": ["Pong", "Tetris", "Breakout", "Dr. Mario"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué personaje de Capcom lucha contra robots jefes en un futuro distópico?",
+    "answers": ["Mega Man", "Samus", "Fox McCloud", "Ryu"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué franquicia introdujo el 'Hadouken' como movimiento especial?",
+    "answers": ["Tekken", "Street Fighter", "Mortal Kombat", "Virtua Fighter"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué juego clásico de terror incluye la mansión Spencer y criaturas biológicas mutadas?",
+    "answers": ["Resident Evil", "Silent Hill", "Alone in the Dark", "Fatal Frame"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué consola fue lanzada junto con el juego Super Mario 64?",
+    "answers": ["Nintendo 64", "Super Nintendo", "GameCube", "Wii"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Qué saga clásica de Nintendo tiene como enemigo principal a Ridley y a Mother Brain?",
+    "answers": ["Star Fox", "F-Zero", "Metroid", "Fire Emblem"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿En qué juego de NES debes rescatar a una princesa lanzando tu látigo contra criaturas nocturnas?",
+    "answers": ["Castlevania", "Zelda II", "Metroid", "Ghosts 'n Goblins"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Cuál es el nombre completo del personaje que protagoniza la saga Metal Gear?",
+    "answers": ["Solid Snake", "Big Boss", "Raiden", "Otacon"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Clásicos y franquicias de culto",
+    "question": "¿Cuál es el nombre del fontanero que protagoniza la franquicia clásica de Nintendo?",
+    "answers": ["Luigi", "Mario", "Wario", "Toad"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+{
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué franquicia de disparos en primera persona tiene como protagonista al Jefe Maestro?",
+    "answers": ["Halo", "Doom", "Call of Duty", "Titanfall"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué juego de Valve enfrenta a terroristas contra antiterroristas?",
+    "answers": ["Counter-Strike", "Half-Life", "Valorant", "Overwatch"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué juego de disparos es famoso por sus partidas por equipos de 6 contra 6 con héroes únicos?",
+    "answers": ["Overwatch", "Apex Legends", "Team Fortress 2", "Paladins"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué saga bélica te permite jugar campañas basadas en la Segunda Guerra Mundial y guerras modernas?",
+    "answers": ["Call of Duty", "Battlefield", "Medal of Honor", "Sniper Elite"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué shooter tiene como mapa principal uno llamado Dust II?",
+    "answers": ["Counter-Strike", "Valorant", "Call of Duty", "Rainbow Six Siege"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué juego es conocido por su modo Battle Royale que popularizó el género en 2017?",
+    "answers": ["PUBG", "Apex Legends", "Fortnite", "Call of Duty: Warzone"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿En qué juego puedes construir estructuras mientras combates en tercera persona?",
+    "answers": ["Fortnite", "Valorant", "Warzone", "Apex Legends"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué título combina mecánicas de parkour con combate en primera persona y robots gigantes?",
+    "answers": ["Titanfall 2", "Destiny 2", "Apex Legends", "Battlefield 2042"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Cuál de estos juegos es un shooter cooperativo ambientado en un mundo de ciencia ficción?",
+    "answers": ["Destiny 2", "Overwatch", "Valorant", "CS:GO"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué título incluye el evento 'Verdansk' como parte de su experiencia de Battle Royale?",
+    "answers": ["PUBG", "Call of Duty: Warzone", "Apex Legends", "Battlefield V"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué juego de acción en primera persona se desarrolla en Marte y lucha contra demonios?",
+    "answers": ["Destiny 2", "Rage 2", "DOOM Eternal", "Halo Infinite"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿En qué año fue lanzado el primer 'Call of Duty'?",
+    "answers": ["2003", "2005", "2007", "1999"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué juego indie mezcla roguelike y disparos con una historia distópica y personajes animales?",
+    "answers": ["RUINER", "Hotline Miami", "Angry Foot", "Black Future '88"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué shooter táctico competitivo incluye operadores como Ash, Sledge y Thermite?",
+    "answers": ["Rainbow Six Siege", "Valorant", "Counter-Strike", "Insurgency"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué juego cuenta con habilidades sobrenaturales como el parpadeo o posesión en un entorno steampunk?",
+    "answers": ["Dishonored", "Prey", "Bioshock", "Deathloop"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Shooters y acción",
+    "question": "¿Qué juego es conocido por su modo Battle Royale que popularizó el género en 2017?",
+    "answers": ["Fortnite", "PUBG", "Apex Legends", "Call of Duty: Warzone"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Videojuegos"
+  },
+{
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué saga de videojuegos de fútbol es desarrollada por EA Sports?",
+    "answers": ["FIFA", "PES", "Football Manager", "NBA 2K"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué juego combina fútbol con coches impulsados por cohetes?",
+    "answers": ["Rocket League", "FIFA Street", "Mario Kart", "Gran Turismo"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Cuál de estos juegos es un simulador de carreras de Fórmula 1?",
+    "answers": ["F1 2023", "Need for Speed", "TrackMania", "WRC"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué saga es famosa por sus partidos callejeros y trucos espectaculares en fútbol?",
+    "answers": ["FIFA Street", "FIFA", "PES", "NBA Live"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué juego de baloncesto es desarrollado por 2K Sports?",
+    "answers": ["NBA 2K", "FIFA", "NBA Live", "Pro Basketball"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿En qué juego de fútbol se basa la popular saga Pro Evolution Soccer?",
+    "answers": ["FIFA", "Rocket League", "PES", "Football Manager"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué franquicia de carreras es conocida por su realismo en PlayStation?",
+    "answers": ["Gran Turismo", "Need for Speed", "Forza Horizon", "TrackMania"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué videojuego de ciclismo simula el Tour de Francia?",
+    "answers": ["Pro Cycling Manager", "Ride", "Tour Biker", "Bike Sim"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué saga permite gestionar un equipo de fútbol profesional con estadísticas detalladas?",
+    "answers": ["Football Manager", "FIFA", "Top Eleven", "PES Club Manager"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Cuál de estos juegos de carreras incluye persecuciones policiales como elemento clave?",
+    "answers": ["Need for Speed: Hot Pursuit", "Gran Turismo 7", "F1 22", "Dirt Rally"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Cuál es el nombre del modo historia introducido en FIFA 17?",
+    "answers": ["El Camino", "Vida FIFA", "El Jugador", "Sueño Pro"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué piloto español aparece en los juegos de F1 y ha sido dos veces campeón del mundo?",
+    "answers": ["Fernando Alonso", "Carlos Sainz", "Pedro de la Rosa", "Jaime Alguersuari"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué juego de carreras incluye un festival automovilístico como tema central?",
+    "answers": ["Forza Horizon", "Need for Speed Heat", "Gran Turismo Sport", "WRC 10"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿En qué juego de skate puedes controlar a Tony Hawk y hacer trucos extremos?",
+    "answers": ["Tony Hawk's Pro Skater", "Skate XL", "Session", "Street Power Football"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿Qué videojuego de motociclismo está licenciado por MotoGP?",
+    "answers": ["MotoGP 23", "Ride 4", "MXGP", "TrackDayR"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Deportes y Carreras",
+    "question": "¿En qué juego de fútbol se basa la popular saga Pro Evolution Soccer?",
+    "answers": ["FIFA", "Rocket League", "PES", "Football Manager"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Cuál de estos juegos es un RPG que incluye una historia con dragones y un mundo abierto llamado Tamriel?",
+    "answers": ["Dragon Age", "Skyrim", "Final Fantasy XV", "Dark Souls"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+{
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué juego presenta a un brujo cazador de monstruos llamado Geralt de Rivia?",
+    "answers": ["The Witcher 3", "Dark Souls", "Skyrim", "Dragon's Dogma"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué juego permite a los jugadores elegir entre las casas de Hogwarts?",
+    "answers": ["Hogwarts Legacy", "Elden Ring", "Dragon Age", "Fable"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué título pertenece a la franquicia de Final Fantasy?",
+    "answers": ["Final Fantasy XV", "Baldur's Gate", "Skyrim", "Mass Effect"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué juego es conocido por su dificultad y combates contra jefes gigantes?",
+    "answers": ["Dark Souls", "Diablo III", "Final Fantasy X", "Kingdom Hearts"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Cuál de estos juegos es un ARPG desarrollado por Blizzard?",
+    "answers": ["Diablo", "Elden Ring", "Skyrim", "Dragon Quest"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Cuál de estos juegos es un RPG que incluye una historia con dragones y un mundo abierto llamado Tamriel?",
+    "answers": ["Dragon Age", "Skyrim", "Final Fantasy XV", "Dark Souls"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿En qué juego puedes tomar decisiones que afectan el destino de Ferelden?",
+    "answers": ["Dragon Age: Origins", "The Witcher 2", "Final Fantasy XIII", "Divinity: Original Sin II"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué juego comienza con el protagonista despertando en una celda en la región de Skyrim?",
+    "answers": ["The Elder Scrolls V: Skyrim", "Oblivion", "Fable II", "Dragon's Dogma"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Cuál de estos RPG incluye un sistema de moralidad que influye en la historia?",
+    "answers": ["Fable", "Elden Ring", "Kingdom Come: Deliverance", "Dark Souls II"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿En qué juego eres un Inquisidor que lucha contra una brecha en el cielo?",
+    "answers": ["Dragon Age: Inquisition", "Final Fantasy XIV", "Genshin Impact", "Divinity: Original Sin"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Cuál es el nombre del continente donde se desarrolla la saga The Witcher?",
+    "answers": ["El Continente", "Tamriel", "Thedas", "Orbis"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué juego presenta un sistema de combate táctico por turnos con modo cooperativo?",
+    "answers": ["Divinity: Original Sin II", "Final Fantasy VII Remake", "Skyrim", "Pathfinder: Wrath of the Righteous"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué juego tiene lugar en el mundo de Thedas?",
+    "answers": ["Dragon Age", "The Witcher", "Final Fantasy IX", "Pillars of Eternity"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué título de FromSoftware incluye a un personaje llamado Ranni la Bruja?",
+    "answers": ["Elden Ring", "Dark Souls III", "Bloodborne", "Demon's Souls"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "RPG y fantasía",
+    "question": "¿Qué juego está inspirado en la obra de Tolkien y permite controlar a Talion?",
+    "answers": ["Middle-earth: Shadow of Mordor", "Dragon Age II", "Skyrim", "GreedFall"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿En qué juego te enfrentas a criaturas llamadas Clickers en un mundo postapocalíptico?",
+    "answers": ["The Last of Us", "Resident Evil", "Dead Space", "Silent Hill"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+{
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Cuál es el nombre del protagonista en Resident Evil 4?",
+    "answers": ["Leon S. Kennedy", "Chris Redfield", "Ethan Winters", "Jill Valentine"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Qué tipo de monstruos son los enemigos en Silent Hill?",
+    "answers": ["Manifestaciones del subconsciente", "Zombis", "Aliens", "Mutantes"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿En qué juego luchas contra Necromorfos en una nave espacial?",
+    "answers": ["Dead Space", "Alien: Isolation", "Prey", "System Shock"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Cuál es el nombre del pueblo principal en Silent Hill 2?",
+    "answers": ["Silent Hill", "Raccoon City", "Bright Falls", "Hawkins"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Qué personaje femenino aparece en múltiples juegos de Resident Evil?",
+    "answers": ["Jill Valentine", "Ellie", "Heather Mason", "Ada Wong"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿En qué juego te enfrentas a criaturas llamadas Clickers en un mundo postapocalíptico?",
+    "answers": ["The Last of Us", "Resident Evil", "Dead Space", "Silent Hill"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Qué juego presenta un manicomio abandonado llamado Mount Massive?",
+    "answers": ["Outlast", "Silent Hill 2", "Amnesia", "Condemned"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Qué juego te obliga a usar una cámara con visión nocturna para ver en la oscuridad?",
+    "answers": ["Outlast", "Alien: Isolation", "Resident Evil 7", "Visage"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿En qué juego se basa la amenaza en un simbionte alienígena que toma cuerpos humanos?",
+    "answers": ["The Thing", "Dead Space", "F.E.A.R.", "Resident Evil"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Qué personaje persigue al jugador en Resident Evil 2 Remake?",
+    "answers": ["Mr. X", "Nemesis", "Lisa Trevor", "William Birkin"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Cuál es el verdadero nombre del asesino Pyramid Head?",
+    "answers": ["No tiene nombre", "James Sunderland", "Walter Sullivan", "Alex Shepherd"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Qué juego de terror se desarrolla dentro de la mente de un detective llamado Sebastian Castellanos?",
+    "answers": ["The Evil Within", "Alan Wake", "Call of Cthulhu", "Soma"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿En qué juego una inteligencia artificial llamada Ruvik controla el mundo mental?",
+    "answers": ["The Evil Within", "Observer", "Soma", "Scorn"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Qué título de terror se basa en una historia creada por un algoritmo de IA?",
+    "answers": ["The Terrible Old Man", "Stories Untold", "AI Dungeon", "FAITH"],
+    "correct_index": 1,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "Videojuegos",
+    "subcategory": "Terror y Survival",
+    "question": "¿Cuál es el nombre de la secta que secuestra a Ethan Winters en Resident Evil Village?",
+    "answers": ["Los Cuatro Señores", "Umbrella Renegades", "Culto de Miranda", "La Orden Oscura"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Videojuegos"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién pintó la Mona Lisa?",
+    "answers": ["Miguel Ángel", "Leonardo da Vinci", "Van Gogh", "Picasso"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué autor escribió 'Don Quijote de la Mancha'?",
+    "answers": ["Miguel de Cervantes", "Gabriel García Márquez", "Lope de Vega", "Pablo Neruda"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Cuál es la obra más famosa de Shakespeare?",
+    "answers": ["Romeo y Julieta", "Don Juan Tenorio", "La Celestina", "El Quijote"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién pintó 'La noche estrellada'?",
+    "answers": ["Dalí", "Van Gogh", "Monet", "Renoir"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué escritor es famoso por su novela '1984'?",
+    "answers": ["Aldous Huxley", "George Orwell", "Ray Bradbury", "Isaac Asimov"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién pintó el techo de la Capilla Sixtina?",
+    "answers": ["Leonardo da Vinci", "Miguel Ángel", "Rafael", "Caravaggio"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién escribió 'Cien años de soledad'?",
+    "answers": ["Mario Vargas Llosa", "Gabriel García Márquez", "Jorge Luis Borges", "Isabel Allende"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué estilo artístico representa Picasso?",
+    "answers": ["Impresionismo", "Cubismo", "Realismo", "Expresionismo"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién escribió 'La Odisea'?",
+    "answers": ["Sófocles", "Homero", "Eurípides", "Virgilio"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué pintura famosa se encuentra en el Museo del Prado?",
+    "answers": ["La persistencia de la memoria", "Las Meninas", "La noche estrellada", "El Grito"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Cuál de estos autores es chileno?",
+    "answers": ["Mario Vargas Llosa", "Jorge Luis Borges", "Pablo Neruda", "Octavio Paz"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿En qué siglo vivió William Shakespeare?",
+    "answers": ["XV", "XVI", "XVII", "XVIII"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Cuál es el nombre real de Pablo Neruda?",
+    "answers": ["Ricardo Eliécer Neftalí Reyes", "Pablo Larraín", "Carlos Saavedra", "José Pablo Rodríguez"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué movimiento artístico usaba relojes derretidos?",
+    "answers": ["Cubismo", "Surrealismo", "Dadaísmo", "Futurismo"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién escribió 'Crimen y castigo'?",
+    "answers": ["Tolstói", "Dostoyevski", "Chéjov", "Gógol"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué famoso pintor era sordo?",
+    "answers": ["Picasso", "Dalí", "Goya", "Velázquez"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿En qué país nació Franz Kafka?",
+    "answers": ["Alemania", "Austria", "República Checa", "Suiza"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué autor escribió 'Rayuela'?",
+    "answers": ["Cortázar", "Borges", "Márquez", "Allende"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Cuál de estos pintores es español?",
+    "answers": ["Rembrandt", "Velázquez", "Monet", "Klimt"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién pintó 'El grito'?",
+    "answers": ["Monet", "Munch", "Degas", "Kandinsky"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién escribió 'La Divina Comedia'?",
+    "answers": ["Petrarca", "Dante Alighieri", "Maquiavelo", "Boccaccio"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué poeta escribió 'Residencia en la Tierra'?",
+    "answers": ["Neruda", "Borges", "García Lorca", "Machado"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué autor es conocido por 'El Aleph'?",
+    "answers": ["Cortázar", "Neruda", "Borges", "Rulfo"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Cuál fue el estilo de Monet?",
+    "answers": ["Cubismo", "Realismo", "Impresionismo", "Futurismo"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién escribió 'La metamorfosis'?",
+    "answers": ["Kafka", "Camus", "Sartre", "Nietzsche"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién escribió 'El Principito'?",
+    "answers": ["Saint-Exupéry", "Verne", "Baudelaire", "Zola"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué pintura famosa muestra una escena de una cena?",
+    "answers": ["La Última Cena", "Las Meninas", "El nacimiento de Venus", "La Ronda de Noche"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Qué novela comienza con 'En un lugar de la Mancha...'?",
+    "answers": ["El Quijote", "La Regenta", "Fortunata y Jacinta", "La Celestina"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Arte y Literatura",
+    "question": "¿Quién escribió 'Fausto'?",
+    "answers": ["Goethe", "Schiller", "Kant", "Nietzsche"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  }
+]

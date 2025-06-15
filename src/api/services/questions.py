@@ -1,24 +1,34 @@
+import os
+import json
 import random
-from models import Question
-from app import db  # o donde tengas instanciado db
+
+BASE_DIR = 'data/preguntas'
+
+def cargar_preguntas_de_archivo(nombre_archivo):
+    path = os.path.join(BASE_DIR, nombre_archivo)
+    with open(path, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
 def filtrar_pregunta_aleatoria(filtros: dict):
-    query = db.session.query(Question)
+    preguntas_filtradas = []
 
-    if filtros.get('category'):
-        query = query.filter_by(category=filtros['category'])
+    # Cargar todos los archivos de preguntas
+    for archivo in os.listdir(BASE_DIR):
+        if archivo.endswith('.json'):
+            preguntas = cargar_preguntas_de_archivo(archivo)
 
-    if filtros.get('subcategory'):
-        query = query.filter_by(subcategory=filtros['subcategory'])
+            for pregunta in preguntas:
+                if filtros.get('category') and pregunta['category'] != filtros['category']:
+                    continue
+                if filtros.get('subcategory') and pregunta['subcategory'] != filtros['subcategory']:
+                    continue
+                if filtros.get('difficulty') and pregunta['difficulty'] != filtros['difficulty']:
+                    continue
+                if filtros.get('world') and pregunta['world'] != filtros['world']:
+                    continue
 
-    if filtros.get('difficulty'):
-        query = query.filter_by(difficulty=filtros['difficulty'])
+                preguntas_filtradas.append(pregunta)
 
-    if filtros.get('world'):
-        query = query.filter_by(world=filtros['world'])
-
-    preguntas = query.all()
-
-    if preguntas:
-        return random.choice(preguntas)
+    if preguntas_filtradas:
+        return random.choice(preguntas_filtradas)
     return None

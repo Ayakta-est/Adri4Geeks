@@ -1,0 +1,1354 @@
+[
+    {
+    "category": "tradicional",
+    "subcategory": "Geografía",
+    "question": "¿Cuál es la capital de Francia?",
+    "answers": ["Madrid", "París", "Roma", "Berlín"],
+    "correct_index": "1",
+    "color": "#00B5FF",
+    "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿En qué continente se encuentra Egipto?",
+        "answers": ["Europa", "Asia", "África", "Oceanía"],
+        "correct_index": 2,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es el río más largo del mundo?",
+        "answers": ["Nilo", "Amazonas", "Yangtsé", "Danubio"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Japón?",
+        "answers": ["Seúl", "Tokio", "Pekín", "Osaka"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué país tiene forma de bota?",
+        "answers": ["Grecia", "España", "Italia", "México"],
+        "correct_index": 2,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es el océano más grande del mundo?",
+        "answers": ["Atlántico", "Índico", "Pacífico", "Ártico"],
+        "correct_index": 2,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿En qué país se encuentra la Torre Eiffel?",
+        "answers": ["Italia", "España", "Francia", "Alemania"],
+        "correct_index": 2,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Australia?",
+        "answers": ["Sídney", "Melbourne", "Canberra", "Brisbane"],
+        "correct_index": 2,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué país limita con Argentina al oeste?",
+        "answers": ["Brasil", "Chile", "Uruguay", "Paraguay"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es el país más grande del mundo?",
+        "answers": ["China", "Rusia", "Estados Unidos", "Canadá"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Canadá?",
+        "answers": ["Toronto", "Vancouver", "Montreal", "Ottawa"],
+        "correct_index": 3,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿En qué país está el desierto del Sahara?",
+        "answers": ["Egipto", "Marruecos", "Varios países", "Sudáfrica"],
+        "correct_index": 2,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Brasil?",
+        "answers": ["Sao Paulo", "Brasilia", "Río de Janeiro", "Belo Horizonte"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué país tiene más islas?",
+        "answers": ["Indonesia", "Suecia", "Filipinas", "Japón"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "hard"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué país tiene el Monte Everest?",
+        "answers": ["China", "Nepal", "India", "Tíbet"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Alemania?",
+        "answers": ["Múnich", "Berlín", "Hamburgo", "Fráncfort"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué país es conocido como 'la tierra del sol naciente'?",
+        "answers": ["China", "Corea del Sur", "Japón", "Vietnam"],
+        "correct_index": 2,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿En qué continente está Surinam?",
+        "answers": ["África", "Asia", "Oceanía", "América del Sur"],
+        "correct_index": 3,
+        "color": "#00B5FF",
+        "difficulty": "hard"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué mar baña las costas de Egipto?",
+        "answers": ["Mar Rojo", "Mar Caribe", "Mar del Norte", "Mar de Arabia"],
+        "correct_index": 0,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué cordillera atraviesa América del Sur?",
+        "answers": ["Himalaya", "Andes", "Alpes", "Rocosas"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Noruega?",
+        "answers": ["Oslo", "Estocolmo", "Helsinki", "Copenhague"],
+        "correct_index": 0,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué país tiene la mayor población del mundo?",
+        "answers": ["India", "China", "Estados Unidos", "Indonesia"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Sudáfrica?",
+        "answers": ["Ciudad del Cabo", "Pretoria", "Johannesburgo", "Durban"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "hard"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es el país más pequeño del mundo?",
+        "answers": ["San Marino", "Mónaco", "Malta", "Ciudad del Vaticano"],
+        "correct_index": 3,
+        "color": "#00B5FF",
+        "difficulty": "hard"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Qué país está rodeado completamente por Sudáfrica?",
+        "answers": ["Lesoto", "Botsuana", "Zimbabue", "Suazilandia"],
+        "correct_index": 0,
+        "color": "#00B5FF",
+        "difficulty": "hard"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Marruecos?",
+        "answers": ["Casablanca", "Rabat", "Fez", "Marrakech"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿En qué país está la región de la Toscana?",
+        "answers": ["España", "Italia", "Francia", "Grecia"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Corea del Sur?",
+        "answers": ["Pekín", "Seúl", "Busan", "Tokio"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿En qué país se encuentra el canal de Panamá?",
+        "answers": ["Panamá", "Colombia", "Nicaragua", "Costa Rica"],
+        "correct_index": 0,
+        "color": "#00B5FF",
+        "difficulty": "easy"
+    },
+    {
+        "category": "tradicional",
+        "subcategory": "Geografía",
+        "question": "¿Cuál es la capital de Turquía?",
+        "answers": ["Estambul", "Ankara", "Izmir", "Antalya"],
+        "correct_index": 1,
+        "color": "#00B5FF",
+        "difficulty": "medium"
+    },
+    {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cuántos jugadores hay en un equipo de fútbol?",
+    "answers": ["9", "10", "11", "12"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué deporte practica Rafael Nadal?",
+    "answers": ["Golf", "Tenis", "Ciclismo", "Béisbol"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿En qué país se celebraron los Juegos Olímpicos de 2016?",
+    "answers": ["China", "Brasil", "Reino Unido", "Grecia"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cuántos puntos vale un triple en baloncesto?",
+    "answers": ["2", "3", "4", "1"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué deporte se juega con una raqueta y un volante?",
+    "answers": ["Tenis", "Bádminton", "Squash", "Ping pong"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Quién ganó el Mundial de fútbol en 2018?",
+    "answers": ["Alemania", "Argentina", "Francia", "Croacia"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué deporte combina esquí y tiro?",
+    "answers": ["Biatlón", "Pentatlón", "Esgrima", "Curling"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cuál es el pasatiempo que consiste en formar palabras en un tablero?",
+    "answers": ["Sudoku", "Scrabble", "Parchís", "Dominó"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cuántos anillos olímpicos hay?",
+    "answers": ["4", "5", "6", "7"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué deporte se practica en un velódromo?",
+    "answers": ["Ciclismo", "Atletismo", "Patinaje", "Natación"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿En qué deporte destaca Simone Biles?",
+    "answers": ["Natación", "Atletismo", "Gimnasia", "Esgrima"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué juego consiste en adivinar palabras mediante dibujos?",
+    "answers": ["Pictionary", "Scrabble", "Tabú", "Dixit"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué país es famoso por el sumo?",
+    "answers": ["Corea", "China", "Japón", "Vietnam"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cuántas casillas tiene un tablero de ajedrez?",
+    "answers": ["64", "81", "100", "49"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Quién es conocido como 'el Rey del Fútbol'?",
+    "answers": ["Pelé", "Maradona", "Messi", "Cristiano Ronaldo"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué pieza del ajedrez solo se mueve en diagonal?",
+    "answers": ["Reina", "Caballo", "Alfil", "Torre"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿En qué año se celebró el primer Mundial de fútbol?",
+    "answers": ["1928", "1930", "1934", "1940"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué deporte se juega con una tabla sobre el agua?",
+    "answers": ["Surf", "Vela", "Piragüismo", "Esquí acuático"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cuál es el tiempo reglamentario en un partido de fútbol?",
+    "answers": ["90 minutos", "80 minutos", "60 minutos", "100 minutos"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿En qué juego de mesa se usan hoteles y casas?",
+    "answers": ["Cluedo", "Monopoly", "Risk", "Catan"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué pasatiempo consiste en encontrar palabras escondidas?",
+    "answers": ["Crucigrama", "Sopa de letras", "Sudoku", "Ajedrez"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿En qué deporte se utiliza una canasta?",
+    "answers": ["Fútbol", "Balonmano", "Baloncesto", "Voleibol"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué deporte tiene como objetivo meter la bola en hoyos?",
+    "answers": ["Golf", "Hockey", "Cricquet", "Billar"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué jugador tiene el récord de más goles en Mundiales?",
+    "answers": ["Pelé", "Ronaldo", "Miroslav Klose", "Messi"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué instrumento se necesita para jugar al hockey sobre hielo?",
+    "answers": ["Raqueta", "Palo", "Bate", "Cuerda"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cuál es el deporte más practicado en el mundo?",
+    "answers": ["Baloncesto", "Críquet", "Fútbol", "Atletismo"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué deporte se juega con una red en la playa?",
+    "answers": ["Tenis playa", "Fútbol playa", "Vóley playa", "Padel"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Qué color se asocia con el líder en el Tour de Francia?",
+    "answers": ["Rojo", "Amarillo", "Verde", "Azul"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cuántos jugadores forman un equipo de voleibol en pista?",
+    "answers": ["5", "6", "7", "8"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Deporte y pasatiempos",
+    "question": "¿Cómo se llama el deporte de lanzar una jabalina?",
+    "answers": ["Jabalinismo", "Lanzamiento de jabalina", "Atletismo con lanza", "Tiro de lanza"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cuál es el planeta más cercano al Sol?",
+    "answers": ["Venus", "Tierra", "Marte", "Mercurio"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué gas es esencial para la respiración humana?",
+    "answers": ["Hidrógeno", "Oxígeno", "Nitrógeno", "Dióxido de carbono"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cuál es el símbolo químico del agua?",
+    "answers": ["O2", "H2", "H2O", "HO2"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué órgano bombea la sangre en el cuerpo humano?",
+    "answers": ["Pulmón", "Cerebro", "Hígado", "Corazón"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué planeta tiene un gran anillo a su alrededor?",
+    "answers": ["Júpiter", "Urano", "Neptuno", "Saturno"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cuál es el metal líquido a temperatura ambiente?",
+    "answers": ["Mercurio", "Aluminio", "Hierro", "Cobre"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cómo se llama el proceso por el cual las plantas fabrican su alimento?",
+    "answers": ["Fotosíntesis", "Respiración", "Digestión", "Germinación"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué animal es el más grande del mundo?",
+    "answers": ["Elefante", "Tiburón blanco", "Ballena azul", "Jirafa"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué tipo de animal es una rana?",
+    "answers": ["Mamífero", "Ave", "Reptil", "Anfibio"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué parte de la célula contiene el ADN?",
+    "answers": ["Mitocondria", "Citoplasma", "Núcleo", "Ribosoma"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué gas utilizan las plantas para la fotosíntesis?",
+    "answers": ["Oxígeno", "Nitrógeno", "Dióxido de carbono", "Hidrógeno"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cómo se llama la capa de gases que rodea la Tierra?",
+    "answers": ["Estratósfera", "Atmósfera", "Troposfera", "Exosfera"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cuál es el hueso más largo del cuerpo humano?",
+    "answers": ["Fémur", "Húmero", "Radio", "Tibia"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué parte de la planta transporta agua desde las raíces?",
+    "answers": ["Flores", "Tallo", "Hojas", "Fruto"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué tipo de animal es un tiburón?",
+    "answers": ["Mamífero", "Reptil", "Pez", "Anfibio"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué planeta es conocido como el planeta rojo?",
+    "answers": ["Venus", "Júpiter", "Marte", "Saturno"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué fenómeno produce los rayos y truenos?",
+    "answers": ["Tornado", "Huracán", "Tormenta eléctrica", "Erupción volcánica"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cuántos sentidos tiene el ser humano tradicionalmente?",
+    "answers": ["5", "6", "4", "7"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cómo se llama el satélite natural de la Tierra?",
+    "answers": ["Luna", "Estrella", "Sol", "Cometa"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué sustancia da color verde a las plantas?",
+    "answers": ["Clorofila", "Celulosa", "Savia", "Hidrógeno"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cuál es el órgano encargado de filtrar la sangre?",
+    "answers": ["Corazón", "Hígado", "Riñón", "Pulmón"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué tipo de energía se obtiene del sol?",
+    "answers": ["Eólica", "Hidráulica", "Solar", "Geotérmica"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué instrumento se usa para medir la temperatura?",
+    "answers": ["Barómetro", "Termómetro", "Higrómetro", "Anemómetro"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cómo se llama el ciclo del agua que incluye evaporación y condensación?",
+    "answers": ["Ciclo del agua", "Ciclo de la vida", "Ciclo del oxígeno", "Ciclo del carbono"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué elemento químico tiene el símbolo 'Fe'?",
+    "answers": ["Fósforo", "Flúor", "Hierro", "Francio"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cuál es la velocidad de la luz en el vacío?",
+    "answers": ["300.000 km/s", "150.000 km/s", "100.000 km/s", "1.000.000 km/s"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué órgano produce la insulina?",
+    "answers": ["Riñón", "Hígado", "Páncreas", "Estómago"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Cuál es el único satélite natural de la Tierra?",
+    "answers": ["Venus", "Marte", "Luna", "Titán"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué especie humana es la única viva actualmente?",
+    "answers": ["Homo erectus", "Homo habilis", "Homo sapiens", "Homo neanderthalensis"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Ciencias y naturaleza",
+    "question": "¿Qué tipo de energía utiliza un panel solar?",
+    "answers": ["Química", "Solar", "Eólica", "Nuclear"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿En qué año comenzó la Segunda Guerra Mundial?",
+    "answers": ["1935", "1939", "1941", "1945"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Quién descubrió América en 1492?",
+    "answers": ["Américo Vespucio", "Cristóbal Colón", "Marco Polo", "Hernán Cortés"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Cuál fue la civilización que construyó las pirámides de Egipto?",
+    "answers": ["Romanos", "Egipcios", "Griegos", "Persas"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿En qué ciudad fue asesinado Julio César?",
+    "answers": ["Atenas", "Roma", "Cartago", "Alejandría"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué muro dividía Berlín hasta 1989?",
+    "answers": ["Muro de Berlín", "Muro de Hierro", "Muro de la Paz", "Muro del Este"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Quién fue el primer presidente de Estados Unidos?",
+    "answers": ["Thomas Jefferson", "Abraham Lincoln", "George Washington", "Benjamin Franklin"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué guerra enfrentó a los aliados y el eje?",
+    "answers": ["Primera Guerra Mundial", "Segunda Guerra Mundial", "Guerra Fría", "Guerra de Corea"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué revolucionario argentino participó en la Revolución Cubana?",
+    "answers": ["Juan Perón", "Simón Bolívar", "Che Guevara", "Fidel Castro"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿En qué país se originó la Revolución Industrial?",
+    "answers": ["Alemania", "Francia", "Estados Unidos", "Reino Unido"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué imperio estaba liderado por Alejandro Magno?",
+    "answers": ["Egipcio", "Persa", "Macedonio", "Romano"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué evento histórico ocurrió en Francia en 1789?",
+    "answers": ["Revolución Francesa", "Toma de la Bastilla", "Caída del Imperio Romano", "Guerras Napoleónicas"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Cuál fue el último emperador romano de Occidente?",
+    "answers": ["Nerón", "César", "Rómulo Augústulo", "Trajano"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿En qué siglo ocurrió la Primera Guerra Mundial?",
+    "answers": ["XVIII", "XIX", "XX", "XXI"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué país lanzó las bombas atómicas sobre Japón?",
+    "answers": ["URSS", "Alemania", "Estados Unidos", "Reino Unido"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Cuál fue la civilización que inventó la escritura cuneiforme?",
+    "answers": ["Egipcia", "Griega", "Sumeria", "Romana"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué líder fue conocido como el 'Caudillo de España'?",
+    "answers": ["Franco", "Napoleón", "Hitler", "Mussolini"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Quién fue el primer ser humano en viajar al espacio?",
+    "answers": ["Neil Armstrong", "Yuri Gagarin", "Buzz Aldrin", "Laika"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué civilización habitaba en Machu Picchu?",
+    "answers": ["Azteca", "Maya", "Inca", "Olmeca"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué reina inglesa tuvo el apodo de 'la Reina Virgen'?",
+    "answers": ["Isabel I", "Victoria", "Ana", "María I"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué guerra ocurrió entre 1914 y 1918?",
+    "answers": ["Guerra Civil Española", "Segunda Guerra Mundial", "Guerra de Vietnam", "Primera Guerra Mundial"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Quién escribió el 'Manifiesto Comunista' junto a Engels?",
+    "answers": ["Marx", "Lenin", "Stalin", "Trotsky"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué país lideró la carrera espacial contra EE.UU.?",
+    "answers": ["China", "Alemania", "URSS", "Japón"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué cultura precolombina construyó Chichén Itzá?",
+    "answers": ["Inca", "Azteca", "Maya", "Zapoteca"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué acontecimiento dio inicio a la Edad Media?",
+    "answers": ["Descubrimiento de América", "Caída del Imperio Romano", "Revolución Francesa", "Invención de la imprenta"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué civilización construyó el Coliseo?",
+    "answers": ["Griega", "Egipcia", "Romana", "Persa"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿En qué año cayó el Imperio Romano de Occidente?",
+    "answers": ["476", "1492", "1453", "1066"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Quién lideró la independencia de Venezuela?",
+    "answers": ["San Martín", "Simón Bolívar", "Hidalgo", "O'Higgins"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué civilización usaba jeroglíficos?",
+    "answers": ["Mesopotámica", "Griega", "Egipcia", "Romana"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Historia",
+    "question": "¿Qué país inició la colonización de América del Sur?",
+    "answers": ["Inglaterra", "España", "Francia", "Portugal"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Quién interpreta a Iron Man en el Universo Cinematográfico de Marvel?",
+    "answers": ["Chris Evans", "Robert Downey Jr.", "Chris Hemsworth", "Mark Ruffalo"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Cuál es el nombre del parque temático de Disney en París?",
+    "answers": ["Disneyland Madrid", "Disneyland Paris", "Disney Europa", "Disney World France"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿En qué serie aparece el personaje Walter White?",
+    "answers": ["Breaking Bad", "The Wire", "Better Call Saul", "Narcos"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Quién ganó Eurovisión en 2021?",
+    "answers": ["Rusia", "Italia", "Francia", "Suecia"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Cuál es el nombre completo del personaje de Harry Potter?",
+    "answers": ["Harry James Potter", "Harry John Potter", "Harry Edward Potter", "Harry Jacob Potter"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué película ganó el Oscar a Mejor Película en 2020?",
+    "answers": ["1917", "Parásitos", "Joker", "Once Upon a Time in Hollywood"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué personaje de Disney canta 'Let It Go'?",
+    "answers": ["Ariel", "Elsa", "Rapunzel", "Bella"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Quién creó la serie 'Los Simpson'?",
+    "answers": ["Matt Groening", "Seth MacFarlane", "Trey Parker", "Mike Judge"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿En qué ciudad se celebra el festival de cine de Cannes?",
+    "answers": ["París", "Lyon", "Cannes", "Marsella"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué actor protagonizó 'Piratas del Caribe' como Jack Sparrow?",
+    "answers": ["Brad Pitt", "Johnny Depp", "Leonardo DiCaprio", "Tom Hanks"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿En qué saga aparece el personaje Frodo Bolsón?",
+    "answers": ["Harry Potter", "Star Wars", "El Señor de los Anillos", "Crónicas de Narnia"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué película animada trata sobre emociones personificadas?",
+    "answers": ["Soul", "Coco", "Del Revés (Inside Out)", "Up"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Cómo se llama la princesa en 'La Bella Durmiente'?",
+    "answers": ["Ariel", "Aurora", "Bella", "Jazmín"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Quién interpreta a Batman en 'The Dark Knight'?",
+    "answers": ["Ben Affleck", "Michael Keaton", "Christian Bale", "Robert Pattinson"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué banda escribió la canción 'Bohemian Rhapsody'?",
+    "answers": ["The Beatles", "Pink Floyd", "Queen", "Led Zeppelin"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿En qué serie aparece el personaje Tyrion Lannister?",
+    "answers": ["Vikings", "The Witcher", "Juego de Tronos", "The Crown"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué canal transmitía originalmente 'Friends'?",
+    "answers": ["NBC", "ABC", "CBS", "FOX"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Cuál de estos no es un personaje de 'Stranger Things'?",
+    "answers": ["Eleven", "Dustin", "Lucas", "Felix"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué película popular tiene un personaje llamado Buzz Lightyear?",
+    "answers": ["Cars", "Toy Story", "Up", "Los Increíbles"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué actor protagonizó 'Forrest Gump'?",
+    "answers": ["Tom Cruise", "Brad Pitt", "Tom Hanks", "Matt Damon"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué personaje de Marvel puede manipular el tiempo con un artefacto?",
+    "answers": ["Iron Man", "Doctor Strange", "Hulk", "Thor"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Cuál es la serie más vista de Netflix en 2021?",
+    "answers": ["Stranger Things", "Bridgerton", "The Witcher", "El juego del calamar"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué película de Pixar trata sobre el Día de los Muertos?",
+    "answers": ["Encanto", "Coco", "Viva", "Soul"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué artista pop lanzó el álbum 'Future Nostalgia'?",
+    "answers": ["Ariana Grande", "Dua Lipa", "Lady Gaga", "Rihanna"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué película está protagonizada por un payaso llamado Pennywise?",
+    "answers": ["The Conjuring", "IT", "Annabelle", "Scream"],
+    "correct_index": 1,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué princesa Disney tiene una rana como compañero?",
+    "answers": ["Tiana", "Ariel", "Mulan", "Elsa"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Cuál de estas películas no es de Christopher Nolan?",
+    "answers": ["Origen", "Tenet", "Memento", "Gladiator"],
+    "correct_index": 3,
+    "color": "#00B5FF",
+    "difficulty": "hard"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿En qué serie aparece el personaje Rick Grimes?",
+    "answers": ["The Walking Dead", "Breaking Bad", "Prison Break", "Dexter"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "medium"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Qué videojuego popular tiene personajes como Mario y Luigi?",
+    "answers": ["Sonic", "Minecraft", "Mario Bros", "Zelda"],
+    "correct_index": 2,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  },
+  {
+    "category": "tradicional",
+    "subcategory": "Entretenimiento",
+    "question": "¿Quién canta la canción 'Shape of You'?",
+    "answers": ["Ed Sheeran", "Shawn Mendes", "Justin Bieber", "Harry Styles"],
+    "correct_index": 0,
+    "color": "#00B5FF",
+    "difficulty": "easy"
+  }
+]

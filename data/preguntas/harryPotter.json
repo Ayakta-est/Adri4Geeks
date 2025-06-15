@@ -1,0 +1,434 @@
+[
+    {
+        "category": "Harry Potter",
+        "subcategory": "Casas de Hogwarts",
+        "question": "¿Cuál es la casa de Hogwarts conocida por su valentía y coraje?",
+        "answers": ["Hufflepuff", "Ravenclaw", "Gryffindor", "Slytherin"],
+        "correct_index": 2,
+        "difficulty": "easy",
+        "color": "red",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Criaturas mágicas",
+        "question": "¿Qué criatura mágica se alimenta principalmente de sangre y puede transformarse en humano?",
+        "answers": ["Dementor", "Boggart", "Vampiro", "Thestral"],
+        "correct_index": 2,
+        "difficulty": "medium",
+        "color": "green",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Objetos y Reliquias",
+        "question": "¿Cuál de estos objetos es una de las Reliquias de la Muerte?",
+        "answers": ["Varita de Saúco", "Caldero de fuego", "Espejo de Oesed", "Mapa del Merodeador"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "yellow",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo se usa para desarmar a un oponente?",
+        "answers": ["Expelliarmus", "Avada Kedavra", "Stupefy", "Lumos"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién es el director de Hogwarts durante la mayor parte de la saga?",
+        "answers": ["Severus Snape", "Albus Dumbledore", "Minerva McGonagall", "Gilderoy Lockhart"],
+        "correct_index": 1,
+        "difficulty": "easy",
+        "color": "purple",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Trama y sucesos",
+        "question": "¿Quién mata a Dumbledore en el sexto libro?",
+        "answers": ["Draco Malfoy", "Severus Snape", "Bellatrix Lestrange", "Voldemort"],
+        "correct_index": 1,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Casas de Hogwarts",
+        "question": "¿Qué casa de Hogwarts valora la inteligencia y la sabiduría?",
+        "answers": ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"],
+        "correct_index": 1,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Criaturas mágicas",
+        "question": "¿Cómo se llama el centauro que ayuda a Harry en el Bosque Prohibido?",
+        "answers": ["Firenze", "Bane", "Ronan", "Magorian"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "green",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Objetos y Reliquias",
+        "question": "¿Cuál de estos objetos NO es un Horrocrux?",
+        "answers": ["El diario de Tom Riddle", "La copa de Helga Hufflepuff", "La varita de Saúco", "El anillo de Marvolo Gaunt"],
+        "correct_index": 2,
+        "difficulty": "hard",
+        "color": "yellow",
+        "world": "Harry Potter"
+    },
+    {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto mágico permite viajar en el tiempo?",
+    "answers": ["El giratiempo", "El espejo de Oesed", "La piedra filosofal", "El guardatiempo"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué reliquia permite resucitar a los muertos simbólicamente?",
+    "answers": ["La piedra de la resurrección", "El giratiempo", "El espejo de Oesed", "La varita de Saúco"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Cuál de estos objetos se convierte en un traslador para la Tercera Prueba del Torneo de los Tres Magos?",
+    "answers": ["La copa de los tres magos", "El huevo dorado", "Una escoba", "El cáliz de fuego"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto mágico muestra el mapa del castillo de Hogwarts?",
+    "answers": ["El Mapa del Merodeador", "El libro de hechizos avanzados", "La varita mágica", "El espejo de Oesed"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto mágico muestra lo que más desea el corazón?",
+    "answers": ["El espejo de Oesed", "La piedra filosofal", "El pensadero", "El giratiempo"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto usaba Tom Riddle para guardar parte de su alma?",
+    "answers": ["Un diario", "Una pluma mágica", "Una túnica negra", "Un libro de pociones"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto permite a Harry ver recuerdos?",
+    "answers": ["El pensadero", "El espejo de Oesed", "El giratiempo", "El giratiempo"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto es símbolo de la invisibilidad?",
+    "answers": ["La capa de invisibilidad", "La piedra filosofal", "El giratiempo", "La varita de Saúco"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto mágico se utiliza para destruir Horrocruxes?",
+    "answers": ["El colmillo de basilisco", "La varita de Saúco", "El giratiempo", "La capa de invisibilidad"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto usó Harry para respirar bajo el agua durante la segunda prueba del Torneo de los Tres Magos?",
+    "answers": ["Branquialgas", "Poción multijugos", "Burbujilio", "Piedra lunar"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto mágico contenía el alma de Voldemort y estaba oculto en un relicario?",
+    "answers": ["El guardapelo de Slytherin", "El espejo de Oesed", "La piedra filosofal", "La snitch dorada"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto tenía una inscripción que decía 'I open at the close'?",
+    "answers": ["La Snitch dorada", "La piedra filosofal", "El espejo de Oesed", "El Mapa del Merodeador"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué reliquia era supuestamente imbatible en duelo?",
+    "answers": ["La varita de Saúco", "La piedra filosofal", "El colgante de Slytherin", "La diadema de Ravenclaw"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto fue destruido por Ron Weasley con la espada de Gryffindor?",
+    "answers": ["El relicario de Slytherin", "La copa de Hufflepuff", "La diadema de Ravenclaw", "El diario de Riddle"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Cuál era el último Horrocrux destruido antes de Voldemort?",
+    "answers": ["Nagini", "El anillo de Marvolo", "La diadema de Ravenclaw", "El relicario"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto le deja Dumbledore a Hermione en su testamento?",
+    "answers": ["Los cuentos de Beedle el Bardo", "El giratiempo", "La piedra filosofal", "El Mapa del Merodeador"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Cuál es el nombre del objeto que contiene los pensamientos en forma líquida?",
+    "answers": ["Pensadero", "Pensador", "Pensatron", "Recuerdador"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Cuál de estos objetos perteneció originalmente a Rowena Ravenclaw?",
+    "answers": ["La diadema", "El relicario", "La copa", "El anillo"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Objetos y Reliquias",
+    "question": "¿Qué objeto mágico cambia su contenido según la necesidad del usuario?",
+    "answers": ["La Sala de los Menesteres", "El pensadero", "El espejo de Oesed", "El Mapa del Merodeador"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo se usa para crear luz en la punta de la varita?",
+        "answers": ["Lumos", "Nox", "Accio", "Wingardium Leviosa"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo sirve para hacer levitar objetos?",
+        "answers": ["Alohomora", "Wingardium Leviosa", "Lumos", "Reparo"],
+        "correct_index": 1,
+        "difficulty": "easy",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué encantamiento apaga la luz de la varita?",
+        "answers": ["Nox", "Lumos", "Expelliarmus", "Aparecium"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo desbloquea puertas cerradas?",
+        "answers": ["Alohomora", "Expelliarmus", "Lumos", "Colloportus"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo se usa para atraer objetos hacia uno?",
+        "answers": ["Accio", "Reparo", "Expecto Patronum", "Stupefy"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Cuál es el hechizo de desarme que usa frecuentemente Harry Potter?",
+        "answers": ["Expelliarmus", "Stupefy", "Avada Kedavra", "Crucio"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo sirve para inmovilizar a una persona u objeto?",
+        "answers": ["Petrificus Totalus", "Stupefy", "Expelliarmus", "Protego"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué encantamiento se utiliza para repeler hechizos menores?",
+        "answers": ["Protego", "Stupefy", "Rictusempra", "Obliviate"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Cuál es el hechizo utilizado para reparar objetos rotos?",
+        "answers": ["Reparo", "Aparecium", "Alohomora", "Reducto"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo causa que el oponente pierda el conocimiento?",
+        "answers": ["Stupefy", "Expelliarmus", "Crucio", "Alohomora"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo convoca un Patronus para repeler Dementores?",
+        "answers": ["Expecto Patronum", "Expelliarmus", "Imperio", "Riddikulus"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo revela tinta invisible en un pergamino?",
+        "answers": ["Aparecium", "Lumos", "Obliviate", "Diffindo"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Cuál de los siguientes hechizos es una de las Maldiciones Imperdonables?",
+        "answers": ["Avada Kedavra", "Expelliarmus", "Alohomora", "Lumos"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo puede hacer explotar objetos o crear una explosión mágica?",
+        "answers": ["Reducto", "Incendio", "Bombarda", "Confringo"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "blue",
+        "world": "Harry Potter"
+    },
+    {
+        "category": "Harry Potter",
+        "subcategory": "Hechizos y encantamientos",
+        "question": "¿Qué hechizo se usa para borrar recuerdos?",
+        "answers": ["Obliviate", "Legilimens", "Imperio", "Confundus"],
+        "correct_index": 0,
+        "difficulty": "hard",
+        "color": "blue",
+        "world": "Harry Potter"
+    }
+]

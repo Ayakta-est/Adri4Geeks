@@ -7,7 +7,7 @@ const CATEGORIAS = [
     color: 'bg-blue-200',
     pregunta: '¿Cómo se llama el café favorito del grupo en Friends?',
     opciones: ['Central Perk', 'Daily Grind', 'Coffee Town', 'Bean Bar'],
-    categorias: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', 'En qué capitulo...', 'Adivina el personaje'],
+    categorias: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', '¿En qué capítulo...?', 'Adivina el personaje'],
   },
   {
     nombre: 'Harry Potter',
@@ -49,56 +49,49 @@ export const CardsToChoose = () => {
   const [mostrarModalPersonalizada, setMostrarModalPersonalizada] = useState(false);
 
   const [cartasSeleccionadas, setCartasSeleccionadas] = useState([]);
-
-  const [inputsPersonalizados, setInputsPersonalizados] = useState(Array(6).fill(''));
+  const [inputsPersonalizados, setInputsPersonalizados] = useState(
+    Array(6).fill({ category: '', label: '' })
+  );
 
   useEffect(() => {
     if (!modo) navigate('/');
   }, [modo, navigate]);
 
   const handleConfirmarCategoria = () => {
-    const yaSeleccionada = cartasSeleccionadas.includes(categoriaSeleccionada.nombre);
-    if (yaSeleccionada) {
-      setCartasSeleccionadas([]);
-    } else {
-      setCartasSeleccionadas([categoriaSeleccionada.nombre]);
-    }
+    const nombre = categoriaSeleccionada?.nombre;
+    if (!nombre) return;
+
+    const yaSeleccionada = cartasSeleccionadas.includes(nombre);
+    setCartasSeleccionadas(yaSeleccionada ? [] : [nombre]);
     setMostrarModalCategoria(false);
   };
 
   const handleConfirmarPersonalizada = () => {
-    const getCategoryFromSub = (subcat) => {
-      for (const cat of CATEGORIAS) {
-        if (cat.categorias.includes(subcat)) return cat.nombre;
-      }
-      return subcat; // fallback: si no es subcategoría, es categoría principal
-    };
+    const seleccionadas = inputsPersonalizados.filter(v => v.category && v.label);
+
+    if (seleccionadas.length === 0) return;
 
     const pseudoCat = {
       nombre: 'Personalizada',
-      categorias: inputsPersonalizados
-        .filter(v => v)
-        .map(subcat => ({
-          label: subcat,
-          category: getCategoryFromSub(subcat)
-        }))
+      categorias: seleccionadas
     };
-    // Calcula la ruta según el modo guardado en location.state.modo
-    const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
 
-    navigate(ruta, {
-      state: { categoria: pseudoCat }
-    });
-
-    // Para que siga funcionando la UI de selección visual:
-    const yaSeleccionada = cartasSeleccionadas.includes('Personalizada');
-    setCartasSeleccionadas(yaSeleccionada ? [] : ['Personalizada']);
+    setCartasSeleccionadas(['Personalizada']);
+    setCategoriaSeleccionada(pseudoCat);
     setMostrarModalPersonalizada(false);
+
+    const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
+    navigate(ruta, {
+      state: {
+        categoria: pseudoCat
+      }
+    });
   };
 
   const handleInputChange = (i, value) => {
+    const [category, label = ''] = value.split('|');
     const nuevos = [...inputsPersonalizados];
-    nuevos[i] = value;
+    nuevos[i] = { category, label: label || category };
     setInputsPersonalizados(nuevos);
   };
 
@@ -134,7 +127,7 @@ export const CardsToChoose = () => {
         <button
           onClick={() => {
             setMostrarModalPersonalizada(true);
-            setCategoriaSeleccionada(null);
+            setCategoriaSeleccionada({ nombre: 'Personalizada' });
           }}
           className="bg-pink-200 rounded-xl p-4 text-left shadow hover:shadow-md transition"
         >
@@ -151,12 +144,20 @@ export const CardsToChoose = () => {
         </button>
       </div>
 
-      {/* Mostrar cartas seleccionadas */}
+      {/* Mostrar carta seleccionada */}
       <div className="mb-6 text-left max-w-md mx-auto">
         <h2 className="font-semibold mb-2">Categoría seleccionada:</h2>
         <ul className="list-disc pl-5">
-          {cartasSeleccionadas.map((carta, i) => (
-            <li key={i}>{carta}</li>
+          {cartasSeleccionadas.map((nombre, i) => (
+            <li key={i}>
+              {nombre === 'Personalizada'
+                ? inputsPersonalizados
+                    .filter(p => p.category && p.label)
+                    .map((p, idx) => (
+                      <div key={idx}>{`${p.label} de ${p.category}`}</div>
+                    ))
+                : nombre}
+            </li>
           ))}
         </ul>
       </div>
@@ -167,7 +168,7 @@ export const CardsToChoose = () => {
             const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
             navigate(ruta, {
               state: {
-                categoria: categoriaSeleccionada, // objeto completo
+                categoria: categoriaSeleccionada,
                 inputs: inputsPersonalizados
               }
             });
@@ -178,7 +179,7 @@ export const CardsToChoose = () => {
         Jugar
       </button>
 
-      {/* Modal categoría */}
+      {/* Modal de categoría */}
       {mostrarModalCategoria && categoriaSeleccionada && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
@@ -206,54 +207,58 @@ export const CardsToChoose = () => {
           </div>
         </div>
       )}
-
+      
+      {/* Modal personalizada */}
       {mostrarModalPersonalizada && (
-  <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-    <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
-      <h2 className="text-xl font-bold mb-4">Personaliza tus preguntas</h2>
-      {inputsPersonalizados.map((val, i) => (
-        <div key={i} className="mb-2">
-          <label className="block text-sm font-medium mb-1">
-            Categoría {i + 1}
-          </label>
-          <select
-            value={val}
-            onChange={(e) => handleInputChange(i, e.target.value)}
-            className="w-full border px-3 py-2 rounded"
-          >
-            <option value="">Selecciona una categoría</option>
-            <option value="Anime">Anime</option>
-            <option value="Harry Potter">Harry Potter</option>
-            <option value="Sitcoms">Sitcoms</option>
-            <option value="Videojuegos">Videojuegos</option>
-            <option value="Tradicional">Tradicional</option>
-            <option value="Técnicas y ataques especiales">Anime: Técnicas y ataques especiales</option>
-            <option value="Localizaciones emblemáticas">Anime: Localizaciones emblemáticas</option>
-            <option value="Adivina el personaje">Anime: Adivina el personaje</option>
-            <option value="Trama y sucesos">Anime: Trama y sucesos</option>
-            <option value="Doblaje y banda sonora">Anime: Doblaje y banda sonora</option>
-            <option value="En qué episodio...?">Anime: En qué episodio...?</option>
-          </select>
+        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+          <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
+            <h2 className="text-xl font-bold mb-4">Personaliza tus preguntas</h2>
+            {inputsPersonalizados.map((val, i) => (
+              <div key={i} className="mb-2">
+                <label className="block text-sm font-medium mb-1">Categoría {i + 1}</label>
+                <select
+                  value={`${val.category}|${val.label}`}
+                  onChange={(e) => handleInputChange(i, e.target.value)}
+                  className="w-full border px-3 py-2 rounded"
+                >
+                  <option value="">Selecciona una categoría</option>
+                  <option value="Anime|Anime">Anime</option>
+                  <option value="Sitcoms|Sitcoms">Sitcoms</option>
+                  <option value="Harry Potter|Harry Potter">Harry Potter</option>
+                  <option value="Tradicional|Tradicional">Tradicional</option>
+                  <option value="Videojuegos|Videojuegos">Videojuegos</option>
+                  <option value="Anime|Técnicas y ataques especiales">Anime: Técnicas y ataques especiales</option>
+                  <option value="Anime|Localizaciones emblemáticas">Anime: Localizaciones emblemáticas</option>
+                  <option value="Anime|Adivina el personaje">Anime: Adivina el personaje</option>
+                  <option value="Anime|Trama y sucesos">Anime: Trama y sucesos</option>
+                  <option value="Anime|Doblaje y banda sonora">Anime: Doblaje y banda sonora</option>
+                  <option value="Anime|En qué episodio...?">Anime: En qué episodio...?</option>
+                  <option value="Sitcoms|Catchphrases y frases célebres">Sitcoms: Catchphrases y frases célebres</option>
+                  <option value="Sitcoms|Localizaciones emblemáticas">Sitcoms: Localizaciones emblemáticas</option>
+                  <option value="Sitcoms|Romances y relaciones">Sitcoms: Romances y relaciones</option>
+                  <option value="Sitcoms|Actores invitados y cameos">Sitcoms: Actores invitados y cameos</option>
+                  <option value="Sitcoms|Adivina el personaje">Sitcoms: Adivina el personaje</option>
+                  <option value="Sitcoms|¿En qué capítulo...?">Sitcoms: ¿En qué capítulo...?</option>
+                </select>
+              </div>
+            ))}
+            <div className="flex justify-end gap-2">
+              <button
+                onClick={() => setMostrarModalPersonalizada(false)}
+                className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
+              >
+                Cancelar
+              </button>
+              <button
+                onClick={handleConfirmarPersonalizada}
+                className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
+              >
+                Confirmar
+              </button>
+            </div>
+          </div>
         </div>
-      ))}
-      <div className="flex justify-end gap-2">
-        <button
-          onClick={() => setMostrarModalPersonalizada(false)}
-          className="px-4 py-2 bg-gray-300 rounded hover:bg-gray-400"
-        >
-          Cancelar
-        </button>
-        <button
-          onClick={handleConfirmarPersonalizada}
-          className="px-4 py-2 bg-purple-600 text-white rounded hover:bg-purple-700"
-        >
-          Confirmar
-        </button>
-      </div>
-    </div>
-  </div>
-)}
-
+      )}
     </div>
   );
 };

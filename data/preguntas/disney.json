@@ -1,0 +1,11 @@
+[   
+    {
+        "category": "Disney",
+        "question": "¿Qué animal es Dumbo?",
+        "answers": ["León", "Ratón", "Elefante", "Perro"],
+        "correct_index": 2,
+        "color": "#00BFFF",
+        "difficulty": "easy",
+        "subcategory": "others"
+    }
+]

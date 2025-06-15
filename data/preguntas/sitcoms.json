@@ -1,0 +1,705 @@
+[
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Qué personaje de 'Friends' es conocido por decir 'How you doin'?'",
+        "answers": ["Joey Tribbiani", "Chandler Bing", "Ross Geller", "Gunther"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "Friends"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién es el obsesivo por la limpieza en 'Friends'?",
+        "answers": ["Monica Geller", "Rachel Green", "Phoebe Buffay", "Janice"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "Friends"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Qué personaje de 'The Office' creó el personaje 'Prison Mike'?",
+        "answers": ["Michael Scott", "Dwight Schrute", "Jim Halpert", "Andy Bernard"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "The Office"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién tiene una granja de remolachas en 'The Office'?",
+        "answers": ["Dwight Schrute", "Stanley Hudson", "Creed Bratton", "Kevin Malone"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "The Office"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Qué personaje de 'How I Met Your Mother' siempre lleva traje?",
+        "answers": ["Barney Stinson", "Ted Mosby", "Marshall Eriksen", "Ranjit"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "How I Met Your Mother"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién canta 'Smelly Cat' en 'Friends'?",
+        "answers": ["Phoebe Buffay", "Rachel Green", "Janice", "Monica Geller"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "Friends"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién es el más sarcástico del grupo en 'Friends'?",
+        "answers": ["Chandler Bing", "Ross Geller", "Joey Tribbiani", "Mike Hannigan"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Friends"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién trabajaba como paleontólogo en 'Friends'?",
+        "answers": ["Ross Geller", "Joey Tribbiani", "Chandler Bing", "Gunther"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "Friends"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién es conocido por su lista de reglas de citas en 'How I Met Your Mother'?",
+        "answers": ["Barney Stinson", "Ted Mosby", "Marshall Eriksen", "Robin Scherbatsky"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "How I Met Your Mother"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Qué personaje de 'Brooklyn Nine-Nine' ama el yogurt y es extremadamente musculoso?",
+        "answers": ["Terry Jeffords", "Jake Peralta", "Charles Boyle", "Captain Holt"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Brooklyn Nine-Nine"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién es el detective serio y con cara inexpresiva en 'Brooklyn Nine-Nine'?",
+        "answers": ["Captain Holt", "Jake Peralta", "Rosa Diaz", "Gina Linetti"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "Brooklyn Nine-Nine"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Qué personaje de 'The Big Bang Theory' no habla con mujeres (al principio)?",
+        "answers": ["Raj Koothrappali", "Sheldon Cooper", "Leonard Hofstadter", "Howard Wolowitz"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "The Big Bang Theory"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Qué personaje de 'The Big Bang Theory' tiene un contrato de compañeros de piso?",
+        "answers": ["Sheldon Cooper", "Leonard Hofstadter", "Raj Koothrappali", "Howard Wolowitz"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "The Big Bang Theory"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Qué personaje de 'The Office' solía ser cantante de una banda llamada 'Here Comes Treble'?",
+        "answers": ["Andy Bernard", "Jim Halpert", "Ryan Howard", "Kevin Malone"],
+        "correct_index": 0,
+        "difficulty": "medium",
+        "color": "orange",
+        "world": "The Office"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "Adivina el personaje",
+        "question": "¿Quién siempre responde con 'Bazinga!' en 'The Big Bang Theory'?",
+        "answers": ["Sheldon Cooper", "Howard Wolowitz", "Raj Koothrappali", "Amy Farrah Fowler"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "The Big Bang Theory"
+    },
+    {
+        "category": "Sitcoms",
+        "question": "¿En qué lugar icónico de 'Friends' se reúnen habitualmente los personajes?",
+        "answers": ["Central Perk", "Monica's Apartment", "Central Park", "The Coffee House"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "Friends",
+        "subcategory": "Lugares icónicos"
+    },
+    {
+        "category": "Sitcoms",
+        "question": "¿Cuál es el nombre del bar donde se reúnen los personajes de 'How I Met Your Mother'?",
+        "answers": ["MacLaren's Pub", "Paddy's Pub", "The Drunken Clam", "Cheers"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "orange",
+        "world": "How I Met Your Mother",
+        "subcategory": "Lugares icónicos"
+    },
+    {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿En qué lugar trabajan los protagonistas de 'The Office'?",
+    "answers": ["Dunder Mifflin", "Staples Inc.", "Paper Pro", "OfficeMax"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "The Office"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Cómo se llama el pub en 'It's Always Sunny in Philadelphia'?",
+    "answers": ["Paddy's Pub", "MacLaren's", "The Snake Hole Lounge", "Cheers"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "It's Always Sunny in Philadelphia"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Qué bar aparece en la sitcom 'Cheers'?",
+    "answers": ["Cheers", "MacLaren's Pub", "Central Perk", "Paddy's Pub"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Cheers"
+  },
+
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde trabaja Jerry en 'Seinfeld'?",
+    "answers": ["Es comediante", "En una librería", "Es abogado", "En una oficina"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Seinfeld"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Qué cafetería aparece frecuentemente en 'Seinfeld'?",
+    "answers": ["Monk's Cafe", "Central Perk", "MacLaren's", "The Pie Hole"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Seinfeld"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Cómo se llama la empresa donde trabaja Sheldon en 'The Big Bang Theory'?",
+    "answers": ["Caltech", "MIT", "Stanford", "NASA"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde suelen comer los protagonistas de 'The Big Bang Theory'?",
+    "answers": ["La cafetería del campus", "Pizza Hut", "Chez Leonard", "Central Perk"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde vive la familia Tanner en 'Full House'?",
+    "answers": ["San Francisco", "Chicago", "Nueva York", "Los Ángeles"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Full House"
+  },
+
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde vive la familia Banks en 'El Príncipe de Bel-Air'?",
+    "answers": ["Bel-Air", "Brooklyn", "Malibú", "Compton"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "El Príncipe de Bel-Air"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Qué local frecuentan los protagonistas de 'Brooklyn Nine-Nine'?",
+    "answers": ["Shaw's Bar", "MacLaren's", "Paddy's Pub", "Monk's Cafe"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Brooklyn Nine-Nine"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde está ubicada la comisaría en 'Brooklyn Nine-Nine'?",
+    "answers": ["99ª Comisaría", "77ª Comisaría", "88ª Comisaría", "100ª Comisaría"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Brooklyn Nine-Nine"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Cómo se llama la escuela donde trabaja el protagonista de 'Abbott Elementary'?",
+    "answers": ["Abbott Elementary", "Springfield Elementary", "Wilson High", "Kennedy School"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Abbott Elementary"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde trabajan los protagonistas de 'Superstore'?",
+    "answers": ["Cloud 9", "MegaMart", "ShopMore", "BuyNow"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Superstore"
+  },
+
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde vive Malcolm en 'Malcolm in the Middle'?",
+    "answers": ["En un suburbio", "En una granja", "En un edificio de apartamentos", "En la ciudad"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Malcolm in the Middle"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿En qué ciudad transcurre 'Frasier'?",
+    "answers": ["Seattle", "Chicago", "Boston", "San Francisco"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Frasier"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Qué lugar regenta Bob en 'Bob’s Burgers'?",
+    "answers": ["Una hamburguesería", "Una pizzería", "Un bar", "Una pastelería"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Bob's Burgers"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿En qué ciudad está ambientada 'The Nanny'?",
+    "answers": ["Nueva York", "Los Ángeles", "Chicago", "Miami"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "The Nanny"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Qué ciudad es escenario de 'Modern Family'?",
+    "answers": ["Los Ángeles", "Miami", "Nueva York", "San Diego"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Modern Family"
+  },
+    {
+        "category": "Sitcoms",
+        "question": "¿Qué actor famoso hizo un cameo como él mismo en 'The Big Bang Theory'?",
+        "answers": ["Stan Lee", "Elon Musk", "Bill Gates", "Stephen Hawking"],
+        "correct_index": 3,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "The Big Bang Theory",
+        "subcategory": "actores invitados y cameos"
+    },
+    {
+        "category": "Sitcoms",
+        "question": "¿Quién dice la frase 'How you doin'?' en la serie 'Friends'?",
+        "answers": ["Ross", "Joey", "Chandler", "Gunther"],
+        "correct_index": 1,
+        "difficulty": "easy",
+        "color": "yellow",
+        "world": "Friends",
+        "subcategory": "catchphrases y frases célebres"
+    },
+    {
+        "category": "Sitcoms",
+        "question": "¿Quiénes tuvieron un romance secreto en 'How I Met Your Mother'?",
+        "answers": ["Ted y Robin", "Marshall y Lily", "Barney y Robin", "Ted y Tracy"],
+        "correct_index": 2,
+        "difficulty": "medium",
+        "color": "green",
+        "world": "How I Met Your Mother",
+        "subcategory": "Romances y relaciones"
+    },
+    {
+        "category": "Sitcoms",
+        "subcategory": "¿En qué capítulo...?",
+        "question": "¿En qué capítulo de 'The Office' Michael Scott dice 'That's what she said' por primera vez?",
+        "answers": ["Pilot", "Diversity Day", "The Injury", "Health Care"],
+        "correct_index": 1,
+        "difficulty": "hard",
+        "color": "red",
+        "world": "The Office"
+    },
+    {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué capítulo de 'Friends' Ross dice por primera vez 'We were on a break'?",
+    "answers": ["The One Where Ross and Rachel Take a Break", "The One with the Morning After", "The One with the Jellyfish", "The One with All the Resolutions"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué capítulo de 'How I Met Your Mother' se revela quién es la madre?",
+    "answers": ["Last Forever - Part Two", "How Your Mother Met Me", "The Time Travelers", "The Locket"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "orange",
+    "world": "How I Met Your Mother"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué episodio de 'The Office' Dwight dispara accidentalmente una pistola en la oficina?",
+    "answers": ["The Injury", "Safety Training", "The Duel", "Stress Relief: Part 1"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "The Office"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué episodio de 'Brooklyn Nine-Nine' Jake y Amy se casan?",
+    "answers": ["Jake & Amy", "HalloVeen", "The Big House Pt. 2", "Game Night"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Brooklyn Nine-Nine"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué capítulo de 'The Big Bang Theory' Leonard y Penny se casan en Las Vegas?",
+    "answers": ["The Matrimonial Momentum", "The Big Bear Precipitation", "The Comic-Con Conundrum", "The Love Spell Potential"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué episodio de 'Seinfeld' ocurre 'The Soup Nazi'?",
+    "answers": ["Temporada 7, Episodio 6", "Temporada 5, Episodio 10", "Temporada 6, Episodio 3", "Temporada 8, Episodio 2"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Seinfeld"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué capítulo de 'Friends' Chandler y Monica se comprometen?",
+    "answers": ["The One with the Proposal", "The One with the Engagement Picture", "The One with Monica's Thunder", "The One with the Ring"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué capítulo de 'Modern Family' muere DeDe, la madre de Claire?",
+    "answers": ["Good Grief", "Mother!", "Legacy", "Treehouse"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "orange",
+    "world": "Modern Family"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué capítulo de 'How I Met Your Mother' aparece por primera vez la madre?",
+    "answers": ["Something New", "The Locket", "How Your Mother Met Me", "Vesuvius"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "How I Met Your Mother"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "¿En qué capítulo...?",
+    "question": "¿En qué capítulo de 'The Office' Jim le propone matrimonio a Pam?",
+    "answers": ["Weight Loss", "Niagara", "Casino Night", "The Job"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "The Office"
+  },
+    {
+        "category": "Sitcoms",
+        "question": "¿Qué famosa cantante hizo un cameo en 'Friends' como una mujer en el café?",
+        "answers": ["Lady Gaga", "Britney Spears", "Selena Gomez", "Taylor Swift"],
+        "correct_index": 1,
+        "difficulty": "medium",
+        "color": "blue",
+        "world": "Friends",
+        "subcategory": "actores invitados y cameos"
+    },
+    {
+        "category": "Sitcoms",
+        "question": "¿Quién dice 'Bazinga!' en 'The Big Bang Theory'?",
+        "answers": ["Sheldon", "Leonard", "Howard", "Raj"],
+        "correct_index": 0,
+        "difficulty": "easy",
+        "color": "yellow",
+        "world": "The Big Bang Theory",
+        "subcategory": "catchphrases y frases célebres"
+    },
+    {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Qué personaje repite constantemente 'Suit up!' en 'How I Met Your Mother'?",
+    "answers": ["Marshall", "Ted", "Barney", "Robin"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "How I Met Your Mother"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Qué personaje de 'The Office' dice 'That's what she said'?",
+    "answers": ["Dwight", "Michael", "Jim", "Andy"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "The Office"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién suele decir 'Cool cool cool, no doubt no doubt' en 'Brooklyn Nine-Nine'?",
+    "answers": ["Jake", "Rosa", "Terry", "Boyle"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Brooklyn Nine-Nine"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Qué personaje dice 'Legend—wait for it—dary!'?",
+    "answers": ["Ted", "Marshall", "Barney", "Lily"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "How I Met Your Mother"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién dice 'No soup for you!' en 'Seinfeld'?",
+    "answers": ["Kramer", "George", "Soup Nazi", "Jerry"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Seinfeld"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Qué personaje grita 'PIVOT!' al mover un sofá?",
+    "answers": ["Chandler", "Joey", "Monica", "Ross"],
+    "correct_index": 3,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Qué personaje suele decir 'I know!' en 'Friends'?",
+    "answers": ["Monica", "Rachel", "Phoebe", "Janice"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Qué personaje de 'The Big Bang Theory' dice 'I'm not crazy, my mother had me tested'?",
+    "answers": ["Howard", "Sheldon", "Leonard", "Amy"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién dice 'Treat yo’ self!' en 'Parks and Recreation'?",
+    "answers": ["Tom y Donna", "Ron y Leslie", "April y Andy", "Ben y Chris"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Parks and Recreation"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién grita 'Yada yada yada' frecuentemente en 'Seinfeld'?",
+    "answers": ["George", "Elaine", "Jerry", "Newman"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Seinfeld"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Qué personaje dice 'I want to go to there'?",
+    "answers": ["Liz Lemon", "Jack Donaghy", "Tracy Jordan", "Jenna Maroney"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "30 Rock"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién canta 'Smelly Cat' en 'Friends'?",
+    "answers": ["Monica", "Rachel", "Phoebe", "Janice"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién grita 'NINE-NINE!' en 'Brooklyn Nine-Nine'?",
+    "answers": ["Rosa", "Holt", "Jake", "Terry"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Brooklyn Nine-Nine"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién dice 'You got it, dude' en 'Full House'?",
+    "answers": ["Stephanie", "Michelle", "D.J.", "Kimmy"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Full House"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién dice 'Live long and prosper' en una parodia dentro de 'The Big Bang Theory'?",
+    "answers": ["Sheldon", "Howard", "Leonard", "Raj"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién dice 'I'm the worst' en 'Parks and Recreation'?",
+    "answers": ["Tom", "Andy", "Mona-Lisa", "Jean-Ralphio"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Parks and Recreation"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién repite 'Okay, no more secrets!' en 'Friends'?",
+    "answers": ["Rachel", "Joey", "Monica", "Ross"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "catchphrases y frases célebres",
+    "question": "¿Quién dice 'I declare bankruptcy!' en 'The Office'?",
+    "answers": ["Michael", "Dwight", "Kevin", "Creed"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "The Office"
+  },
+    {
+        "category": "Sitcoms",
+        "question": "¿Qué pareja se casa en la última temporada de 'Friends'?",
+        "answers": ["Ross y Rachel", "Monica y Chandler", "Joey y Phoebe", "Ross y Monica"],
+        "correct_index": 1,
+        "difficulty": "medium",
+        "color": "green",
+        "world": "Friends",
+        "subcategory": "Romances y relaciones"
+    }
+]

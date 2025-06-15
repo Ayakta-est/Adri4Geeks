@@ -3,6 +3,7 @@ from api.models import db, User, Question
 from api.utils import generate_sitemap, APIException
 from flask_cors import CORS
 from sqlalchemy.sql.expression import func
+import hashlib
 
 api = Blueprint('api', __name__)
 CORS(api)  # Permite llamadas desde el frontend
@@ -14,31 +15,55 @@ def handle_hello():
         "message": "Hello! I'm a message that came from the backend."
     }), 200
 
+def generate_question_hash(text, answers):
+    """Genera un hash único para detectar duplicados basados en enunciado + respuestas."""
+    base = f"{text}|{'|'.join(answers)}"
+    return hashlib.md5(base.encode('utf-8')).hexdigest()
 
-# Añadir pregunta
+
 @api.route("/add_question", methods=["POST"])
 def add_question():
     data = request.json
 
     try:
+        # Validación mínima
+        required_fields = ["category", "question", "answers", "correct_index"]
+        for field in required_fields:
+            if field not in data:
+                return jsonify({"error": f"Missing field: {field}"}), 400
+
         # Valores por defecto
         world = data.get("world", "general")
         subcategory = data.get("subcategory", "others")
+        color = data.get("color", "#FFFFFF")
+        difficulty = data.get("difficulty", "medium")
 
-        question = Question(
+        # Verificar duplicados por texto + respuestas
+        hash_nueva = generate_question_hash(data["question"], data["answers"])
+
+        todas = Question.query.all()
+        hashes_existentes = {
+            generate_question_hash(q.question, q.answers) for q in todas
+        }
+
+        if hash_nueva in hashes_existentes:
+            return jsonify({"error": "Pregunta duplicada"}), 409
+
+        # Crear y guardar nueva pregunta
+        pregunta = Question(
             category=data["category"],
             question=data["question"],
             answers=data["answers"],
             correct_index=data["correct_index"],
-            color=data.get("color", "#FFFFFF"),
-            difficulty=data.get("difficulty", "medium"),
+            color=color,
+            difficulty=difficulty,
             world=world,
             subcategory=subcategory
         )
 
-        db.session.add(question)
+        db.session.add(pregunta)
         db.session.commit()
-        return jsonify({"message": "Pregunta guardada correctamente"}), 201
+        return jsonify({"message": "✅ Pregunta guardada correctamente"}), 201
 
     except Exception as e:
         return jsonify({"error": str(e)}), 400
