@@ -11,8 +11,8 @@ export const Home = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100 px-4 text-center">
-      <h1 className="text-2xl font-bold mb-8">¿Cómo quieres jugar?</h1>
+    <div className="min-h-screen flex flex-col items-center justify-center px-4 text-center">
+      <h1 className="text-2xl font-bold mb-8 text-white">¿Cómo quieres jugar?</h1>
 
       <div className="flex flex-col gap-6 w-full max-w-md">
         <button

@@ -10,6 +10,156 @@
         "world": "Harry Potter"
     },
     {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Cuál es el animal símbolo de la casa Gryffindor?",
+    "answers": ["León", "Águila", "Serpiente", "Tejón"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué casa tiene como cualidades principales la astucia y la ambición?",
+    "answers": ["Gryffindor", "Ravenclaw", "Slytherin", "Hufflepuff"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Cuál es el color representativo de la casa Hufflepuff?",
+    "answers": ["Verde", "Rojo", "Amarillo", "Azul"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Quién fue el fundador de la casa Ravenclaw?",
+    "answers": ["Rowena Ravenclaw", "Helga Hufflepuff", "Godric Gryffindor", "Salazar Slytherin"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué cualidad valora principalmente la casa Ravenclaw?",
+    "answers": ["Valentía", "Lealtad", "Inteligencia", "Ambición"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "blue",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Cuál de estas casas es conocida por aceptar estudiantes trabajadores y leales?",
+    "answers": ["Gryffindor", "Hufflepuff", "Slytherin", "Ravenclaw"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Quién fue el fantasma de la casa Slytherin?",
+    "answers": ["El Barón Sanguinario", "Nick Casi Decapitado", "La Dama Gris", "El Fraile Gordo"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿A qué casa perteneció Cedric Diggory?",
+    "answers": ["Gryffindor", "Ravenclaw", "Hufflepuff", "Slytherin"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué casa fue considerada rival de Gryffindor durante gran parte de la saga?",
+    "answers": ["Hufflepuff", "Ravenclaw", "Slytherin", "Durmstrang"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué casa tiene una entrada que se encuentra cerca de las cocinas de Hogwarts?",
+    "answers": ["Hufflepuff", "Gryffindor", "Ravenclaw", "Slytherin"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "yellow",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Cuál es el lema no oficial de la casa Gryffindor?",
+    "answers": ["Valentía ante todo", "Lo que es correcto antes que lo fácil", "El saber es poder", "La ambición sobrevive"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué objeto encantado elige la casa para cada estudiante nuevo?",
+    "answers": ["El Sombrero Seleccionador", "El Espejo de Oesed", "El Giratiempo", "La Capa de Invisibilidad"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué personaje es el/la jefe/a de la casa Gryffindor durante gran parte de la saga?",
+    "answers": ["Minerva McGonagall", "Pomona Sprout", "Filius Flitwick", "Severus Snape"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué personaje traicionó a la casa Ravenclaw al revelar la ubicación de su reliquia?",
+    "answers": ["La Dama Gris", "El Fraile Gordo", "El Barón Sanguinario", "Nick Casi Decapitado"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "blue",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Casas de Hogwarts",
+    "question": "¿Qué casa tiene una sala común en una torre con una puerta sin picaporte?",
+    "answers": ["Ravenclaw", "Gryffindor", "Slytherin", "Hufflepuff"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "blue",
+    "world": "Harry Potter"
+  },
+    {
         "category": "Harry Potter",
         "subcategory": "Criaturas mágicas",
         "question": "¿Qué criatura mágica se alimenta principalmente de sangre y puede transformarse en humano?",
@@ -50,15 +200,295 @@
         "world": "Harry Potter"
     },
     {
-        "category": "Harry Potter",
-        "subcategory": "Trama y sucesos",
-        "question": "¿Quién mata a Dumbledore en el sexto libro?",
-        "answers": ["Draco Malfoy", "Severus Snape", "Bellatrix Lestrange", "Voldemort"],
-        "correct_index": 1,
-        "difficulty": "medium",
-        "color": "orange",
-        "world": "Harry Potter"
-    },
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje es conocido por ser un elfo doméstico leal a Harry?",
+    "answers": ["Kreacher", "Winky", "Dobby", "Hokey"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién traiciona a los padres de Harry Potter revelando su ubicación a Voldemort?",
+    "answers": ["Sirius Black", "Remus Lupin", "Peter Pettigrew", "Severus Snape"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué profesor enseña Pociones en la mayoría de los años de Harry en Hogwarts?",
+    "answers": ["Gilderoy Lockhart", "Horace Slughorn", "Severus Snape", "Quirinus Quirrell"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el guardián de las llaves y terrenos de Hogwarts?",
+    "answers": ["Argus Filch", "Rubeus Hagrid", "Firenze", "Grawp"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje es conocido por tener una rata como mascota que luego resulta ser un animago?",
+    "answers": ["Ron Weasley", "Harry Potter", "Neville Longbottom", "Hermione Granger"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién dirige la casa Hufflepuff y enseña Herbología?",
+    "answers": ["Pomona Sprout", "Minerva McGonagall", "Sybill Trelawney", "Charity Burbage"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje tiene una hermana llamada Petunia?",
+    "answers": ["Hermione Granger", "Narcissa Malfoy", "Lily Potter", "Molly Weasley"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el capitán del equipo de Quidditch de Gryffindor en el primer año de Harry?",
+    "answers": ["Fred Weasley", "Oliver Wood", "George Weasley", "Katie Bell"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje muere a manos de Bellatrix Lestrange en la Batalla del Departamento de Misterios?",
+    "answers": ["Remus Lupin", "Sirius Black", "Fred Weasley", "Kingsley Shacklebolt"],
+    "correct_index": 1,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién fue el primer amor de Severus Snape?",
+    "answers": ["Bellatrix Lestrange", "Narcissa Malfoy", "Lily Potter", "Minerva McGonagall"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién lidera la Orden del Fénix?",
+    "answers": ["Remus Lupin", "Sirius Black", "Albus Dumbledore", "Mundungus Fletcher"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje tiene una habilidad especial para ver criaturas mágicas como los thestrals?",
+    "answers": ["Luna Lovegood", "Neville Longbottom", "Cho Chang", "Ginny Weasley"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje fue ministro de magia antes de Pius Thicknesse?",
+    "answers": ["Cornelius Fudge", "Rufus Scrimgeour", "Barty Crouch", "Kingsley Shacklebolt"],
+    "correct_index": 1,
+    "difficulty": "hard",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje fundó la casa Slytherin?",
+    "answers": ["Godric Gryffindor", "Helga Hufflepuff", "Salazar Slytherin", "Rowena Ravenclaw"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "purple",
+    "world": "Harry Potter"
+  },
+    {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿En qué libro ocurre la Batalla de Hogwarts?",
+    "answers": ["El Cáliz de Fuego", "La Orden del Fénix", "Las Reliquias de la Muerte", "El Misterio del Príncipe"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué objeto destruye Ron Weasley usando la espada de Gryffindor?",
+    "answers": ["Un Horrocrux en forma de copa", "Un guardapelo", "El diario de Tom Riddle", "La diadema de Ravenclaw"],
+    "correct_index": 1,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Quién mata a Dumbledore?",
+    "answers": ["Draco Malfoy", "Voldemort", "Bellatrix Lestrange", "Severus Snape"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué criatura ataca a Ginny Weasley en la Cámara de los Secretos?",
+    "answers": ["Un Dementor", "Un basilisco", "Un boggart", "Un dragón"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué personaje muere durante la huida de Harry de Privet Drive en la séptima entrega?",
+    "answers": ["Alastor Moody", "Fred Weasley", "Remus Lupin", "Nymphadora Tonks"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué torneo participa Harry en su cuarto año en Hogwarts?",
+    "answers": ["Torneo de los Tres Magos", "Juegos Mágicos", "Campeonato de Duelo", "Desafío de las Casas"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Cuál es el objeto que Harry usa para revivir recuerdos de Tom Riddle?",
+    "answers": ["El giratiempo", "La piedra filosofal", "El diario", "La varita de saúco"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué evento causa la resurrección de Voldemort?",
+    "answers": ["Un sacrificio de sangre", "Un ritual oscuro con huesos, carne y sangre", "El uso de la varita de saúco", "Un hechizo prohibido"],
+    "correct_index": 1,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Cómo muere Cedric Diggory?",
+    "answers": ["Es atacado por un basilisco", "Es asesinado por Peter Pettigrew", "Es asesinado por Voldemort", "Es asesinado por una maldición lanzada por error"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué hace Harry con la Varita de Saúco al final de la saga?",
+    "answers": ["Se la queda", "La entrega a Hermione", "La destruye", "La devuelve a la tumba de Dumbledore"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Quién destruye el último Horrocrux sin saberlo?",
+    "answers": ["Harry Potter", "Ron Weasley", "Hermione Granger", "Neville Longbottom"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué forma toma el Patronus de Snape?",
+    "answers": ["Un ciervo", "Un lobo", "Una serpiente", "Una cierva"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué le sucede a la cicatriz de Harry al final de la saga?",
+    "answers": ["Desaparece", "Brilla intensamente", "Sangra", "Deja de doler"],
+    "correct_index": 3,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Quién destruye la diadema de Ravenclaw, otro de los Horrocruxes?",
+    "answers": ["Draco Malfoy", "Harry Potter", "Vincent Crabbe", "Hermione Granger"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Trama y sucesos",
+    "question": "¿Qué revela Snape a Harry en sus últimos momentos?",
+    "answers": ["La ubicación de la piedra filosofal", "Que es su padre", "Que siempre amó a Lily", "Que Dumbledore fue traicionado"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Harry Potter"
+  },
     {
         "category": "Harry Potter",
         "subcategory": "Casas de Hogwarts",
@@ -79,6 +509,146 @@
         "color": "green",
         "world": "Harry Potter"
     },
+    {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura cambia de forma y adopta la forma de lo que más teme una persona?",
+    "answers": ["Boggart", "Dementor", "Inferius", "Acromántula"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Cuál es el nombre de la serpiente de Lord Voldemort?",
+    "answers": ["Basilisco", "Nagini", "Salazar", "Neretha"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura gigante vive en el Lago Negro del castillo de Hogwarts?",
+    "answers": ["Kraken", "Sirenas", "Grindylow", "Calamar gigante"],
+    "correct_index": 3,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Cómo se llaman los pequeños seres domésticos que sirven a las familias mágicas?",
+    "answers": ["Elfos domésticos", "Duendes", "Trasgos", "Goblins"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura mágica parece un caballo alado esquelético visible solo para quienes han visto la muerte?",
+    "answers": ["Abraxan", "Fénix", "Thestral", "Hipogrifo"],
+    "correct_index": 2,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Cómo se llama el dragón que Harry enfrenta en el Torneo de los Tres Magos?",
+    "answers": ["Vipertooth Peruano", "Colacuerno Húngaro", "Verde Galés", "Ridgeback Noruego"],
+    "correct_index": 1,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura protege la Cámara de los Secretos?",
+    "answers": ["Acromántula", "Thestral", "Mantícora", "Basilisco"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura mágica es amiga de Luna Lovegood y se dice que sólo ella cree que existen?",
+    "answers": ["Nargles", "Thestrals", "Bowtruckles", "Kelpies"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura mágica es conocida por vivir en cofres y atacar si alguien se acerca?",
+    "answers": ["Boggart", "Lethifold", "Lodgok", "Baúl viviente"],
+    "correct_index": 3,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura cuida Hagrid y resulta ser una araña gigante?",
+    "answers": ["Aragog", "Acromántula", "Ungoliant", "Arachna"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué tipo de criatura es Dobby?",
+    "answers": ["Elfo doméstico", "Duende", "Poltergeist", "Trasgo"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Cómo se llama el hipogrifo que Buckbeak también recibe como nombre alternativo?",
+    "answers": ["Shadowbeak", "Witherwings", "Stormtail",  "Windstrider"],
+    "correct_index": 1,
+    "difficulty": "hard",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura usa el Ministerio de Magia para proteger secretos y atacar a intrusos?",
+    "answers": ["Inferius", "Dementores", "Dragones", "Hombres lobo"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Harry Potter"
+  },
+  {
+    "category": "Harry Potter",
+    "subcategory": "Criaturas mágicas",
+    "question": "¿Qué criatura produce lágrimas con propiedades curativas?",
+    "answers": ["Fénix", "Thestral", "Kneazle", "Erkling"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Harry Potter"
+  },
     {
         "category": "Harry Potter",
         "subcategory": "Objetos y Reliquias",
@@ -143,8 +713,8 @@
     "category": "Harry Potter",
     "subcategory": "Objetos y Reliquias",
     "question": "¿Qué objeto usaba Tom Riddle para guardar parte de su alma?",
-    "answers": ["Un diario", "Una pluma mágica", "Una túnica negra", "Un libro de pociones"],
-    "correct_index": 0,
+    "answers": ["Una pluma mágica", "Una túnica negra", "Un diario", "Un libro de pociones"],
+    "correct_index": 2,
     "difficulty": "medium",
     "color": "yellow",
     "world": "Harry Potter"
@@ -163,8 +733,8 @@
     "category": "Harry Potter",
     "subcategory": "Objetos y Reliquias",
     "question": "¿Qué objeto es símbolo de la invisibilidad?",
-    "answers": ["La capa de invisibilidad", "La piedra filosofal", "El giratiempo", "La varita de Saúco"],
-    "correct_index": 0,
+    "answers": ["La piedra filosofal", "La capa de la fábula de los tres hermanos", "El giratiempo", "La varita de Saúco"],
+    "correct_index": 1,
     "difficulty": "easy",
     "color": "yellow",
     "world": "Harry Potter"
@@ -183,8 +753,8 @@
     "category": "Harry Potter",
     "subcategory": "Objetos y Reliquias",
     "question": "¿Qué objeto usó Harry para respirar bajo el agua durante la segunda prueba del Torneo de los Tres Magos?",
-    "answers": ["Branquialgas", "Poción multijugos", "Burbujilio", "Piedra lunar"],
-    "correct_index": 0,
+    "answers": ["Burbujilio", "Piedra lunar", "Branquialgas", "Poción multijugos"],
+    "correct_index": 2,
     "difficulty": "medium",
     "color": "yellow",
     "world": "Harry Potter"
@@ -213,8 +783,8 @@
     "category": "Harry Potter",
     "subcategory": "Objetos y Reliquias",
     "question": "¿Qué reliquia era supuestamente imbatible en duelo?",
-    "answers": ["La varita de Saúco", "La piedra filosofal", "El colgante de Slytherin", "La diadema de Ravenclaw"],
-    "correct_index": 0,
+    "answers": ["La piedra filosofal", "El colgante de Slytherin", "La diadema de Ravenclaw", "La varita de Saúco"],
+    "correct_index": 3,
     "difficulty": "hard",
     "color": "yellow",
     "world": "Harry Potter"
@@ -223,8 +793,8 @@
     "category": "Harry Potter",
     "subcategory": "Objetos y Reliquias",
     "question": "¿Qué objeto fue destruido por Ron Weasley con la espada de Gryffindor?",
-    "answers": ["El relicario de Slytherin", "La copa de Hufflepuff", "La diadema de Ravenclaw", "El diario de Riddle"],
-    "correct_index": 0,
+    "answers": ["La diadema de Ravenclaw", "El relicario de Slytherin", "La copa de Hufflepuff", "El diario de Riddle"],
+    "correct_index": 1,
     "difficulty": "hard",
     "color": "yellow",
     "world": "Harry Potter"

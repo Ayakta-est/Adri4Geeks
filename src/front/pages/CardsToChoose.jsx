@@ -4,35 +4,35 @@ import { useEffect, useState } from 'react';
 const CATEGORIAS = [
   {
     nombre: 'Sitcoms',
-    color: 'bg-blue-200',
+    color: 'bg-sky-900',
     pregunta: '¿Cómo se llama el café favorito del grupo en Friends?',
     opciones: ['Central Perk', 'Daily Grind', 'Coffee Town', 'Bean Bar'],
     categorias: ['Lugares icónicos', 'actores invitados y cameos',  'catchphrases y frases célebres', 'Romances y relaciones', '¿En qué capítulo...?', 'Adivina el personaje'],
   },
   {
     nombre: 'Harry Potter',
-    color: 'bg-green-200',
+    color: 'bg-sky-900',
     pregunta: '¿Qué casa representa el color verde?',
     opciones: ['Ravenclaw', 'Slytherin', 'Hufflepuff', 'Gryffindor'],
     categorias: ['Casas de Hogwarts', 'Criaturas mágicas', 'Objetos y Reliquias', 'Hechizos y encantamientos', 'Adivina el personaje', 'Trama y sucesos']
   },
   {
     nombre: 'Anime',
-    color: 'bg-red-200',
+    color: 'bg-sky-900',
     pregunta: '¿Cuál es el verdadero nombre de L en Death Note?',
     opciones: ['Light Yagami', 'Ryuk', 'L Lawliet', 'Near'],
     categorias: ['Técnicas y ataques especiales', 'Localizaciones emblemáticas', 'Adivina el personaje', 'Trama y sucesos', 'Doblaje y banda sonora', 'En qué episodio...?']
   },
   {
     nombre: 'Videojuegos',
-    color: 'bg-yellow-200',
+    color: 'bg-sky-900',
     pregunta: '¿Qué compañía creó The Legend of Zelda?',
     opciones: ['Sony', 'Nintendo', 'Sega', 'Ubisoft'],
     categorias: ['Shooters y acción', 'Deportes y Carreras', 'RPG y fantasía', 'Terror y Survival', 'Mobile Games', 'Clásicos y franquicias de culto']
   },
   {
     nombre: 'Tradicional',
-    color: 'bg-purple-200',
+    color: 'bg-sky-900',
     pregunta: '¿Cuál es la capital de Francia?',
     opciones: ['Roma', 'Madrid', 'París', 'Berlín'],
     categorias: ['Deporte y pasatiempos', 'Geografía', 'Ciencias y  naturaleza', 'Historia', 'Arte y Literatura', 'Entretenimiento']
@@ -111,7 +111,7 @@ export const CardsToChoose = () => {
             }}
             className={`${cat.color} rounded-xl p-4 text-left shadow hover:shadow-md transition cursor-pointer`}
           >
-            <h3 className="text-lg font-bold mb-2">{cat.nombre}</h3>
+            <h3 className="text-lg font-bold mb-2 text-white">{cat.nombre}</h3>
             <div className="bg-white border rounded-lg p-3 text-sm">
               <p className="font-semibold mb-2">{cat.pregunta}</p>
               <ul className="grid grid-cols-2 gap-2">
@@ -123,19 +123,19 @@ export const CardsToChoose = () => {
           </button>
         ))}
 
-        {/* Carta personalizada */}
+        {/* Celección personalizada */}
         <button
           onClick={() => {
             setMostrarModalPersonalizada(true);
             setCategoriaSeleccionada({ nombre: 'Personalizada' });
           }}
-          className="bg-pink-200 rounded-xl p-4 text-left shadow hover:shadow-md transition"
+          className="bg-sky-900 rounded-xl p-4 text-left shadow hover:shadow-md transition"
         >
-          <h3 className="text-lg font-bold mb-2">Personalizada</h3>
+          <h3 className="text-lg font-bold mb-2 text-white">Personalizada</h3>
           <div className="bg-white border rounded-lg p-3 text-sm">
             <p className="font-semibold mb-2">Utiliza las categorías o subcategorías que quieras para tu partida</p>
             <ul className="grid grid-cols-2 gap-2 text-gray-500">
-              <li>Opción 1 </li>
+              <li>Opción 1</li>
               <li>Opción 2</li>
               <li>Opción 3</li>
               <li>Opción 4</li>
@@ -239,6 +239,12 @@ export const CardsToChoose = () => {
                   <option value="Sitcoms|Actores invitados y cameos">Sitcoms: Actores invitados y cameos</option>
                   <option value="Sitcoms|Adivina el personaje">Sitcoms: Adivina el personaje</option>
                   <option value="Sitcoms|¿En qué capítulo...?">Sitcoms: ¿En qué capítulo...?</option>
+                  <option value="Harry Potter|Casas de Hogwarts">Harry Potter: Casas de Hogwarts</option>
+                  <option value="Harry Potter|Criaturas mágicas">Harry Potter: Criaturas mágicas</option>
+                  <option value="Harry Potter|Objetos y Reliquias">Harry Potter: Objetos y Reliquias</option>
+                  <option value="Harry Potter|Hechizos y encantamientos">Harry Potter: Hechizos y encantamientos</option>
+                  <option value="Harry Potter|Adivina el personaje">Harry Potter: Adivina el personaje</option>
+                  <option value="Harry Potter|Trama y sucesos">Harry Potter: Trama y sucesos</option>
                 </select>
               </div>
             ))}

@@ -213,8 +213,8 @@
         "category": "Anime",
         "subcategory": "Localizaciones emblemáticas",
         "question": "¿Cuál es la ciudad principal donde transcurre la serie 'Tokyo Ghoul'?",
-        "answers": ["Tokyo", "Osaka", "Kyoto", "Sapporo"],
-        "correct_index": 0,
+        "answers": ["Osaka", "Tokyo", "Kyoto", "Sapporo"],
+        "correct_index": 1,
         "difficulty": "easy",
         "color": "red",
         "world": "Tokyo Ghoul"
@@ -283,8 +283,8 @@
         "category": "Anime",
         "subcategory": "Trama y sucesos",
         "question": "¿Qué oculta Sōsuke Aizen en 'Bleach' durante gran parte del anime?",
-        "answers": ["Que está vivo y es el villano", "Que no tiene poderes", "Que es el hermano de Ichigo", "Que es un Vizard"],
-        "correct_index": 0,
+        "answers": ["Que no tiene poderes", "Que está vivo y es el villano", "Que es el hermano de Ichigo", "Que es un Vizard"],
+        "correct_index": 1,
         "difficulty": "medium",
         "color": "orange",
         "world": "Bleach"
@@ -293,8 +293,8 @@
         "category": "Anime",
         "subcategory": "Trama y sucesos",
         "question": "¿Qué revela el padre de Goku cuando aparece por primera vez en el anime?",
-        "answers": ["Que es un guerrero saiyajin llamado Bardock", "Que es un Namekiano", "Que murió en Namek", "Que fue creado por el Dr. Gero"],
-        "correct_index": 0,
+        "answers": ["Que es un Namekiano", "Que es un guerrero saiyajin llamado Bardock", "Que murió en Namek", "Que fue creado por el Dr. Gero"],
+        "correct_index": 1,
         "difficulty": "easy",
         "color": "orange",
         "world": "Dragon Ball"
@@ -313,8 +313,8 @@
         "category": "Anime",
         "subcategory": "Trama y sucesos",
         "question": "¿Qué trágico evento inicia la historia de 'Elfen Lied'?",
-        "answers": ["Una masacre en un laboratorio", "Un terremoto", "Un accidente escolar", "La caída de un meteorito"],
-        "correct_index": 0,
+        "answers": ["Un terremoto", "Una masacre en un laboratorio", "Un accidente escolar", "La caída de un meteorito"],
+        "correct_index": 1,
         "difficulty": "hard",
         "color": "orange",
         "world": "Elfen Lied"
@@ -333,8 +333,8 @@
         "category": "Anime",
         "subcategory": "Trama y sucesos",
         "question": "¿Qué ocurre con Lelouch al final de 'Code Geass'?",
-        "answers": ["Muere como mártir", "Escapa con C.C.", "Se convierte en emperador", "Viaja en el tiempo"],
-        "correct_index": 0,
+        "answers": ["Se convierte en emperador", "Viaja en el tiempo", "Muere como mártir", "Escapa con C.C."],
+        "correct_index": 2,
         "difficulty": "hard",
         "color": "orange",
         "world": "Code Geass"
@@ -343,8 +343,8 @@
         "category": "Anime",
         "subcategory": "Trama y sucesos",
         "question": "¿Qué hace Edward Elric para intentar devolver la vida a su madre?",
-        "answers": ["Alquimia humana", "Pide un deseo", "Hace un pacto demoníaco", "Viaja en el tiempo"],
-        "correct_index": 0,
+        "answers": ["Pide un deseo", "Hace un pacto demoníaco", "Viaja en el tiempo", "Alquimia humana"],
+        "correct_index": 3,
         "difficulty": "medium",
         "color": "orange",
         "world": "Fullmetal Alchemist"
@@ -353,8 +353,8 @@
         "category": "Anime",
         "subcategory": "Trama y sucesos",
         "question": "¿Qué le pasa a Kamina en los primeros episodios de 'Gurren Lagann'?",
-        "answers": ["Muere en batalla", "Se convierte en líder supremo", "Despierta un poder oculto", "Es secuestrado por bestias"],
-        "correct_index": 0,
+        "answers": ["Se convierte en líder supremo", "Despierta un poder oculto", "Es secuestrado por bestias", "Muere en batalla"],
+        "correct_index": 3,
         "difficulty": "medium",
         "color": "orange",
         "world": "Gurren Lagann"
@@ -363,8 +363,8 @@
         "category": "Anime",
         "subcategory": "Trama y sucesos",
         "question": "¿Cómo termina 'Your Lie in April'?",
-        "answers": ["Kaori muere tras la cirugía", "Kaori y Kousei se casan", "Kousei se muda", "Kousei pierde la memoria"],
-        "correct_index": 0,
+        "answers": ["Kaori y Kousei se casan", "Kaori muere tras la cirugía", "Kousei se muda", "Kousei pierde la memoria"],
+        "correct_index": 1,
         "difficulty": "medium",
         "color": "orange",
         "world": "Your Lie in April"
@@ -383,8 +383,8 @@
         "category": "Anime",
         "subcategory": "Doblaje y banda sonora",
         "question": "¿Quién interpreta la voz de Edward Elric en la versión original japonesa de 'Fullmetal Alchemist'?",
-        "answers": ["Romi Park", "Yuki Kaji", "Mamoru Miyano", "Takahiro Sakurai"],
-        "correct_index": 0,
+        "answers": ["Yuki Kaji", "Romi Park", "Mamoru Miyano", "Takahiro Sakurai"],
+        "correct_index": 1,
         "difficulty": "medium",
         "color": "purple",
         "world": "Fullmetal Alchemist"
@@ -393,8 +393,8 @@
         "category": "Anime",
         "subcategory": "Doblaje y banda sonora",
         "question": "¿Qué banda interpreta el opening 'Unravel' de 'Tokyo Ghoul'?",
-        "answers": ["Ling Tosite Sigure", "Asian Kung-Fu Generation", "UVERworld", "RADWIMPS"],
-        "correct_index": 0,
+        "answers": ["Asian Kung-Fu Generation", "UVERworld", "Ling Tosite Sigure", "RADWIMPS"],
+        "correct_index": 2,
         "difficulty": "easy",
         "color": "purple",
         "world": "Tokyo Ghoul"
@@ -413,8 +413,8 @@
         "category": "Anime",
         "subcategory": "Doblaje y banda sonora",
         "question": "¿Cuál es el tema de apertura más famoso de 'Neon Genesis Evangelion'?",
-        "answers": ["A Cruel Angel's Thesis", "Fly Me to the Moon", "Zankoku na Tenshi no Teeze", "Butter-Fly"],
-        "correct_index": 0,
+        "answers": ["Fly Me to the Moon", "Zankoku na Tenshi no Teeze", "Butter-Fly", "A Cruel Angel's Thesis"],
+        "correct_index": 3,
         "difficulty": "easy",
         "color": "purple",
         "world": "Evangelion"
@@ -473,8 +473,8 @@
         "category": "Anime",
         "subcategory": "Doblaje y banda sonora",
         "question": "¿Qué banda sonora fue compuesta por Joe Hisaishi?",
-        "answers": ["El viaje de Chihiro", "Your Name", "Evangelion", "Bleach"],
-        "correct_index": 0,
+        "answers": ["Your Name", "Evangelion", "Bleach", "El viaje de Chihiro"],
+        "correct_index": 3,
         "difficulty": "medium",
         "color": "purple",
         "world": "Studio Ghibli"
@@ -483,8 +483,8 @@
         "category": "Anime",
         "subcategory": "Doblaje y banda sonora",
         "question": "¿Cuál es el ending más conocido de 'Death Parade'?",
-        "answers": ["Flyers", "Parade", "Death Dance", "Afterlife"],
-        "correct_index": 0,
+        "answers": ["Parade", "Death Dance", "Flyers", "Afterlife"],
+        "correct_index": 2,
         "difficulty": "medium",
         "color": "purple",
         "world": "Death Parade"
@@ -503,8 +503,8 @@
         "category": "Anime",
         "subcategory": "Doblaje y banda sonora",
         "question": "¿Quién interpreta la voz japonesa de L en 'Death Note'?",
-        "answers": ["Kappei Yamaguchi", "Hiroshi Kamiya", "Takahiro Sakurai", "Mamoru Miyano"],
-        "correct_index": 0,
+        "answers": ["Hiroshi Kamiya", "Kappei Yamaguchi", "Takahiro Sakurai", "Mamoru Miyano"],
+        "correct_index": 1,
         "difficulty": "medium",
         "color": "purple",
         "world": "Death Note"
@@ -513,8 +513,8 @@
         "category": "Anime",
         "subcategory": "Doblaje y banda sonora",
         "question": "¿Qué tema es el opening inicial de 'Bleach'?",
-        "answers": ["Asterisk", "D-tecnoLife", "Rolling Star", "Change"],
-        "correct_index": 0,
+        "answers": ["D-tecnoLife", "Rolling Star", "Asterisk", "Change"],
+        "correct_index": 2,
         "difficulty": "medium",
         "color": "purple",
         "world": "Bleach"
@@ -560,6 +560,156 @@
         "world": "Death Note"
     },
     {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿En qué ciudad se sitúa la sede de la Asociación de Cazadores en 'Hunter x Hunter'?",
+    "answers": ["Yorknew City", "Heaven's Arena", "Whale Island", "Zaban City"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Hunter x Hunter"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Cómo se llama la ciudad destruida por un misterioso poder en 'Akira'?",
+    "answers": ["Tokyo", "Neo-Tokyo", "Metropolis", "Olympus"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Akira"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Qué lugar sirve como campo de batalla final entre Naruto y Sasuke?",
+    "answers": ["Valle del Fin", "Bosque de la Muerte", "Monte Myōboku", "Templo del Fuego"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Naruto"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Dónde se encuentra el Instituto U.A. en 'My Hero Academia'?",
+    "answers": ["Musutafu", "Shinjuku", "Kōbe", "Fukuoka"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "My Hero Academia"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Cuál es la prisión donde se encuentran los homúnculos en 'Fullmetal Alchemist: Brotherhood'?",
+    "answers": ["Briggs", "Central", "Basement 5", "Laboratorio 5"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Fullmetal Alchemist"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿En qué planeta se desarrollan la mayoría de los eventos en 'Dragon Ball Z'?",
+    "answers": ["Namek", "Tierra", "Vegeta", "Kaiō"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Dragon Ball Z"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Cómo se llama el lugar donde viven los titanes antes de ser atacados por los humanos en 'Attack on Titan'?",
+    "answers": ["Distrito de Trost", "Shiganshina", "Muro María", "Paradise Island"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Attack on Titan"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Qué es 'Aincrad' en 'Sword Art Online'?",
+    "answers": ["Un continente flotante", "Una prisión virtual", "Un castillo suspendido", "Una IA hostil"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Sword Art Online"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Qué ciudad ficticia es hogar de Ichigo Kurosaki en 'Bleach'?",
+    "answers": ["Karakura", "Konoha", "Musutafu", "Shibuya"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Bleach"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Qué mundo alternativo habitan los homúnculos y la puerta de la verdad en 'Fullmetal Alchemist'?",
+    "answers": ["Reino del Padre", "Puerta del Conocimiento", "Más allá del Portal", "La Verdad"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Fullmetal Alchemist"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Qué ciudad en 'Neon Genesis Evangelion' es atacada repetidamente por los ángeles?",
+    "answers": ["Tokyo-3", "NERV HQ", "Neo-Tokyo", "Asuka City"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Neon Genesis Evangelion"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Cómo se llama el campo de exterminio donde Gon pelea en el arco de las Hormigas Quimera?",
+    "answers": ["Palacio Real", "Colina de la Muerte", "Complejo Este", "NGL"],
+    "correct_index": 3,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Hunter x Hunter"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Qué local sirve como cuartel general de los Phantom Troupe en 'Hunter x Hunter'?",
+    "answers": ["Yorknew City", "Meteor City", "NGL", "Greed Island"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Hunter x Hunter"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Dónde ocurren la mayoría de los combates de torneos en 'Dragon Ball'?",
+    "answers": ["Isla Papaya", "Ciudad del Oeste", "Kame House", "Planeta del Kaio"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Dragon Ball"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Localizaciones emblemáticas",
+    "question": "¿Cómo se llama la escuela secundaria que sirve como escenario en 'Jujutsu Kaisen'?",
+    "answers": ["Jujutsu Tech", "Tokyo High", "Kyoto Academy", "Sorcerer School"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Jujutsu Kaisen"
+  },
+    {
         "category": "Anime",
         "subcategory": "Adivina el personaje",
         "question": "¿Quién es el villano principal en 'Dragon Ball Z' durante la saga de los Androides?",
@@ -570,11 +720,161 @@
         "world": "Dragon Ball Z"
     },
     {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el capitán del Escuadrón 6 en 'Bleach' conocido por su nobleza y uso del Senbonzakura?",
+    "answers": ["Tōshirō Hitsugaya", "Byakuya Kuchiki", "Kenpachi Zaraki", "Urahara Kisuke"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Bleach"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el líder de los Akatsuki que se presenta como 'Pain' en 'Naruto Shippuden'?",
+    "answers": ["Itachi Uchiha", "Nagato", "Obito Uchiha", "Kisame Hoshigaki"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Naruto Shippuden"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje de 'One Piece' es conocido como el 'Cirujano de la Muerte'?",
+    "answers": ["Eustass Kid", "Trafalgar Law", "Portgas D. Ace", "Donquixote Doflamingo"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "One Piece"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el siniestro titán que devora a la madre de Eren en 'Attack on Titan'?",
+    "answers": ["Titán Mandíbula", "Titán Hembra", "Titán Sonriente", "Titán Colosal"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Attack on Titan"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el espadachín de cabello verde en la tripulación de los Sombrero de Paja?",
+    "answers": ["Sanji", "Brook", "Usopp", "Zoro"],
+    "correct_index": 3,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "One Piece"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el personaje que obtiene el poder del 'Geass' en 'Code Geass'?",
+    "answers": ["Lelouch", "Suzaku", "C.C.", "Jeremiah"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Code Geass"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién fue el asesino en serie conocido como Kira en 'Death Note'?",
+    "answers": ["L", "Ryuk", "Light Yagami", "Near"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Death Note"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje de 'Naruto' fue el primero en abrir la Octava Puerta durante un combate real?",
+    "answers": ["Might Guy", "Rock Lee", "Kakashi Hatake", "Neji Hyuga"],
+    "correct_index": 0,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Naruto Shippuden"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el homúnculo conocido como 'Envidia' en 'Fullmetal Alchemist: Brotherhood'?",
+    "answers": ["Glotonería", "Codicia", "Envidia", "Pereza"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Fullmetal Alchemist"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién fue el primer usuario de la técnica del Susanoo en 'Naruto'?",
+    "answers": ["Sasuke Uchiha", "Madara Uchiha", "Itachi Uchiha", "Shisui Uchiha"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Naruto"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Cómo se llama el personaje que mata a Meruem en 'Hunter x Hunter'?",
+    "answers": ["Killua", "Netero", "Hisoka", "Gon"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Hunter x Hunter"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje de 'My Hero Academia' tiene el poder 'One For All' después de All Might?",
+    "answers": ["Bakugo", "Todoroki", "Deku", "Endeavor"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "My Hero Academia"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el portador original de la 'Marca de la Maldición del Cielo' en 'Naruto'?",
+    "answers": ["Sasuke", "Orochimaru", "Kimimaro", "Anko"],
+    "correct_index": 3,
+    "difficulty": "hard",
+    "color": "red",
+    "world": "Naruto"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Quién es el protagonista de 'Demon Slayer' que busca curar a su hermana Nezuko?",
+    "answers": ["Zenitsu", "Inosuke", "Tanjiro", "Rengoku"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "red",
+    "world": "Demon Slayer"
+  },
+  {
+    "category": "Anime",
+    "subcategory": "Adivina el personaje",
+    "question": "¿Qué personaje de 'Dragon Ball Z' se fusiona con Goku usando los pendientes Pothala?",
+    "answers": ["Vegeta", "Gohan", "Trunks", "Piccolo"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "red",
+    "world": "Dragon Ball Z"
+  },
+    {
         "category": "Anime",
         "subcategory": "Trama y sucesos",
         "question": "¿Qué evento marca el inicio de la historia en 'Tokyo Ghoul'?",
-        "answers": ["El ataque de un ghoul a Kaneki", "La muerte de Kaneki", "La llegada de los investigadores", "El nacimiento de un ghoul"],
-        "correct_index": 0,
+        "answers": ["La muerte de Kaneki", "La llegada de los investigadores", "El ataque de un ghoul a Kaneki", "El nacimiento de un ghoul"],
+        "correct_index": 2,
         "difficulty": "medium",
         "color": "purple",
         "world": "Tokyo Ghoul"
@@ -603,8 +903,8 @@
         "category": "Anime",
         "subcategory": "Técnicas y ataques especiales",
         "question": "¿Cuál es la técnica especial que usa Ichigo Kurosaki para liberar su Bankai?",
-        "answers": ["Tensa Zangetsu", "Getsuga Tenshō", "Kido", "Hollowfication"],
-        "correct_index": 0,
+        "answers": ["Getsuga Tenshō", "Kido", "Tensa Zangetsu", "Hollowfication"],
+        "correct_index": 2,
         "difficulty": "medium",
         "color": "blue",
         "world": "Bleach"
@@ -613,8 +913,8 @@
         "category": "Anime",
         "subcategory": "Localizaciones emblemáticas",
         "question": "¿Cuál es la escuela de magia a la que asisten los protagonistas en 'Little Witch Academia'?",
-        "answers": ["Luna Nova Academy", "Hogwarts", "Mahoutokoro", "U.A. High School"],
-        "correct_index": 0,
+        "answers": ["Hogwarts", "Luna Nova Academy", "Mahoutokoro", "U.A. High School"],
+        "correct_index": 1,
         "difficulty": "medium",
         "color": "purple",
         "world": "Little Witch Academia"

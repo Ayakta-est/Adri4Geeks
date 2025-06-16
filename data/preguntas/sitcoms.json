@@ -43,8 +43,8 @@
         "category": "Sitcoms",
         "subcategory": "Adivina el personaje",
         "question": "¿Qué personaje de 'How I Met Your Mother' siempre lleva traje?",
-        "answers": ["Barney Stinson", "Ted Mosby", "Marshall Eriksen", "Ranjit"],
-        "correct_index": 0,
+        "answers": ["Marshall Eriksen", "Barney Stinson", "Ted Mosby", "Ranjit"],
+        "correct_index": 1,
         "difficulty": "easy",
         "color": "orange",
         "world": "How I Met Your Mother"
@@ -73,8 +73,8 @@
         "category": "Sitcoms",
         "subcategory": "Adivina el personaje",
         "question": "¿Quién trabajaba como paleontólogo en 'Friends'?",
-        "answers": ["Ross Geller", "Joey Tribbiani", "Chandler Bing", "Gunther"],
-        "correct_index": 0,
+        "answers": ["Joey Tribbiani", "Chandler Bing", "Gunther", "Ross Geller"],
+        "correct_index": 3,
         "difficulty": "easy",
         "color": "orange",
         "world": "Friends"
@@ -103,8 +103,8 @@
         "category": "Sitcoms",
         "subcategory": "Adivina el personaje",
         "question": "¿Quién es el detective serio y con cara inexpresiva en 'Brooklyn Nine-Nine'?",
-        "answers": ["Captain Holt", "Jake Peralta", "Rosa Diaz", "Gina Linetti"],
-        "correct_index": 0,
+        "answers": ["Jake Peralta", "Rosa Diaz", "Captain Holt", "Gina Linetti"],
+        "correct_index": 2,
         "difficulty": "medium",
         "color": "orange",
         "world": "Brooklyn Nine-Nine"
@@ -133,8 +133,8 @@
         "category": "Sitcoms",
         "subcategory": "Adivina el personaje",
         "question": "¿Qué personaje de 'The Office' solía ser cantante de una banda llamada 'Here Comes Treble'?",
-        "answers": ["Andy Bernard", "Jim Halpert", "Ryan Howard", "Kevin Malone"],
-        "correct_index": 0,
+        "answers": ["Kevin Malone", "Andy Bernard", "Jim Halpert", "Ryan Howard"],
+        "correct_index": 1,
         "difficulty": "medium",
         "color": "orange",
         "world": "The Office"
@@ -151,24 +151,144 @@
     },
     {
         "category": "Sitcoms",
+        "subcategory": "Lugares icónicos",
         "question": "¿En qué lugar icónico de 'Friends' se reúnen habitualmente los personajes?",
         "answers": ["Central Perk", "Monica's Apartment", "Central Park", "The Coffee House"],
         "correct_index": 0,
         "difficulty": "easy",
         "color": "orange",
-        "world": "Friends",
-        "subcategory": "Lugares icónicos"
+        "world": "Friends"
     },
     {
         "category": "Sitcoms",
+        "subcategory": "Lugares icónicos",
         "question": "¿Cuál es el nombre del bar donde se reúnen los personajes de 'How I Met Your Mother'?",
         "answers": ["MacLaren's Pub", "Paddy's Pub", "The Drunken Clam", "Cheers"],
         "correct_index": 0,
         "difficulty": "easy",
         "color": "orange",
-        "world": "How I Met Your Mother",
-        "subcategory": "Lugares icónicos"
+        "world": "How I Met Your Mother"
     },
+    {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Cómo se llama el bar en 'Cheers'?",
+    "answers": ["Cheers", "MacLaren's", "Paddy's Pub", "The Winchester"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Cheers"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde trabaja Leslie Knope en 'Parks and Recreation'?",
+    "answers": ["Ayuntamiento de Pawnee", "Dunder Mifflin", "Capitol Hill", "Oficina del alcalde"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Parks and Recreation"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Qué local de comida rápida frecuentan en 'Brooklyn Nine-Nine'?",
+    "answers": ["Sal's Pizza", "Freddy's BBQ Joint", "Los Pollos Hermanos", "Gotham Subs"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Brooklyn Nine-Nine"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Cómo se llama la tienda de cómics que frecuentan los personajes de 'The Big Bang Theory'?",
+    "answers": ["The Comic Center", "Comic Galaxy", "Stuart’s Comics", "The Fortress"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde vive Sheldon Cooper en 'The Big Bang Theory'?",
+    "answers": ["Apt. 4A", "Apt. 3B", "Apt. 7C", "Apt. 5D"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Cómo se llama la cafetería donde suelen ir los personajes de 'Seinfeld'?",
+    "answers": ["Monk's Café", "Central Perk", "Café Nervosa", "Empire Diner"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "Seinfeld"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Qué lugar es conocido como el bar irlandés en 'It's Always Sunny in Philadelphia'?",
+    "answers": ["Paddy's Pub", "MacLaren's Pub", "Cheers", "The Drunken Clam"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "orange",
+    "world": "It's Always Sunny in Philadelphia"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿En qué edificio viven Monica y Rachel en 'Friends'?",
+    "answers": ["Greenwich Village", "Waverly Place", "Bedford Street", "Central Plaza"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde trabajaba Ted Mosby como profesor?",
+    "answers": ["Universidad de Columbia", "Universidad de Nueva York", "Yale", "MIT"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "How I Met Your Mother"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Cuál es el restaurante frecuentado por Jerry y sus amigos en 'Seinfeld'?",
+    "answers": ["Monk's Café", "The Diner", "Big Al’s", "Tom's Restaurant"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Seinfeld"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Qué hospital aparece en la serie 'Scrubs'?",
+    "answers": ["Sacred Heart", "Seattle Grace", "Princeton–Plainsboro", "County General"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Scrubs"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Lugares icónicos",
+    "question": "¿Dónde trabaja Jonah en la serie 'Superstore'?",
+    "answers": ["Cloud 9", "Buy More", "Mega Mart", "Value Club"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "orange",
+    "world": "Superstore"
+  },
     {
     "category": "Sitcoms",
     "subcategory": "Lugares icónicos",
@@ -371,16 +491,6 @@
         "color": "yellow",
         "world": "Friends",
         "subcategory": "catchphrases y frases célebres"
-    },
-    {
-        "category": "Sitcoms",
-        "question": "¿Quiénes tuvieron un romance secreto en 'How I Met Your Mother'?",
-        "answers": ["Ted y Robin", "Marshall y Lily", "Barney y Robin", "Ted y Tracy"],
-        "correct_index": 2,
-        "difficulty": "medium",
-        "color": "green",
-        "world": "How I Met Your Mother",
-        "subcategory": "Romances y relaciones"
     },
     {
         "category": "Sitcoms",
@@ -700,6 +810,157 @@
         "difficulty": "medium",
         "color": "green",
         "world": "Friends",
+        "subcategory": "Romances y relaciones"
+    },
+    
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Quién es el interés amoroso principal de Ted Mosby en 'How I Met Your Mother'?",
+    "answers": ["Robin Scherbatsky", "Tracy McConnell", "Lily Aldrin", "Victoria"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "How I Met Your Mother"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Con quién termina Jim Halpert en 'The Office'?",
+    "answers": ["Pam Beesly", "Karen Filippelli", "Angela Martin", "Jan Levinson"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "The Office"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Qué personaje mantiene una relación con Penny en 'The Big Bang Theory'?",
+    "answers": ["Sheldon", "Howard", "Leonard", "Raj"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Quién es el primer gran amor de Rachel en 'Friends'?",
+    "answers": ["Tag", "Ross", "Paolo", "Chandler"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Con quién se casa Marshall Eriksen en 'How I Met Your Mother'?",
+    "answers": ["Robin", "Lily", "Stella", "Victoria"],
+    "correct_index": 1,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "How I Met Your Mother"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Qué pareja tiene una boda sorpresa en Las Vegas en 'Friends'?",
+    "answers": ["Chandler y Monica", "Ross y Rachel", "Joey y Rachel", "Ross y Emily"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Quién se compromete con Andy Dwyer en 'Parks and Recreation'?",
+    "answers": ["Ann Perkins", "April Ludgate", "Donna Meagle", "Leslie Knope"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Parks and Recreation"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Qué personaje de 'The Big Bang Theory' se casa con Amy Farrah Fowler?",
+    "answers": ["Leonard Hofstadter", "Howard Wolowitz", "Sheldon Cooper", "Raj Koothrappali"],
+    "correct_index": 2,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "The Big Bang Theory"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Con quién tiene una relación principal Jake Peralta en 'Brooklyn Nine-Nine'?",
+    "answers": ["Amy Santiago", "Rosa Diaz", "Gina Linetti", "Holt"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Brooklyn Nine-Nine"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Cuál fue la novia de Chandler antes de empezar con Monica?",
+    "answers": ["Janice", "Kathy", "Susie", "Carol"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Quién se casa con Ben Wyatt en 'Parks and Recreation'?",
+    "answers": ["April", "Donna", "Leslie", "Ann"],
+    "correct_index": 2,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Parks and Recreation"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Qué pareja se compromete en la azotea del edificio en 'Friends'?",
+    "answers": ["Phoebe y Mike", "Chandler y Monica", "Ross y Rachel", "Joey y Rachel"],
+    "correct_index": 1,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Friends"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Qué personaje sale con Karen en 'Will & Grace'?",
+    "answers": ["Stan", "Will", "Jack", "Leo"],
+    "correct_index": 0,
+    "difficulty": "medium",
+    "color": "green",
+    "world": "Will & Grace"
+  },
+  {
+    "category": "Sitcoms",
+    "subcategory": "Romances y relaciones",
+    "question": "¿Cuál es la primera esposa de Ross en 'Friends'?",
+    "answers": ["Carol", "Rachel", "Emily", "Susan"],
+    "correct_index": 0,
+    "difficulty": "easy",
+    "color": "green",
+    "world": "Friends"
+  },
+  {
+        "category": "Sitcoms",
+        "question": "¿Quiénes tuvieron un romance secreto en 'How I Met Your Mother'?",
+        "answers": ["Ted y Robin", "Marshall y Lily", "Barney y Robin", "Ted y Tracy"],
+        "correct_index": 2,
+        "difficulty": "medium",
+        "color": "green",
+        "world": "How I Met Your Mother",
         "subcategory": "Romances y relaciones"
     }
 ]
