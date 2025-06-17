@@ -58,13 +58,21 @@ export const CardsToChoose = () => {
   }, [modo, navigate]);
 
   const handleConfirmarCategoria = () => {
-    const nombre = categoriaSeleccionada?.nombre;
-    if (!nombre) return;
+  const nombre = categoriaSeleccionada?.nombre;
+  if (!nombre) return;
 
-    const yaSeleccionada = cartasSeleccionadas.includes(nombre);
-    setCartasSeleccionadas(yaSeleccionada ? [] : [nombre]);
-    setMostrarModalCategoria(false);
-  };
+  const yaSeleccionada = cartasSeleccionadas.includes(nombre);
+  const nuevaSeleccion = yaSeleccionada ? [] : [nombre];
+  setCartasSeleccionadas(nuevaSeleccion);
+  setMostrarModalCategoria(false);
+
+  const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
+  navigate(ruta, {
+    state: {
+      categoria: categoriaSeleccionada
+    }
+  });
+};
 
   const handleConfirmarPersonalizada = () => {
     const seleccionadas = inputsPersonalizados.filter(v => v.category && v.label);
@@ -97,10 +105,8 @@ export const CardsToChoose = () => {
 
   return (
     <div className="p-4 max-w-5xl mx-auto text-center">
-      <h1 className="text-2xl font-bold mb-4">Elige con qué conjunto de cartas jugar</h1>
-      <p className="mb-2">Solo puedes seleccionar una categoría.</p>
+      <h1 className="text-2xl font-bold mb-4 text-white">Elige con qué conjunto de cartas jugar</h1>
       <p className="mb-6 text-gray-600">Modo: <strong>{modo}</strong></p>
-
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
         {CATEGORIAS.map((cat, index) => (
           <button
@@ -123,7 +129,7 @@ export const CardsToChoose = () => {
           </button>
         ))}
 
-        {/* Celección personalizada */}
+        {/* Selección personalizada */}
         <button
           onClick={() => {
             setMostrarModalPersonalizada(true);
@@ -135,53 +141,18 @@ export const CardsToChoose = () => {
           <div className="bg-white border rounded-lg p-3 text-sm">
             <p className="font-semibold mb-2">Utiliza las categorías o subcategorías que quieras para tu partida</p>
             <ul className="grid grid-cols-2 gap-2 text-gray-500">
-              <li>Opción 1</li>
-              <li>Opción 2</li>
-              <li>Opción 3</li>
-              <li>Opción 4</li>
+              <li>Anime</li>
+              <li>Sitcoms</li>
+              <li>Trama y sucesos</li>
+              <li>Opción a elegir</li>
             </ul>
           </div>
         </button>
       </div>
 
-      {/* Mostrar carta seleccionada */}
-      <div className="mb-6 text-left max-w-md mx-auto">
-        <h2 className="font-semibold mb-2">Categoría seleccionada:</h2>
-        <ul className="list-disc pl-5">
-          {cartasSeleccionadas.map((nombre, i) => (
-            <li key={i}>
-              {nombre === 'Personalizada'
-                ? inputsPersonalizados
-                    .filter(p => p.category && p.label)
-                    .map((p, idx) => (
-                      <div key={idx}>{`${p.label} de ${p.category}`}</div>
-                    ))
-                : nombre}
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <button
-        onClick={() => {
-          if (cartasSeleccionadas.length > 0) {
-            const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
-            navigate(ruta, {
-              state: {
-                categoria: categoriaSeleccionada,
-                inputs: inputsPersonalizados
-              }
-            });
-          }
-        }}
-        className="bg-green-600 text-white px-6 py-3 rounded-xl font-bold text-lg hover:bg-green-700"
-      >
-        Jugar
-      </button>
-
       {/* Modal de categoría */}
       {mostrarModalCategoria && categoriaSeleccionada && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-gradient-to-r from-fuchsia-800 to-indigo-800 bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
             <h2 className="text-xl font-bold mb-2">{categoriaSeleccionada.nombre}</h2>
             <p className="font-semibold mb-2">{categoriaSeleccionada.pregunta}</p>
@@ -210,7 +181,7 @@ export const CardsToChoose = () => {
       
       {/* Modal personalizada */}
       {mostrarModalPersonalizada && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-gradient-to-r from-blue-500 to-blue-900 bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
             <h2 className="text-xl font-bold mb-4">Personaliza tus preguntas</h2>
             {inputsPersonalizados.map((val, i) => (

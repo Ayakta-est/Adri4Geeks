@@ -76,7 +76,7 @@ export const PlayCards = () => {
           <button
             key={i}
             onClick={() => obtenerPregunta(opcion)}
-            className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600"
+            className="bg-[#f2a44c] text-white px-4 py-2 rounded-lg hover:bg-[#f2b44d] dark:yellow-500"
           >
             {typeof opcion === 'string' ? opcion : opcion.label}
           </button>
@@ -87,10 +87,10 @@ export const PlayCards = () => {
       {error && <p className="text-red-500">Error: {error}</p>}
 
       {pregunta && (
-        <div className="border rounded-xl p-4 bg-white shadow text-left">
-          <p className="text-lg font-semibold mb-4">{pregunta.question}</p>
+        <div className="border rounded-xl p-4 shadow text-left bg-gradient-to-r from-blue-700 to-blue-900 text-white">
+          <p className="text-lg font-semibold m-4">{pregunta.question}</p>
 
-          <ul className="grid grid-cols-2 gap-3">
+          <ul className="grid grid-cols-2 gap-4 my-4">
             {pregunta.answers.map((respuesta, i) => {
               const esCorrecta = i === pregunta.correct_index;
               const esSeleccionada = i === respuestaSeleccionada;
@@ -103,12 +103,12 @@ export const PlayCards = () => {
                 } else if (esSeleccionada) {
                   clases += ' bg-red-500 text-white';
                 } else {
-                  clases += ' opacity-50';
+                  clases += ' opacity-75';
                 }
               } else if (esSeleccionada) {
-                clases += ' bg-blue-200';
+                clases += ' bg-blue-950';
               } else {
-                clases += ' hover:bg-gray-100';
+                clases += ' hover:bg-[#ec9884]';
               }
 
               return (
@@ -123,7 +123,7 @@ export const PlayCards = () => {
             <button
               onClick={confirmarRespuesta}
               disabled={respuestaSeleccionada === null}
-              className="mt-4 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 disabled:opacity-50"
+              className="mt-4 bg-pink-800 text-white px-4 py-2 rounded hover:bg-pink-900 disabled:opacity-75"
             >
               Confirmar
             </button>
