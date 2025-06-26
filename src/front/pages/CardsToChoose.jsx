@@ -1,5 +1,5 @@
-import { useLocation, useNavigate } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 
 const CATEGORIAS = [
   {
@@ -35,14 +35,12 @@ const CATEGORIAS = [
     color: 'bg-sky-900',
     pregunta: '¿Cuál es la capital de Francia?',
     opciones: ['Roma', 'Madrid', 'París', 'Berlín'],
-    categorias: ['Deporte y pasatiempos', 'Geografía', 'Ciencias y  naturaleza', 'Historia', 'Arte y Literatura', 'Entretenimiento']
+    categorias: ['Deporte y pasatiempos', 'Geografía', 'Ciencias y naturaleza', 'Historia', 'Arte y Literatura', 'Entretenimiento']
   },
 ];
 
 export const CardsToChoose = () => {
-  const location = useLocation();
   const navigate = useNavigate();
-  const modo = location.state?.modo;
 
   const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
   const [mostrarModalCategoria, setMostrarModalCategoria] = useState(false);
@@ -53,26 +51,21 @@ export const CardsToChoose = () => {
     Array(6).fill({ category: '', label: '' })
   );
 
-  useEffect(() => {
-    if (!modo) navigate('/');
-  }, [modo, navigate]);
-
   const handleConfirmarCategoria = () => {
-  const nombre = categoriaSeleccionada?.nombre;
-  if (!nombre) return;
+    const nombre = categoriaSeleccionada?.nombre;
+    if (!nombre) return;
 
-  const yaSeleccionada = cartasSeleccionadas.includes(nombre);
-  const nuevaSeleccion = yaSeleccionada ? [] : [nombre];
-  setCartasSeleccionadas(nuevaSeleccion);
-  setMostrarModalCategoria(false);
+    const yaSeleccionada = cartasSeleccionadas.includes(nombre);
+    const nuevaSeleccion = yaSeleccionada ? [] : [nombre];
+    setCartasSeleccionadas(nuevaSeleccion);
+    setMostrarModalCategoria(false);
 
-  const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
-  navigate(ruta, {
-    state: {
-      categoria: categoriaSeleccionada
-    }
-  });
-};
+    navigate('/play-cards', {
+      state: {
+        categoria: categoriaSeleccionada
+      }
+    });
+  };
 
   const handleConfirmarPersonalizada = () => {
     const seleccionadas = inputsPersonalizados.filter(v => v.category && v.label);
@@ -88,8 +81,7 @@ export const CardsToChoose = () => {
     setCategoriaSeleccionada(pseudoCat);
     setMostrarModalPersonalizada(false);
 
-    const ruta = modo === 'solo' ? '/play-cards' : '/play-board';
-    navigate(ruta, {
+    navigate('/play-cards', {
       state: {
         categoria: pseudoCat
       }
@@ -106,7 +98,6 @@ export const CardsToChoose = () => {
   return (
     <div className="p-4 max-w-5xl mx-auto text-center">
       <h1 className="text-2xl font-bold mb-4 text-white">Elige con qué conjunto de cartas jugar</h1>
-      <p className="mb-6 text-gray-600">Modo: <strong>{modo}</strong></p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
         {CATEGORIAS.map((cat, index) => (
           <button
@@ -152,7 +143,7 @@ export const CardsToChoose = () => {
 
       {/* Modal de categoría */}
       {mostrarModalCategoria && categoriaSeleccionada && (
-        <div className="fixed inset-0 bg-gradient-to-r from-fuchsia-800 to-indigo-800 bg-opacity-50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-gradient-to-r from-teal-600 to-indigo-700 bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-xl w-full max-w-md text-left">
             <h2 className="text-xl font-bold mb-2">{categoriaSeleccionada.nombre}</h2>
             <p className="font-semibold mb-2">{categoriaSeleccionada.pregunta}</p>
@@ -216,6 +207,10 @@ export const CardsToChoose = () => {
                   <option value="Harry Potter|Hechizos y encantamientos">Harry Potter: Hechizos y encantamientos</option>
                   <option value="Harry Potter|Adivina el personaje">Harry Potter: Adivina el personaje</option>
                   <option value="Harry Potter|Trama y sucesos">Harry Potter: Trama y sucesos</option>
+                  <option value="Videojuegos|Shooters y acción">Videojuegos: Shooters y acción</option>
+                  <option value="Videojuegos|Deportes y Carreras">Videojuegos: Deportes y Carreras</option>
+                  <option value="Videojuegos|RPG y fantasía">Videojuegos: RPG y fantasía</option>
+                               
                 </select>
               </div>
             ))}

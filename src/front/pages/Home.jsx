@@ -1,13 +1,15 @@
-import React, { useEffect } from "react"
-import useGlobalReducer from "../hooks/useGlobalReducer.jsx";
+import React from "react";
 import { useNavigate } from 'react-router-dom';
 
 export const Home = () => {
-
-	const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleSeleccion = (modo) => {
-    navigate('/cards-to-choose', { state: { modo } }); 
+    if (modo === 'solo') {
+      navigate('/cards-to-choose');
+    } else if (modo === 'tablero') {
+      navigate('/board-settings');
+    }
   };
 
   return (

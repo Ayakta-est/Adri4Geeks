@@ -12,6 +12,7 @@ import { Demo } from "./pages/Demo";
 import { CardsToChoose } from "./pages/CardsToChoose";
 import { PlayBoard } from "./pages/PlayBoard";
 import { PlayCards } from "./pages/PlayCards";
+import { BoardSettings } from "./pages/BoardSettings"
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -31,6 +32,7 @@ export const router = createBrowserRouter(
         <Route path="/cards-to-choose" element={<CardsToChoose />} />
         <Route path="/play-board" element={<PlayBoard />} />
         <Route path="/play-cards" element={<PlayCards />} />
+        <Route path="/board-settings" element={<BoardSettings />} />
       </Route>
     )
 );
