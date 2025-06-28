@@ -36,6 +36,12 @@ const Board = () => {
     controls.target.set(0, 0, 0);    // mira al centro del tablero
     controls.update();
 
+    controls.minZoom = 0.5;
+    controls.maxZoom = 4;
+    controls.enablePan = true;           // arrastrar tablero
+    // puedes limitar el paneo si lo necesitas:
+    controls.screenSpacePanning = true;
+
     // LUZ
     const light = new THREE.DirectionalLight(0xffffff, 1);
     light.position.set(10, 10, 10);
@@ -77,20 +83,60 @@ const Board = () => {
       { pos: [5, 1], type: "P" },
       { pos: [6, 1], type: "T" },
       { pos: [7, 1], type: "P" },
-      { pos: [7, 2], type: "A" },
+      // atajo 1
       { pos: [8, 2], type: "P" },
+      { pos: [7, 2], type: "A" },
       { pos: [9, 2], type: "R" },
       { pos: [10, 2], type: "A" },
-      { pos: [11, 2], type: "R" },
-      { pos: [12, 2], type: "P" },
-      { pos: [13, 2], type: "M" },
-      { pos: [7, 0], type: "P" },
+      { pos: [10, 3], type: "P" },
+      { pos: [11, 3], type: "P" },
+      { pos: [12, 3], type: "P" },
+      // atajo 1 exterior
       { pos: [7, 0], type: "R" },
       { pos: [8, 0], type: "M" },
       { pos: [9, 0], type: "P" },
       { pos: [10, 0], type: "R" },
       { pos: [11, 0], type: "P" },
       { pos: [12, 0], type: "M" },
+      { pos: [12, 1], type: "P" },
+      { pos: [12, 2], type: "R" },
+      // curva inferior
+      { pos: [12, 4], type: "M" },
+      { pos: [12, 5], type: "A" },
+      { pos: [12, 6], type: "P" },
+      { pos: [12, 7], type: "P" },
+      { pos: [12, 8], type: "M" },
+      { pos: [4, 7], type: "P" },
+      { pos: [5, 7], type: "T" },
+      { pos: [6, 7], type: "M" },
+      { pos: [6, 8], type: "P" },
+      { pos: [7, 8], type: "A" },
+      { pos: [8, 8], type: "P" },
+      { pos: [9, 8], type: "R" },
+      { pos: [10, 8], type: "P" },
+      { pos: [11, 8], type: "P" },
+      //atajo 2 interior
+      { pos: [1, 3], type: "M" },
+      { pos: [2, 3], type: "P" },
+      { pos: [2, 4], type: "R" },
+      { pos: [3, 4], type: "P" },
+      { pos: [4, 4], type: "M" },
+      { pos: [4, 5], type: "R" },
+      { pos: [4, 6], type: "P" },
+      //atajo 2 exterior
+      { pos: [1, 8], type: "A" },
+      { pos: [2, 8], type: "P" },
+      { pos: [3, 8], type: "P" },
+      { pos: [4, 8], type: "R" },
+      { pos: [1, 7], type: "R" },
+      { pos: [1, 6], type: "P" },
+      { pos: [0, 6], type: "R" },
+      { pos: [0, 5], type: "A" },
+      { pos: [0, 4], type: "P" },
+      // final
+      { pos: [0, 1], type: "A" },
+      { pos: [0, 2], type: "P" },
+      { pos: [0, 3], type: "R" },
     ];
 
     // 3. Renderiza cada casilla
