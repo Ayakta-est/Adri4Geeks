@@ -1,11 +1,14 @@
-import React from "react";
-import Board from "../components/Board.jsx";
+import React, { useRef, useEffect } from "react";
+import Board from "../components/Board";
+import { createPiece } from "../components/Piece";
 
-export const PlayBoard = () => {
-     return (
-        <div>
-        <h1>Tablero 2.5D con Three.js</h1>
-        <Board />
-        </div>
-  );
-}
+export const PlayBoard = () => {      // ⬅ export nombrado
+  const boardRef = useRef(null);
+
+  useEffect(() => {
+    if (!boardRef.current) return;
+    boardRef.current.add(createPiece(0, 0xffff00));
+  }, []);
+
+  return <Board ref={boardRef} />;
+};

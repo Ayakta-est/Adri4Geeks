@@ -1,179 +1,99 @@
-import React, { useRef, useEffect } from "react";
+import React, {
+  useRef,
+  useEffect,
+  forwardRef,
+  useImperativeHandle,
+} from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import { path } from "../data/path.js";   // ← mueve tu array ahí
 
-const Board = () => {
+const Board = forwardRef((_, ref) => {
   const mountRef = useRef(null);
+  const sceneRef = useRef(null);
 
   useEffect(() => {
+    /* ---------- escena, cámara, renderer ---------- */
     const scene = new THREE.Scene();
+    sceneRef.current = scene;
 
-    // CÁMARA ORTOGRÁFICA PARA 2.5D
     const aspect = window.innerWidth / window.innerHeight;
     const camera = new THREE.OrthographicCamera(
       -aspect * 5,
       aspect * 5,
-      5,
+       5,
       -5,
       0.1,
-      100
+      100,
     );
     camera.position.set(10, 10, 10);
     camera.lookAt(0, 0, 0);
 
-    // RENDERER
     const renderer = new THREE.WebGLRenderer({ antialias: true });
     renderer.setSize(window.innerWidth, window.innerHeight);
     mountRef.current.appendChild(renderer.domElement);
 
     const controls = new OrbitControls(camera, renderer.domElement);
-
-    // ajustes típicos
-    controls.enableDamping = true;   // suaviza el movimiento
-    controls.dampingFactor = 0.1;
-    controls.zoomSpeed = 0.6;
-    controls.enableRotate = false;   // isométrico fijo, solo pan+zoom
-    controls.target.set(0, 0, 0);    // mira al centro del tablero
-    controls.update();
-
-    controls.minZoom = 0.5;
-    controls.maxZoom = 4;
-    controls.enablePan = true;           // arrastrar tablero
-    // puedes limitar el paneo si lo necesitas:
+    controls.enableDamping = true;
+    controls.enableRotate  = false;
     controls.screenSpacePanning = true;
 
-    // LUZ
-    const light = new THREE.DirectionalLight(0xffffff, 1);
-    light.position.set(10, 10, 10);
-    scene.add(light);
-    scene.add(new THREE.AmbientLight(0x404040));
+    /* -------------------- luces ------------------- */
+    const dir = new THREE.DirectionalLight(0xffffff, 1.2);
+    dir.position.set(10, 10, 10);
+    scene.add(dir);
 
-    // FUNCIONES PARA CREAR TABLERO
-   const createTile = (x, z, color = 0xcccccc) => {
-      // cubo de 1×1×1
-      const geometry = new THREE.BoxGeometry(1, 0.3, 1);
-      // lo “bajamos” medio cubo para que la base quede en y = 0
-      geometry.translate(0, 0.5, 0);
-
-      const material = new THREE.MeshLambertMaterial({ color });
-      const tile = new THREE.Mesh(geometry, material);
-      tile.position.set(x, 0, z);        //  ⬅  plano X-Z, altura en Y
-      return tile;
-    };
-
+    scene.add(new THREE.AmbientLight(0x808080, 0.8));
+    /* --------------- casillas --------------------- */
     const COLORS = {
-      E: 0xffffff,   // entrada
-      P: 0x0a7025,   // pregunta
-      A: 0xff4c4c,   // comodín bueno
-      R: 0x6b3e00,   // reto
-      M: 0x6b33a0,   // mala
-      T: 0x1c4fa0    // pase atajo
+      E: 0xffffff, P: 0x0a7025, A: 0xff4c4c,
+      R: 0x6b3e00, M: 0x6b33a0, T: 0x1c4fa0,
     };
 
-    // 2. Lista de casillas según tu esquema
-    //    posición en x,y y tipo (E,P,A,R,M,T)
-    //    aquí un ejemplo de las primeras 5
-    const casillas = [
-      { pos: [0, 0], type: "E" },  // entrada
-      { pos: [1, 0], type: "M" },
-      { pos: [2, 0], type: "P" },
-      { pos: [3, 0], type: "P" },
-      { pos: [3, 1], type: "A" },
-      { pos: [4, 1], type: "R" },
-      { pos: [5, 1], type: "P" },
-      { pos: [6, 1], type: "T" },
-      { pos: [7, 1], type: "P" },
-      // atajo 1
-      { pos: [8, 2], type: "P" },
-      { pos: [7, 2], type: "A" },
-      { pos: [9, 2], type: "R" },
-      { pos: [10, 2], type: "A" },
-      { pos: [10, 3], type: "P" },
-      { pos: [11, 3], type: "P" },
-      { pos: [12, 3], type: "P" },
-      // atajo 1 exterior
-      { pos: [7, 0], type: "R" },
-      { pos: [8, 0], type: "M" },
-      { pos: [9, 0], type: "P" },
-      { pos: [10, 0], type: "R" },
-      { pos: [11, 0], type: "P" },
-      { pos: [12, 0], type: "M" },
-      { pos: [12, 1], type: "P" },
-      { pos: [12, 2], type: "R" },
-      // curva inferior
-      { pos: [12, 4], type: "M" },
-      { pos: [12, 5], type: "A" },
-      { pos: [12, 6], type: "P" },
-      { pos: [12, 7], type: "P" },
-      { pos: [12, 8], type: "M" },
-      { pos: [4, 7], type: "P" },
-      { pos: [5, 7], type: "T" },
-      { pos: [6, 7], type: "M" },
-      { pos: [6, 8], type: "P" },
-      { pos: [7, 8], type: "A" },
-      { pos: [8, 8], type: "P" },
-      { pos: [9, 8], type: "R" },
-      { pos: [10, 8], type: "P" },
-      { pos: [11, 8], type: "P" },
-      //atajo 2 interior
-      { pos: [1, 3], type: "M" },
-      { pos: [2, 3], type: "P" },
-      { pos: [2, 4], type: "R" },
-      { pos: [3, 4], type: "P" },
-      { pos: [4, 4], type: "M" },
-      { pos: [4, 5], type: "R" },
-      { pos: [4, 6], type: "P" },
-      //atajo 2 exterior
-      { pos: [1, 8], type: "A" },
-      { pos: [2, 8], type: "P" },
-      { pos: [3, 8], type: "P" },
-      { pos: [4, 8], type: "R" },
-      { pos: [1, 7], type: "R" },
-      { pos: [1, 6], type: "P" },
-      { pos: [0, 6], type: "R" },
-      { pos: [0, 5], type: "A" },
-      { pos: [0, 4], type: "P" },
-      // final
-      { pos: [0, 1], type: "A" },
-      { pos: [0, 2], type: "P" },
-      { pos: [0, 3], type: "R" },
-    ];
+    const createTile = (x, z, color) => {
+      const geo = new THREE.BoxGeometry(1, 0.5, 1);
+      geo.translate(0, 0.5, 0);            // base en y = 0
+      const mat  = new THREE.MeshLambertMaterial({ color });
+      const mesh = new THREE.Mesh(geo, mat);
+      mesh.position.set(x, 0, z);          // plano X-Z
+      return mesh;
+    };
 
-    // 3. Renderiza cada casilla
-    casillas.forEach(({ pos: [x, y], type }) => {
-      const color = COLORS[type] || 0x888888;
-      const tile = createTile(x, y, color);
-      scene.add(tile);
-    });
+    path.forEach(({ pos: [x, z], type }) =>
+      scene.add(createTile(x, z, COLORS[type] ?? 0x888888)),
+    );
 
-    // ANIMACIÓN
-    const animate = () => {
-      requestAnimationFrame(animate);
-      controls.update();   // ← imprescindible si enableDamping=true
+    /* ---------------- animación ------------------- */
+    const loop = () => {
+      requestAnimationFrame(loop);
+      controls.update();
       renderer.render(scene, camera);
     };
-    animate();
+    loop();
 
-    // RESIZE
-    const handleResize = () => {
-      const aspect = window.innerWidth / window.innerHeight;
-      camera.left = -aspect * 5;
-      camera.right = aspect * 5;
-      camera.top = 5;
-      camera.bottom = -5;
+    /* -------------- resize handler ---------------- */
+    const onResize = () => {
+      const a = window.innerWidth / window.innerHeight;
+      camera.left = -a * 5;
+      camera.right =  a * 5;
       camera.updateProjectionMatrix();
       renderer.setSize(window.innerWidth, window.innerHeight);
     };
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", onResize);
 
-    // CLEANUP
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener("resize", onResize);
       mountRef.current.removeChild(renderer.domElement);
     };
   }, []);
 
+  /* ---------- API pública para fichas ------------ */
+  useImperativeHandle(ref, () => ({
+    add:  (obj)        => sceneRef.current?.add(obj),
+    move: (obj, x, z)  => obj.position.set(x, 1, z),
+  }));
+
   return <div ref={mountRef} className="w-full h-screen" />;
-};
+});
 
 export default Board;
